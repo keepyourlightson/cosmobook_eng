@@ -17,116 +17,115 @@ The Cosmos network operates on three different levels.
 3\. Application layer: responsible for updating the state given a set of transactions, i.e. processing transactions..
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-Все три уровня объединены набором инструментов и приложений с открытым исходным кодом. Например, Tendermint соединяет сетевой уровень и уровень консенсуса в готовый к использованию механизм, работающий в автоматическом режиме. Благодаря этому разработчики блокчейнов экономят время и ресурсы, поскольку работают только с уровнем приложений.
+All levels is combined by toolkits and applications with opensource code. For example, Tendermint connects the network layer and the consensus layer in a ready-to-use scheme that works automatically. This saves developers time and resources because they only work with app promotions.
 
 ### **Tendermint**
 
-Tendermint – это решение, объединяющее сетевой и консенсусный уровни блокчейна в общий движок, что позволяет разработчикам сосредоточиться на разработке приложений, а не на сложном базовом протоколе.
+Tendermint is a solution that combines the network and consensus layers of the blockchain into a common engine, allowing developers to focus on application development rather than the complex underlying protocol.
 
-Технически Tendermint можно описать, как низкоуровневый протокол, выполняющий функции однорангового сетевого протокола и отвечающий за алгоритм нахождения консенсуса. При этом он оптимизирован для решения проблемы отказоустойчивости Византийских генералов (т.е. для нахождения консенсуса) в распределенных приложениях и для обработки данных в большом количестве узлов (нод).
+Technically Tendermint can be described as a low-level protocol that performs the functions of a peer-to-peer network protocol and is responsible for the consensus algorithm. At the same time, it is optimized to solve the problem of fault tolerance of Byzantine generals (i.e. to find consensus) in distributed applications and for processing data in a large number of nodes (nodes).
 
-\*_Проблема отказоустойчивости Византийских генералов (Byzantine fault-tolerance problem далее BFT) – в очень упрощенном виде это проблема нахождения консенсуса между узлами сети, при условии, что некоторое кол-во узлов являются “мошенниками”_
+\*_Byzantine fault-tolerance problem (hereinafter referred to as BFT) - in simplified form, this is the problem of finding consensus between network nodes, provided that a certain number of nodes are “fraudsters”_
 
-JaeKwon уже в 2014 году начал работать над созданием BFT протокола, на котором могла бы работать система из сотен узлов с бездоверительным доступом и PoS в качестве защитного механизма. После того, как к 2018 году были сделаны все необходимые настройки, произошел запуск сети Cosmos.
+Jae Kwon began working on the creation of a BFT protocol in 2014. On it could run a system of hundreds of nodes with trustless access and PoS as a protective mechanism. After all the necessary settings were made by 2018, the launch of the Cosmos network took place.
 
-Валидаторы в сети выбираются случайным образом пропорционально доле их стека от общего кол-ва залоченных монет (т.е. совершенно стандартным образом).
+Validators in the network are chosen randomly in proportion to their stack share of the total number of coins cloned (i.e., in a perfectly standard way).
 
-\*\* _Если очень кратко, то Tendermint выполняет функцию протокола сетевого уровня, позволяет узлам (нодам) взаимодействовать друг с другом и приходить к консенсусу. В основе нахождения консенсуса лежит BFT модель, а безопасность обеспечивается механизмом PoS. Весьма детально и не очень сложно принцип и особенности работы Tendermint описываются_ [_тут_](https://blog.cosmos.network/tendermint-explained-bringing-bft-based-pos-to-the-public-blockchain-domain-f22e274a0fdb)_._
+\*\* _Briefly: Tendermint acts as a network layer protocol, allowing nodes to communicate with each other and to come to a consensus. The consensus is based on the BFT model, while security is provided by the PoS mechanism. The principle and peculiarities of Tendermint operation are described in details and not very complicated_ [_here_](https://blog.cosmos.network/tendermint-explained-bringing-bft-based-pos-to-the-public-blockchain-domain-f22e274a0fdb)_._
 
-Ключевые особенности Tendermint, делающие его конкурентоспособным механизмом блокчейна:
+Key features of Tendermint that make it a competitive blockchain mechanism:
 
-1\. Может применяться как для публичных, так и для частных блокчейнов. Если построенное на движке приложение определяет, что валидаторы избираются на основе доли владения, то блокчейн будет являться PoS. Но если разработчики введут предварительную авторизацию для валидаторов, то блокчейн станет частным;
+1\. It can be applied to both public and private blockchains. If the application built on the engine determines that validators are elected based on ownership share, then the blockchain will be a PoS. But if developers introduce pre-authorization for validators, the blockchain will become private;
 
-2\. Высокая производительность. Tendermint может обрабатывать до 1000 транзакций в секунду;
+2\. High performance. Tendermint can process up to 1000 transactions per second;
 
-3\. Мгновенная финализация. Это означает, что пользователи могут быть уверены, что их транзакции будут считаться завершенными и окончательными, как только будет создан блок (чего нельзя сказать о Proof-of-Work блокчейнах, где блок считается окончательным только после некоторого количества подтвержденных после него блоков);
+3\. Instant finalization. This means that users can be sure that their transactions will be considered complete and final as soon as a block is created (which is not the case with Proof-of-Work blockchains, where a block is considered final only after a certain number of blocks are confirmed after it);
 
-4\. Безопасность. Если всё таки произошёл форк, то есть способ определить ответственность. Под форком здесь понимается одновременное создание нескольких блоков, в результате чего сеть как бы "пускает ответвление". Подробнее можно почитать [тут.](https://docs.tendermint.com/master/spec/light-client/accountability/)
+4\. Security. If a fork does happen, there is a way to determine responsibility. By a fork here we mean the simultaneous creation of several blocks, as a result of which the network is like a "branching". You can read more about this [here].(https://docs.tendermint.com/master/spec/light-client/accountability/)
 
-Движок Tendermint подключается к уровню приложений с помощью протокола, который называется Application Blockchain Interface (ABCI). Протокол может быть встроен в любой язык программирования, так что разработчикам есть из чего выбрать.
+The Tendermint engine connects to the application layer using a protocol called Application Blockchain Interface (ABCI). The protocol can be built into any programming language, so developers have plenty to choose from.
 
 ![](https://telegra.ph/file/c4983df170166b0d67be4.png)
 
-Несмотря на то, что Tendermint кратно сокращает время разработки блокчейна, создание безопасного ABCI-приложения с нуля остаётся сложнейшей задачей. Для максимального упрощения данной задачи и был разработан CosmsSDK.
+Although Tendermint reduces blockchain development time manifold, creating a secure ABCI application from scratch remains a daunting task. CosmsSDK was developed to simplify this task as much as possible.
 
 ### **CosmosSDK**
 
-CosmosSDK - это фреймворк с открытым исходным кодом для создания бездоверительных (permissionless) PoS-блокчейнов, таких как CosmosHub, или же доверительных (permissioned) пруф-оф-осорити (Proof-of-Authority или же PoA) блокчейнов.
+CosmosSDK is an open-source framework for creating permissionless PoS blockchains like CosmosHub, or permissioned Proof-of-Authority (PoA) blockchains.
 
 ![](https://telegra.ph/file/ea2a0fbc8e126123aa744.png)
 
-Задачей Cosmos SDK является предоставление разработчикам возможности создавать свои кастомизирированные блокчейны, которые по умолчанию являются совместимыми с другими блокчейнами в экосистеме, используя уже готовые модули и набор инструментов. При этом каждый разработчик может создать новый модуль и он будет доступен всем остальным разработчикам.
+The Cosmos SDK aims to allow developers to create their own customized blockchains that are compatible by default with other blockchains in the ecosystem, using pre-made modules and toolsets. In doing so, each developer can create a new module and it will be available to all other developers.
 
-Преимущества Cosmos SDK
+Features of the Cosmos SDK
 
-1\. Консенсус движком, доступным по умолчанию при разработке на Cosmos SDK, является Tendermint – на данный момент лучшее BFT решение.
+1\. The consensus engine available by default when developing on the Cosmos SDK is Tendermint, currently the best BFT solution.
 
-2\. Использование модулей при создании апп-чейна (app-chain - это блокчейн, созданный под отдельное децентрализованное приложение). Все модули находятся в открытом доступе и их количество только растет.
+2\. The use of modules when creating an app-chain (an app-chain is a blockchain created for a separate decentralized application). All modules are in the public domain and their number is only growing.
 
-3\. Cosmos SDK создавалось настоящими специалистами в сфере блокчейн технологий, постоянно улучшается и является безопасной средой для создания блокчейнов.
+3\. The Cosmos SDK was created by genuine experts in blockchain technology, is constantly being improved and is a secure environment for blockchain creation.
 
 ### **Стейкинг**
 
-Стейкинг – это процесс блокировки токена для обеспечения безопасности публичного блокчейна.
+Stacking is the process of blocking a token to secure a public blockchain.
 
-Валидатор – это узел, который отвечает за создание блоков, тем самым защищая сеть и обрабатывая транзакции. За свою работу валидаторы получают вознаграждение, которое может состоять из награды за нахождение блока, транзакционных комиссий и комиссии делегаторов.
+A validator is a node that is responsible for creating blocks, thereby protecting the network and processing transactions. Validators are rewarded for their work, which can consist of block finder rewards, transaction fees, and delegator commissions.
 
-Делегатор - это любой пользователь, который отправил (делегировал) свои токены в стейкинг любому валидатору. Делегатор получает награды, пропорционально своей доле токенов, от общего количество токенов валидатора, и платит валидатору небольшую комиссию за его услуги (комиссия устанавливается самим валидатором и обычно не превышает 5% от награды делегатора).
+A delegator is any user who has sent (delegated) their tokens to any validator. The delegator receives rewards, proportional to their share of tokens, from the total number of tokens of the validator, and pays the validator a small commission for its services (the commission is set by the validator itself and usually does not exceed 5% of the delegator's reward).
 
-Во избежание обмана, тот Валидатор, который публикует неправильные данные в блокчейн, наказывается финансово, теряя некоторую часть своих токенов. Это называется «слэшинг».
+To avoid cheating, the Validator that publishes incorrect data to the blockchain is penalized financially, losing some of its tokens. This is called slashing.
 
-_Ликвидный стейкинг в сети Cosmos мы вынесли отдельной публикацией, там еще одна небольшая простыня =) Ознакомиться с ней вы можете тут._
+_We put liquid steaking in Cosmos network in a separate publication, there is another little sheet =) You can read it here. (russian language)_
 
-### **Слэшинг**
+### **Slashing**
 
-Слэшинг — это "наказание" для валидатора, которое заключается в конфискации части его токенов. То, какой процент токенов будет "слэширован", зависит от допущенного валидатором нарушения и угрозы безопасности других участников сети. Это не только финансовый стимул для валидатора добросовестно выполнять свои обязанности, но и мера, заставляющая валидаторов «рисковать собственной шкурой». Одновременно с этим, это то, что мотивирует делегаторов тщательнее выбирать валидаторов, т.к. для них тоже существует риск потери части своих токенов.
+Slashing is a "punishment" for the validator, which consists of confiscating a portion of his tokens. What percentage of tokens will be "slashed" depends on the breach committed by the validator and the threat to the safety of other network participants. This is not only a financial incentive for the validator to perform his duties in good faith, but also a measure that forces validators to "risk their own skin. At the same time, it's what motivates delegates to choose validators more carefully, since they too risk losing some of their tokens.
 
-Существует два типа событий, которые приводят к слешингу:
+There are two types of events that lead to slashing:
 
-**- Слешинг на 0,01%** может произойти, если валидатор находится в автономном режиме слишком долго. Время простоя фиксируется, если валидатор не подписывает минимум 500 блоков из последних 10.000.
+**- Slashing 0,01%** can occur if the validator is offline for too long. Idle time is fixed if the validator does not sign at least 500 blocks out of the last 10,000 blocks.
 
-Кроме того, валидатор выпадает из консенсуса и не получает награды за блок как минимум на 10 минут (термин jail). После устранения проблем валидатор может повторно присоединиться к набору валидаторов, отправив unjail-транзакцию.
+In addition, the validator is dropped from the consensus and does not receive a block reward for at least 10 minutes (the term jail). Once the problems are fixed, the validator can re-join the validator set by sending an unjail transaction.
 
 ![](https://telegra.ph/file/f6a5f216f13d513987a2b.png)
 
-\- **Слешинг на 5%** может произойти, если валидатор подписывает два разных блока одновременно. Эту неисправность труднее предвидеть, она возникает в результате плохой практики эксплуатации или откровенно злого умысла оператора ноды. Кроме 5% токенов, валидатор теряет право предлагать блоки и получать вознаграждение без возможности разблокировки (фактически удаляется из набора валидаторов навсегда). Все делегаторы данного узла получают возврат своих токенов, период анбонда (т.е. время возвращения токенов из стейкинга) составляет 21 день.
+\- **Slashing 5%** can happen if the validator signs two different blocks at the same time. This malfunction is harder to predict and results from poor operating practices or outright malicious intent on the part of the node operator. In addition to the 5% token, the validator loses the right to offer blocks and receive remuneration without the possibility of unlocking (effectively being removed from the validator set forever). All delegators of a given node receive their tokens back, the anbond period (i.e., the time to return tokens from stacking) is 21 days.
 
 ![](https://telegra.ph/file/97e89b3f303117a84a471.png)
 
 ### **IBC**
 
-Протокол взаимодействия между блокчейнами (Inter-Blockchain Communication Protocol) или же IBC – это фреймворк, который позволяет зонам осуществлять кросс-чейн взаимодействие без установления доверительных допущений от третьей стороны (т.е. без использования мостов, например), его можно сравнить с TCP/IP протоколом в традиционных сетевых технологиях. Взаимодействующие сети договариваются доверять модели безопасности друг друга и использовать расшаренный стандарт обмена сообщениями для взаимодействия и верификации изменений состояния сети. Таким образом IBC модель наследует самую низкую из безопасностей сетей, участвующих в обмене сообщениями (\*_имеется ввиду, что, если, допустим, безопасность одной сети на 10/10, а второй на 8/10, то безопасность IBC модели будет тоже на 8/10_).
+The Inter-Blockchain Communication Protocol, or IBC, is a framework that allows zones to cross-chain communication without establishing trust assumptions from a third party (i.e., without using bridges, for example), it can be compared to the TCP/IP protocol in traditional networking technologies. Interacting networks agree to trust each other's security model and use a distributed messaging standard to communicate and verify changes in network state. Thus, the IBC model inherits the lowest of the security of the networks involved in the message exchange (\*_ meaning that if, say, the security of one network is 10/10 and the other 8/10, the security of the IBC model will also be 8/10_).
 
-Установление такого взаимодействия является ресурсоемким для обеих сетей. Когда одна сеть инициирует отправку сообщения в другую сеть, открытый ретранслятор (permissionless relayer, _далее возможен вариант перевода "релэер", что одно и тоже_) передает доказательство запроса сообщения в другую сеть. Сеть, принимающая сообщение, валидирует данное доказательство, использую для этого легкий клиент (light client), который считывает состояние отправляющей сети и записывает копию этого состояния в свой собственный реестр. Данный прямой процесс верификации гарантирует принимающей сети, что запрос действительно был достоверным, и только потом изменяется состояние самой принимающей сети.
+The establishment of such interaction is resource-intensive for both networks. When one network initiates the sending of a message to another network, the public relayer  transmits a proof of request message to the other network. The network receiving the message validates this proof using a light client, which reads the state of the sending network and writes a copy of this state to its own registry. This direct verification process guarantees the receiving network that the request was indeed valid, and only then does the state of the receiving network itself change.
 
-Из-за оптимизации в сторону безопасности, IBC модель имеет несколько важных особенностей (необходимых компромиссов):
+IBC model has several important features (necessary trade-offs) because of the optimization towards security:
 
-Принимающая сеть вынуждена предполагать, что транзакционный запрос был финализирован (finalized) в сети, отправляющей сообщение (запрос). Форки и реорганизация блоков, которые являются привычным делом для пробабилистической финализации (probabilistic finality, например, сеть эфира), разрушили бы основы модели безопасности IBC. Поэтому IBC совместима только с механизмами консенсуса, обладающими гарантией финальности, такими, как Tendermint. В качестве решения для установления порога финальности при взаимодействии с пробабилистической сетью могут использоваться так называемые «зоны привязки (pegzones)». Но такое решение усложняет систему и таким образом создает дополнительные векторы для атаки на нее.
+The receiving network is forced to assume that the transactional request has been finalized (finalized) in the network sending the message (request). Forks and block reorganization, which are common for probabilistic finality (e.g., the ether network), would destroy the fundamentals of the IBC security model. Therefore, IBC is compatible only with consensus mechanisms that have a guarantee of finality, such as Tendermint. As a solution, so-called "pegzones" can be used to set a finality threshold when interacting with a probabilistic network. But such a solution complicates the system and thus creates additional vectors for an attack on it.
 
-IBC модель слишком дорого обходится блокчейнам с низкой пропускной способностью и дорогими блоками. Но в экосистеме Cosmos такой проблемы нет, поскольку IBC изначально разрабатывали для работы с блокчейнами, построенными при помощи Cosmos SDK, где IBC модули работают на сетевом уровне, а не на уровне смарт контрактов. К тому же это позволяет сетям внутри экосистемы Cosmos перенаправлять издержки и ответственность за запись состояния других экосистемных сетей от приложений к валидаторам сети.
+The IBC model is too expensive for blockchains with low bandwidth and expensive blocks. But the Cosmos ecosystem does not have this problem, because IBC was originally developed to work with blockchains built with the Cosmos SDK, where IBC modules work at the network level, not at the smart contract level. In addition, it allows networks within the Cosmos ecosystem to redirect the cost and responsibility of recording the state of other ecosystem networks from applications to network validators.
 
-Транзакционные издержки за передачу сообщений между сетями несут ретрансляторы, а не пользователи. Ретрансляторы часто управляются валидаторами, которые мотивированы поддерживать работу обеих (отправляющей и принимающей) сетей. Экономическая модель IBC делает рациональным координацию между различными ретрансляторами для того, чтобы в одно и тоже время только один ретранслятор обслуживал один IBC канал. Если возникает ситуация, когда ни один из ретрансляторов не обслуживает канал, то сообщение «застрянет» до тех пор, пока не появится обслуживающий ретранслятор. Хотя данный факт никак не влияет на безопасность ни принимающей, ни отправляющей сети, жизнеспособность IBC может быть временно снижена по этой причине. Для того, чтобы IBC обмен сообщениями полностью встал, нужно чтобы треть всех валидаторов перестала работать.
+Transaction costs for messaging between networks are borne by retransmitters, not users. Repeaters are often managed by validators who are motivated to keep both (sending and receiving) networks running. The economic model of IBC makes it rational to coordinate between different repeaters so that at the same time only one repeater serves one IBC channel. If a situation arises where none of the repeaters serves the channel, then the message is "stuck" until there is a serving repeater. Although this fact has no effect on the security of either the receiving or sending network, the viability of an IBC can be temporarily reduced for this reason. In order for IBC messaging to completely break down, one-third of all validators would need to stop working.
 
-Схема работы IBC приведена на рисунке ниже (источник [тут](https://0xpostman.medium.com/part-2-cross-chain-security-models-compared-c4f91107cad4))
+A schematic of the IBC is shown in the figure below (source [here])(https://0xpostman.medium.com/part-2-cross-chain-security-models-compared-c4f91107cad4))
 
-\* _Зелеными стрелочками показаны этапы проверки транзакции валидаторами, фиолетовыми - путь транзакции (или любого другого кросс-чейн сообщения)_
+\* _The green arrows show the validator check stages of the transaction, and the purple ones show the transaction path (or any other cross-chain message)_
 
 ![](https://telegra.ph/file/de18cb6908699b3bf74e9.png)
 
-По сути, транзакции IBC – это пакеты информации, которые передаются из одной зоны в другую путем публикации Merkle-proofs (подробнее [тут](https://ethereum.org/pt/developers/tutorials/merkle-proofs-for-offline-data-integrity/)) в качестве доказательства того, что информация была отправлена и получена.
+Essentially, IBC transactions are packets of information that are transferred from one zone to another by publishing Merkle-proofs (more [here](https://ethereum.org/pt/developers/tutorials/merkle-proofs-for-offline-data-integrity/)) as proof that the information was sent and received.
 
-Чтобы принимающая сеть могла проверить это доказательство, она должна быть в состоянии следить за заголовками блоков отправителя. Этот механизм аналогичен механизму, используемому [сайдчейнами](https://blockstream.com/technology/sidechains.pdf) (подробнее [тут](https://forklog.com/cryptorium/sidechains-faq/)), который требует, чтобы две взаимодействующие сети знали друг о друге через двунаправленный поток транзакций, подтверждающих существование.
+In order for the receiving network to verify this proof, it must be able to keep track of the sender's block headers. This mechanism is similar to that used by [sidechains](https://blockstream.com/technology/sidechains.pdf) (more info [here](https://forklog.com/cryptorium/sidechains-faq/)), which requires that two interacting networks know about each other through a bidirectional flow of existence-validating transactions.
 
-Протокол IBC использует два типа транзакций: `IBCBlockCommitTx` , которые взаимодействуют с [хешем](https://academy.binance.com/en/glossary/hash) самого последнего блока любой зоны, и `IBCPacketTx,` которые содержат данные о легитимности пакета информации и приложении отправителя.
+The IBC protocol uses two types of transactions: `IBCBlockCommitTx` , which interact with [hash](https://academy.binance.com/en/glossary/hash) the last block of any zone, and `IBCPacketTx,` which contain data about the legitimacy of the information packet and the sender's application.
 
-Например, чтобы обновить блок "Zone1" на "Hub" (или "Hub" на "Zone2"), транзакция IBC BlockCommitTx должна быть размещена на "Hub" с блок-хэшем "Zone1" (или на "Zone2" с блок-хэшем "Hub"). (больше информации по транзакциям в whitepaper: [тут](https://v1.cosmos.network/resources/whitepaper#ibcblockcommittx))
+For example, to update a "Zone1" block to "Hub" (or "Hub" to "Zone2"), an IBC BlockCommitTx transaction must be placed on "Hub" with a "Zone1" block hash (or on "Zone2" with a "Hub" block hash). (More information on transactions in the whitepaper: [тут](https://v1.cosmos.network/resources/whitepaper#ibcblockcommittx))
 
 ![](https://telegra.ph/file/97bd3b1e1bd282435bf2b.png)
 
-Обобщим: IBC позволяет взаимодействующим сетям функционировать наподобие считывающих оракулов (read-oracles) друг для друга. Безопасность такой модели является ресурсоемкой, но позволяет взаимодействовать сетям без необходимости использования третьей доверительной стороны. По этой причине IBC является очень популярной моделью и всегда приводится в качестве одной из альтернатив на ряду с некоторыми другими моделями обмена сообщениями.
+To summarize: IBC allows interacting networks to function like read-oracles for each other. The security of such a model is resource-intensive, but allows the networks to interact without the need for a third party trusted party. For this reason, IBC is a very popular model and is always cited as one of the alternatives among some other messaging models.
 
-IBC был запущен в марте 2021 года, а на данный момент (июль 2022) он включен в 49 сетях, и в настоящее время с использованием IBC выполняется более 2.5М транзакций в месяц (посмотреть можно [тут](https://www.mapofzones.com/?testnet=false\&period=720\&tableOrderBy=ibcVolume\&tableOrderSort=desc)).
+IBC was launched in March 2021, and as of now (July 2022) it is enabled on 49 networks, and there are currently over 2.5M transactions per month using IBC (you can see [here](https://www.mapofzones.com/?testnet=false\&period=720\&tableOrderBy=ibcVolume\&tableOrderSort=desc)).
 
 ### **Peg-зоны**
 
