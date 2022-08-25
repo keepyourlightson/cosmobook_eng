@@ -46,7 +46,7 @@ Key features of Tendermint that make it a competitive blockchain mechanism:
 
 The Tendermint engine connects to the application layer using a protocol called Application Blockchain Interface (ABCI). The protocol can be built into any programming language, so developers have plenty to choose from.
 
-![](https://telegra.ph/file/c4983df170166b0d67be4.png)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Although Tendermint reduces blockchain development time manifold, creating a secure ABCI application from scratch remains a daunting task. CosmsSDK was developed to simplify this task as much as possible.
 
@@ -54,7 +54,7 @@ Although Tendermint reduces blockchain development time manifold, creating a sec
 
 CosmosSDK is an open-source framework for creating permissionless PoS blockchains like CosmosHub, or permissioned Proof-of-Authority (PoA) blockchains.
 
-![](https://telegra.ph/file/ea2a0fbc8e126123aa744.png)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 The Cosmos SDK aims to allow developers to create their own customized blockchains that are compatible by default with other blockchains in the ecosystem, using pre-made modules and toolsets. In doing so, each developer can create a new module and it will be available to all other developers.
 
@@ -66,7 +66,7 @@ Features of the Cosmos SDK
 
 3\. The Cosmos SDK was created by genuine experts in blockchain technology, is constantly being improved and is a secure environment for blockchain creation.
 
-### **Стейкинг**
+### **Stacking**
 
 Stacking is the process of blocking a token to secure a public blockchain.
 
@@ -180,7 +180,7 @@ ATOM tokens were distributed in the sid-round (5%), 10% went to Tendermint Inc. 
 
 At the moment the total supply is 302347059 ATOM, the maximum supply is unlimited. This is due to the fact that TendermintCore rewards are paid to steakers with new coins. At the same time, the inflation rate is adjusted in real time depending on the amount of coins in the stacking and the number of stakers. At the time of this writing, it was 12.4%. You can see the current information in Bro'n'Bro [dashboard](https://monitor.bronbro.io/d/cosmos-stats/cosmos-stats?orgId=2\&refresh=5s).
 
-### **Ссылки:**
+### **Links:**
 
 Cosmos whitepaper: [here](https://v1.cosmos.network/resources/whitepaper)
 

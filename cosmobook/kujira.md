@@ -117,7 +117,7 @@ BLUE is the core of the Kujira ecosystem and contains the ecosystem dashboard, a
 
 The Kujira wallet on the Blue dApp has advanced functionality, allowing users to send tokens to multiple recipients with vesting periods (at predefined times). This can be used by protocols, DAOs or anyone who wants to make payments with custom sending periods without having to develop their own vesting contract.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (2).png>)
 
 The Swap interface on BLUE does not differ from the basic swap user interface found on AMM DEX. However, trades made through Swap are routed through Kujira's own CLOB DEX, FIN. This represents an alternative frontend for users who are not used to the more advanced trading interface that FIN offers.
 
@@ -137,7 +137,7 @@ Purpose of the token: payment for gas in the network. All fees collected are dis
 
 Issuance: token generation started in November 2021 with the following issuance schedule:
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -157,7 +157,7 @@ Many believe in Kujira. A very interesting feature is that the interest from the
 
 After the launch of ORCA, when the number of participants increases, steakers are entitled to expect good rewards with a very small % (0.47% at the start) for steaking. Today the picture looks like this:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 In addition, protocol interaction rates and site traffic [growing](https://twitter.com/TeamKujira/status/1553716395136909318?s=20\&t=y-fzq\_GXiIxLbkNtObkxjw). These numbers, although small, indicate that Kujira is in a healthy growth state, especially considering the unfavorable market at the moment.
 

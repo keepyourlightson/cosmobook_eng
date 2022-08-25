@@ -102,7 +102,7 @@ That's a 12,000% increase from 27 knots on July 6, 2021.
 
 On July 17, 2022, Sentinel's [official statistics website](http://stats.sentinel.co/) shows the following picture:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Today, nearly 3,000 users are actively using Sentinel technology by paying for #dVPN services and connecting to the network.
 
