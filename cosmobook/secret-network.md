@@ -2,7 +2,7 @@
 
 ### Secret Network
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ## Secret Network
 
@@ -26,17 +26,17 @@ Secret Network, thanks to Cosmos IBC, can communicate with a range of other netw
 
 ### **Examples of using the capabilities of the Secret Network**
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 The scheme provides an opportunity to secretly withdraw funds from a wallet (say, that was discredited on CEX) to a newly created wallet. The scheme also allows you to secretly transfer funds from your wallet to someone else's (say, to make a payment). If the payment is made through an intermediary wallet, even the recipient will not be able to determine where the funds came from.
 
 The Sienna Swap is presented here to show the ability to swap your coin for other secret coins, so that even the number of coins sent and received will not allow at least indirectly linking your 2 wallets.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 Another major advantage of Secret Network is the inability to use frontrunning against you:
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Speaking about features and capabilities of Secret Network I strongly recommend you to watch [the video](https://www.youtube.com/watch?v=LVopimoM8Jk) (time-code 1:27:00) with Anton Pavlutsky, CEO of Citadel.one.
 
@@ -62,13 +62,13 @@ Secret Bridges connect the Secret Network with other blockchain networks, allowi
 
 Secret already allows a number of tokens to be moved and exchanged on Ethereum and Binance Smart Chain. The new bridges will provide the same access and functionality for other networks.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 Secret Bridges uses multisig for authorization. 3 out of 5 operators trusted to manage the bridge must approve (sign) the transaction in order for it to be executed. These operators are very reputable staking operators - Figment, Staked, B-Harvest, Citadel.one and Enigma.
 
 The multi-signature authorization process makes it much more difficult to compromise Secret Bridges , eliminating the single point of failure that is a problem for single-signature systems.
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ### **Secret NFTs**
 

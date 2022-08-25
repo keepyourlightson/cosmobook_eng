@@ -14,9 +14,9 @@ The Cosmos network operates on three different levels.
 
 2\. Consensus layer. It arranges nodes according to validators' decisions to add new transactions.
 
-3\. Уровень приложения: обновляет сеть, отслеживая изменения в транзакциях и балансах.
+3\. Application layer: responsible for updating the state given a set of transactions, i.e. processing transactions..
 
-![](https://telegra.ph/file/43f4294b38396accf0f69.png)
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Все три уровня объединены набором инструментов и приложений с открытым исходным кодом. Например, Tendermint соединяет сетевой уровень и уровень консенсуса в готовый к использованию механизм, работающий в автоматическом режиме. Благодаря этому разработчики блокчейнов экономят время и ресурсы, поскольку работают только с уровнем приложений.
 

@@ -1,6 +1,6 @@
 # e-Money
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 ## e-Money
 
@@ -34,11 +34,11 @@ The e-Money ecosystem has a second token, **NGM** "Next Generation money", which
 
 Unlike most existing stackablecoins, which tend to maintain a static 1:1 peg to their underlying assets, the value of e-Money tokens backed by fiat currency constantly changes in line with the interest accrued on reserve assets. This means that holders benefit from the interest accrued on their assets while they are stored in the wallet. Blockchain e-Money supports instant transfers and includes DEX for easy conversion between currencies. e-Money is already integrated with Cosmos Hub, Osmosis and Ethereum and several other networks:
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 The following networks will appear soon:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 e-Money is not intended to act as a complete replacement for the existing financial system, but can instead be seen as a second-tier solution for traditional finance.
 
@@ -117,7 +117,7 @@ Ecosystem Fund (grants): 10,000,000 NGM.
 
 Tregery: 60,000,000 NGM.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 Vesting
 

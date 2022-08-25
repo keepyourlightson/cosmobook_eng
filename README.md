@@ -13,7 +13,7 @@ Links to the articles (sorry, but only on russian right now):&#x20;
 
 Use the menu on the left to navigate. Enjoy reading!
 
-![](<.gitbook/assets/image (20).png>)
+![](<.gitbook/assets/image (5).png>)
 
 
 

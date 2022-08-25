@@ -1,6 +1,6 @@
 # Nomic
 
-![](<../.gitbook/assets/image (37).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ## Nomic <a href="#nomic" id="nomic"></a>
 
@@ -80,7 +80,7 @@ Deposit fees are deposited into a rewards fund which is distributed to NOM's sta
 
 The new Bitcoin features activated **on July 5 at 18:00 UTC**, and from then on the Nomic app sees rewards in Bitcoin .
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Some of Bitcoin Bridge's most interesting security features (e.g., [emergency payouts](https://gist.github.com/mappum/da11e37f4e90891642a52621594d03f6#emergency-disbursal-process)) are not included in this release and will be gradually added over the next few updates. These security features will be key differences between Nomic and other bridges.
 

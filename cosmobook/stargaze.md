@@ -24,13 +24,13 @@ By Q1 2022, Stargaze users will be able to create, curate and trade NFTs in the 
 
 The $STAR issuance schedule is similar to the Bitcoin issuance schedule. However, instead of half issuance, issuance will be reduced by 1/3 each year. Osmosis was the first protocol to use a "treading" token issuance schedule and was largely responsible for the design of Stargaze.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 Stargaze started with an initial offering of 1 billion STARS. Another 1 billion STARS will be issued in the first year. With this "tretting" schedule, the next year's issuance will be \~667M STARS. This infinite sequence is a geometric series that leads to a fixed asymptotic maximum supply of 4 billion STARS.
 
 Decentralization of Stargaze is enabled, in part, by genesis supply, a model for distributing most of the tokens to community members. The Foundation will keep a strategic supply of tokens and encourage protocol development by delegating authority to validators, engaging content creators, and providing grants for ecosystem development.
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 ### **Airdrop**
 
@@ -96,7 +96,7 @@ This is how the project positions itself on [the off-site](https://www.stargaze.
 
 Well, it is impossible not to mention that today Stargaze is one of the leaders in the Cosmos ecosystem in terms of volume flowing through IBCs:
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 The main news in the near future will be the possibility to interact with Ethereum via Gravity Bridge. I believe it will give the project a meaningful boost.
 

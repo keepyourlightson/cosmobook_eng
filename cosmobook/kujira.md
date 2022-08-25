@@ -73,7 +73,7 @@ FIN has chosen to use Axelar's USDC wrapper, axlUSDC, as its stablcoin.
 
 Trading is possible with KUJI, ATOM,OSMO, EVMOS, JUNO, LUNA, SCRT, wETH.
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 Read more about how to trade on Fin [here](https://medium.com/team-kujira/how-to-buy-kuji-on-fin-485172f23eea).
 
@@ -107,7 +107,7 @@ Liquidators (those whose application for liquidation is successful) are usually 
 
 It's quiet on the ORCA website today so far. We can only say that they want to interact with Polkadot:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 I'll say more. Judging by this [tweet](https://twitter.com/TeamKujira/status/1551545612205785092?s=20\&t=QlYZDdSZv663HhQ3rKKDRA), the upcoming launch is being prepared on [@KaruraNetwork](https://twitter.com/KaruraNetwork) (it's the DeFi network in Kusama, Polkadot's Acala counterpart).
 
@@ -117,7 +117,7 @@ BLUE is the core of the Kujira ecosystem and contains the ecosystem dashboard, a
 
 The Kujira wallet on the Blue dApp has advanced functionality, allowing users to send tokens to multiple recipients with vesting periods (at predefined times). This can be used by protocols, DAOs or anyone who wants to make payments with custom sending periods without having to develop their own vesting contract.
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 The Swap interface on BLUE does not differ from the basic swap user interface found on AMM DEX. However, trades made through Swap are routed through Kujira's own CLOB DEX, FIN. This represents an alternative frontend for users who are not used to the more advanced trading interface that FIN offers.
 
@@ -137,11 +137,11 @@ Purpose of the token: payment for gas in the network. All fees collected are dis
 
 Issuance: token generation started in November 2021 with the following issuance schedule:
 
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+
+
+
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-
-
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 #### **Roadmap** <a href="#cxhk" id="cxhk"></a>
 
@@ -153,11 +153,11 @@ Plans for the near future
 
 Many believe in Kujira. A very interesting feature is that the interest from the commission is poured rewards in the same coin in which they trade.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 After the launch of ORCA, when the number of participants increases, steakers are entitled to expect good rewards with a very small % (0.47% at the start) for steaking. Today the picture looks like this:
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 In addition, protocol interaction rates and site traffic [growing](https://twitter.com/TeamKujira/status/1553716395136909318?s=20\&t=y-fzq\_GXiIxLbkNtObkxjw). These numbers, although small, indicate that Kujira is in a healthy growth state, especially considering the unfavorable market at the moment.
 
@@ -188,7 +188,7 @@ These numbers can be discussed by the community later, once everything is in pla
 
 Are you satisfied with these arguments? I have not let go of the UST story yet. The cosmos really needs Stablecoin, a lot of people are about to head into that water. Let's see what happens next...
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 $USK and ORCA are moving to TestNet starting Wednesday (August 10, 2022) for testing and QA with the prospect of launching about 2 weeks after that date. LTV on credits will initially be made good and safe to ensure maximum stability and will be adjusted as the system grows.
 
