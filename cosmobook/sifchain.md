@@ -32,7 +32,7 @@ With an IBC, users can freely move their assets between Sifchain and any connect
 
 With IBC and Peggy, Sifchain users can export approved Cosmos assets to Ethereum and transfer Ethereum assets across any IBC-enabled blockchain. This is a huge step towards Sifchain's goal of becoming the world's first omni-chain DEX.
 
-### **Havernance**
+#### Governance
 
 Sifchain will use decentralized governance with SifDAO (Such a high-profile announcement was made back in 2021 on the wave of popularity of decentralized community governance).
 
@@ -53,25 +53,25 @@ ROWAN is a native Sifchain token that has many uses in the ecosystem:
 * Node validators must bind ROWANs to compete for entry into the validator pool. Only the top 100 validators (ranked by the number of ROWANs sent to the stack) can receive block rewards. Block rewards are paid to ROWAN.
 * Commissions for swap and transfer transactions are paid to ROWAN.
 * Remuneration for providing liquidity is payable to ROWAN.
-* ROWAN is a Sifchain havernance token - the more ROWAN a member has, the more weight their vote has in management decisions.
+* ROWAN is a Sifchain governance token—the more ROWAN a member has, the more weight their vote has in management decisions.
 
 A more detailed description of ROWAN and its tokenomics can be found in [the whitepaper](https://assets.website-files.com/60ec70152eafa8dd30cb2fb5/6100250b18eca84d2952ea0e\_sif\_tokenomics\_latex.pdf).
 
 Rowan was also discussed on the project's [Medium](https://medium.com/sifchain-finance/uses-for-rowan-the-polyvalent-token-for-omni-chain-decentralized-exchange-dex-3207e7f70f02) page.
 
-Right now the picture looks like this:
+Right now, the picture looks like this:
 
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-C TVL had questions about the project as well. Suplai smoothly increased well above the claimed 1 billion tokens.
+C TVL had questions about the project as well. Supply smoothly increased well above the claimed 1 billion tokens.
 
 Nevertheless, take a look at [**the Q1 2022 results**](https://medium.com/sifchain-finance/sifchain-update-spring-summer-2022-ec7cda4896c8):
 
-* Sif's Acsension liquidity mining program was launched;
+* Sif's Ascension liquidity mining program was launched;
 * monetary trading policy (PMTP) was launched, with control of policy setting transferred to the SifDAO (essentially users);
 * The formation of multiple DAO boards, including a validator delegation board, a token listing board, and a PMTP board;
 * decentralization of the Sifchain frontend. Six different frontend providers now host Sifchain DEX frontends (including Akash Network);
-* Hire and grow the Sifchain team by hiring key people in engineering, business and marketing;
+* Hire and grow the Sifchain team by hiring key people in engineering, business, and marketing;
 * Sifchain's ambassador program was launched, with 11 ambassadors now participating;
 * Adopted 35 proposals for the network, including software updates, community pool funding initiatives, expansion of the validator set, policy parameter updates and board elections;
 * increasing participation in governance, with more than 60% of tokens consistently participating in DAO voting;
@@ -88,7 +88,7 @@ In addition, the engineering team performed the following backend work, which re
 * Implement best practices, including Agile practices and a support ticket system, to help improve the user experience with Sifchain;
 * Finally, before the recent market crash, Sifchain was showing incredible growth rates. After the collapse, the performance declined.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 Key areas that the team expects to focus on in the near future:
 
@@ -110,19 +110,19 @@ At the same time, the engineering team is working on a critical Peggy 2.0 update
 
 Timeline: Peggy 2.0 is scheduled for release in Q3 2022.
 
-By the end of this year the team also plans to perform the following works:
+By the end of this year, the team also plans to perform the following works:
 
 * Cosmos SDK update 0.45. This will provide proper order book support and AuthZ support, and allow CosmWasm to be installed.
 * full CLP refactoring, which will make it easier for other external developers to work on core Sifcore functionality (and make it easier to create new products based on Sifchain);
 * several DevOps pipeline optimizations and monitoring improvements;
-* implementation of a data integrity, monitoring and optimization strategy.
+* implementation of a data integrity, monitoring, and optimization strategy.
 
 Overall, the feeling is that the team is trying to correct the mistakes made.
 
 **Links:**
 
 * [Medium](https://medium.com/sifchain-finance)
-* [Hitbook](https://docs.sifchain.finance/welcome-to-sifchain/start-here)
+* [Gitbook](https://docs.sifchain.finance/welcome-to-sifchain/start-here)
 * [Website](https://sifchain.finance/)
 * [Twitter](https://twitter.com/sifchain?s=20)
 * [Discord](https://discord.gg/sifchain)

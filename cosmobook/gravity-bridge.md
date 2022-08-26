@@ -8,7 +8,7 @@ In December 2021, together with more than 100 validators, the Swiss non-profit o
 
 **Gravity is** a bridge between Ethereum and Cosmos-based blockchains.
 
-First, a high-level overview: Gravity allows people to transfer tokens from Ethereum to Cosmos and back by locking tokens on the Ethereum side and mining equivalent tokens on the Cosmos side. Unlike many other bridges, Gravity is non-castodial - you only need to trust the security of the Cosmos network, not third-party bridge administrators who can run off with your funds.
+First, a high-level overview: Gravity allows people to transfer tokens from Ethereum to Cosmos and back by locking tokens on the Ethereum side and mining equivalent tokens on the Cosmos side. Unlike many other bridges, Gravity is non-custodial - you only need to trust the security of the Cosmos network, not third-party bridge administrators who can run off with your funds.
 
 ### **Here's how you can use Gravity as a practical example:**
 
@@ -28,8 +28,8 @@ The Gravity Bridge consists of several components:
 
 * Gravity.sol: an Ethereum smart contract on the Ethereum blockchain.
 * Cosmos Gravity module: a Cosmos module designed to run on the Cosmos Hub.
-* Orchestrator: a program running on Cosmos validators that monitors the Ethereum chain and sends events occurring on Ethereum to Cosmos as messages.
-* Relators: a network of nodes that compete for the ability to receive payment for sending transactions on behalf of Cosmos validators.
+* Orchestrator: a program running on Cosmos validators that monitor the Ethereum chain and sends events occurring on Ethereum to Cosmos as messages.
+* Relayers: a network of nodes that compete for the ability to receive payment for sending transactions on behalf of Cosmos validators.
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
@@ -79,7 +79,7 @@ Nevertheless, further work on the ICS721 standard is needed to implement cross-c
 
 For this reason, Gravity Bridge is initiating an NFT ICS721 working group to bring together representatives of NFT projects across the Cosmos ecosystem to strategize and implement the ICS721 standard. Details [here](https://www.gravitybridge.net/post/announcing-the-ics721-workgroup).
 
-Also the [cooperation](https://www.gravitybridge.net/post/irisnet-to-integrate-gravity-bridge-providing-eth-cosmos-liquidity) with IRISnet has been announced.
+Also, the [cooperation](https://www.gravitybridge.net/post/irisnet-to-integrate-gravity-bridge-providing-eth-cosmos-liquidity) with IRISnet has been announced.
 
 ### **DAO**
 

@@ -22,7 +22,7 @@ To put it another way, the Stargaze project was conceived as a social protocol t
 
 By Q1 2022, Stargaze users will be able to create, curate and trade NFTs in the full Stargaze marketplace using their own token, $STARS. The $STARS token will be used for staking, participating in management, buying NFTs, signaling high-quality content through curation, and paying fees on the network.
 
-The $STAR issuance schedule is similar to the Bitcoin issuance schedule. However, instead of half issuance, issuance will be reduced by 1/3 each year. Osmosis was the first protocol to use a "treading" token issuance schedule and was largely responsible for the design of Stargaze.
+The $STAR issuance schedule is similar to the Bitcoin issuance schedule. However, instead of half issuance, issuance will be reduced by 1/3 each year. Osmosis was the first protocol to use a “treading” token issuance schedule, and was largely responsible for the design of Stargaze.
 
 <figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +56,7 @@ The distribution of rewards for new tokens will be optimized to facilitate the N
 
 45% of the reward per block is allocated to NFT trading and staking incentives. Token holders will be able to earn returns by participating in trading and staking NFTs for certain periods of time.
 
-#### **Rewards for steaking**
+#### **Rewards for** staking
 
 Validators (node operators) are rewarded for securing the network. Any user can also delegate his tokens to validators and receive remuneration proportional to his share of the stack (minus the commission set by validators).
 
@@ -72,7 +72,7 @@ The community pool is the main DAO that manages the network. It is responsible f
 
 ### **What kind of project is this, anyway.**
 
-Currently, Stargaze is a luncheonpad that already features 275 NFT collections that are traded for their own native STAR token, a marketplace, a platform where you can delegate (zastavka) your STAR and take part in voting. Also, the SWAP button will send you to OSMOSIS to buy STAR.
+Currently, Stargaze is a launchpad that already features 275 NFT collections that are traded for their own native STAR token, a marketplace, a platform where you can delegate your STAR and take part in voting. Also, the SWAP button will send you to OSMOSIS to buy STAR.
 
 This is how the project positions itself on [the off-site](https://www.stargaze.zone/):
 
@@ -102,7 +102,7 @@ The main news in the near future will be the possibility to interact with Ethere
 
 ### **Links:**
 
-[Twitter](https://twitter.com/StargazeZone) .
+[Twitter](https://twitter.com/StargazeZone)&#x20;
 
 [Gitbook](https://docs.stargaze.zone/guides/readme)
 

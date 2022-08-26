@@ -145,7 +145,7 @@ Purpose of the token: payment for gas in the network. All fees collected are dis
 
 Issuance: token generation started in November 2021 with the following issuance schedule:
 
-<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 
 
