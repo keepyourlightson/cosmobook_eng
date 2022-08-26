@@ -4,94 +4,94 @@
 
 ## Juno <a href="#uler" id="uler"></a>
 
-Блокчейн Juno возник в результате инициативы сообщества разработчиков, валидаторов и делегаторов Cosmos.
+The Juno blockchain is the result of an initiative by the Cosmos community of developers, validators, and delegators.
 
-Цель, которую преследовала инициатива – обособить деплой смарт-контрактов в выделенный дочерний хаб Cosmos’a. Это своеобразная децентрализованная песочница экосистемы, в которой отсутствуют ограничения и цензура. Разработчикам не нужно ждать одобрения валидаторов, чтобы стать частью узла: это позволяет быстро запускать проекты, но также приводит к тому, что на платформу могут попасть dApps низкого качества. Для девелоперов доступны популярные фреймворки и возможность компилировать смарт-контракты на Rust и Go. Планируются к добавлению C и Cpp.
+The goal of the initiative was to isolate the depletion of smart contracts into a dedicated Cosmos subsidiary hub. It is a kind of decentralized ecosystem sandbox with no restrictions or censorship. Developers don't have to wait for validators' approval to become part of the hub: this allows projects to launch quickly, but also leads to low-quality dApps that can get onto the platform. Popular frameworks and the ability to compile smart contracts in Rust and Go are available for developers. C and Cpp are planned to be added.
 
-### **Отличия Juno от других чейнов со смарт-контрактами**
+### **Differences between Juno and other smart contract blockchains**
 
-Вот что отличает JUNO от Ethereum и Solana (по мнению разработчиков JUNO):
+Here's what sets JUNO apart from Ethereum and Solana (according to JUNO developers):
 
-1. _Простой деплой смарт-контрактов;_
-2. _Базовый уровень без разрешений;_
-3. _Дом CosmWasm (Interwasm DAO);_
-4. _Встроенная совместимость;_
-5. _Высокая масштабируемость;_
-6. _Высокий уровень безопасности;_
-7. _Создание децентрализованной сети;_
-8. _Разработка ядра под руководством сообщества;_
-9. _Лидирующая ликвидность сообщества;_
-10. _Сообщество ведет разработку экосистемы;_
-11. _Сбалансированное управление;_
-12. _Динамическое балансирование сборов;_
-13. _Четкий юридический статус (без предварительной продажи, частной продажи или публичной продажи)._
+1. _Simple Deployment of Smart Contracts;_
+2. _Basic level without permissions;_
+3. _Dom CosmWasm (Interwasm DAO);_
+4. _Built-in compatibility;_
+5. _High scalability;_
+6. _High security level;_
+7. _Creation of a decentralized network;_
+8. _Community-led core development;_
+9. _Leading community liquidity;_
+10. _Community led ecosystem development;_
+11. _Balanced management;_
+12. _Dynamic balancing of fees;_
+13. _Сlear legal status (no pre-sale, private sale or public sale)._
 
-Запуск сети состоялся 01.10.2021 с раздачи токенов ходлерам $ATOM, а в декабре того же года с обновлением Moneta в сеть был добавлен модуль CosmWasm.
+The network was launched on 01.10.2021 with the distribution of tokens to $ATOM hodlers, and in December of the same year with the Moneta update the CosmWasm module was added to the network.
 
 ![](https://telegra.ph/file/edd1d4ad1a5af58ef5344.png)
 
 ### CosmWasm <a href="#cosmwasm" id="cosmwasm"></a>
 
-CosmWasm – это платформа на CosmosSDK, которая адаптировала язык WebAssembly для блокчейна Cosmos. В свою очередь, Wasm – это низкоуровневый байт-код для использования в браузере. Фишка в том, что код может быть преобразован в машинный прямо во время загрузки (потоковая компиляция). CosmWasm позволяет разработчикам писать модули на Rust, а те в свою очередь бесшовно интегрируются в Cosmos SDK, а также он позволяет загружать код прямо в транзакциях.
+CosmWasm is a platform on CosmosSDK that adapted the WebAssembly language for the Cosmos blockchain. Wasm, in turn, is low-level bytecode for use in a browser. The trick is that the code can be converted to machine code right at boot time (stream compilation). CosmWasm allows developers to write modules in Rust, which in turn integrate seamlessly into the Cosmos SDK, and it also allows code to be loaded directly into transactions.
 
-Остальные подробности пропустим, но важно понимать, что это делает смарт-контракты быстрыми;)
+We'll skip the rest of the details, but it's important to understand that it makes smart contracts fast;)
 
-Несмотря на то, что разработка на связке Rust+CosmWasm сложнее чем на Solidity, заявляется, что это решение позволяет писать сложные контракты без дыр в безопасности (зафиксируйте в памяти этот момент;)
+Although the Rust+CosmWasm bundle is more difficult to develop than Solidity, it is claimed that it allows you to write complex contracts without any security holes (commemorate that point;)
 
-Подробнее о CosmWasm можно почитать [тут.](https://docs.junonetwork.io/juno/home-of-cosmwasm.)
+You can read more about CosmWasm [here](https://docs.junonetwork.io/juno/home-of-cosmwasm.)
 
-### Токен $Juno <a href="#token-juno" id="token-juno"></a>
+### $Juno <a href="#token-juno" id="token-juno"></a>
 
-Нативным токеном сети является $JUNO.
+The native network token is $JUNO.
 
-Как было упомянуто ранее, 47% начального объёма токенов (64 903 242 $JUNO), было дропнуто для стейкеров $ATOM в пропорции 1:1. В том числе за это и любят космос, дропов тут тьма. Для команды введён 12-летний вестинг.
+As mentioned earlier, 47% of the initial volume of tokens ($64,903,242 JUNO) was dropped for $ATOM stackers at a 1:1 ratio. That's why they love the space in the first place; there are a lot of drops here. A 12-year vesting is in place for the team.
 
 ![](https://telegra.ph/file/4f419f7d78451f7dc6292.png)
 
-Общий объём эмиссии за 12 лет составит 185 562 268, при этом модель вознаграждения JUNO распределяет фиксированное количество токенов JUNO за блок в зависимости от уровня инфляции и времени блока сети. Инфляционная модель выглядит следующим образом:
+The total issuance over 12 years will be 185,562,268, with the JUNO reward model distributing a fixed number of JUNO tokens per block depending on the inflation rate and block time of the network. The inflation model is as follows:
 
 ![](https://telegra.ph/file/4af0ab56dcdab1316ab4d.png)
 
-### Гавернанс и скандалы <a href="#gavernans" id="gavernans"></a>
+### Governance & scandals <a href="#gavernans" id="gavernans"></a>
 
-Что ещё важно знать, так это нашумевшее 16 предложение, когда сообщество голосовало за то, чтобы забрать у кита честно заработанные 2,5M $JUNO, а отжатое положить в пул сообщества, либо уничтожить.
+What else is important to know is the sensational Proposition 16, when the community voted to take the honestly earned $2.5M JUNO from the whale, and put the squeezed out into the community pool, or destroy it.
 
-Мотивация решения была в том, что было нарушено изначальное ограничение в 50К токенов на лицо, а так же высоким риском для коллективного управления – это уже половина кворума. Итоги голосования на скрине.
+The motivation of the decision was that the initial limit of 50K tokens per person was broken, as well as the high risk for collective management - that's already half of the quorum. The results of the vote are on the screenshot.
 
 ![](https://telegra.ph/file/b8a6d8d292416476384ab.png)
 
-После этого были бурления, возгласы за и против, кит «всплыл» в том числе с постом в медиум (он удалён вместе с аккаунтом, но «интернет всё помнит», пост можно почитать в вэб-архиве, ссылка [тут.](https://web.archive.org/web/20220313021752/https://medium.com/@WhaleJuno/our-statement-on-juno-prop-16-5a06b26e6cff)
+After that there was a lot of buzz, exclamations for and against, the whale "surfaced" including a post in Medium (it was deleted along with the account, but "the Internet remembers everything," the post can be read in the web archive, the link [here](https://web.archive.org/web/20220313021752/https://medium.com/@WhaleJuno/our-statement-on-juno-prop-16-5a06b26e6cff)
 
-С серией операций, выполненных CCN (это тот самый кит из Японии) можно ознакомиться [тут](https://docs.google.com/spreadsheets/d/1McQE3Ot-QkAElou6\_Qs1TS9ZaCHeTVp0dYRAWZ7TOYM/edit#gid=0).
+A series of operations performed by CCN (that's the whale from Japan) can be found [here](https://docs.google.com/spreadsheets/d/1McQE3Ot-QkAElou6\_Qs1TS9ZaCHeTVp0dYRAWZ7TOYM/edit#gid=0).
 
-Если разобраться в этой истории детальнее, то можно наткнуться на 4 пропозал: кит был вычислен уже к тому моменту, но предложение было отклонено в результате сомнительных договорённостей. А уже позже, когда начали скидывать $JUNO, история обрела своё продолжение. Весь этот замес родил немало трэдов в твиттере, а также споров в различных чатах.
+If you look into this story in more detail, you can stumble upon 4 proposals: the whale had already been calculated by that time, but the offer was rejected as a result of dubious arrangements. And later, when they began to discount $ JUNO, the story has found its continuation. This whole mess gave birth to many tweets, as well as controversy in various chat rooms.
 
-Кроме странных действий отцов-основателей выяснились подробности о том, что кит, действовавший в интересах пожилых инвесторов из Японии, присваивал дропы себе. Всё было решено 20 пропозалом, который поддержало сообщество. По итогам этого предложения, чейн был обновлён, у крупного держателя изъяли всё, кроме «честных» 50000 $JUNO.
+In addition to the strange actions of the founding fathers, details emerged that the whale, who acted in the interests of older investors from Japan, embezzled drops. The whole thing was resolved by a 20-proposal, which was supported by the community. As a result of that proposal, the chine was renewed, with all but an "honest" $50,000 JUNO taken away from the big holder.
 
-А, да. По итогам 20 пропоузала, жир, который срезали с кита, должны были отправить на адрес Juno в пул комьюнити, но разработчик скопировал хэш транзы вместо адреса кошелька и отправил средства туда. Т.к. это PoS, то сообщество смогло снова проголосовать за перенос средств. «Code is law» в действии…
+Oh, yeah. At the end of the 20-poS, the fat that was cut from the whale was supposed to be sent to the Juno address in the community pool, but the developer copied the tranza hash instead of the wallet address and sent the funds there. Since this is PoS, the community was able to vote again to transfer the funds. "Code is law" in action...
 
-При этом Такуми Асано, тот самый кит, утверждает, что цена Juno падает, потому что токены сливает…wolfcontract, один из разработчиков чейна. В доказательство своим словам он приводит аналитику, ссылка [тут.](https://docs.google.com/spreadsheets/d/1kQYL-lu3UNJqzLArhbTAFOpFjWm5Wa7-RStS-coMuys/edit)
+Meanwhile, Takumi Asano, the same whale, claims that Juno's price is falling because tokens are being dumped by...wolfcontract, one of the developers of the chain. To prove his words he cites analytics, link [here](https://docs.google.com/spreadsheets/d/1kQYL-lu3UNJqzLArhbTAFOpFjWm5Wa7-RStS-coMuys/edit)
 
-Отметим, что это первое в истории крипты решение сообщества побрить кита, а не хомяков:)
+Note that this is the first community decision in the history of crypto to shave a whale, not hamsters:)
 
-### Уязвимости <a href="#uyazvimosti" id="uyazvimosti"></a>
+### Faults <a href="#uyazvimosti" id="uyazvimosti"></a>
 
-5 апреля 2022 блокчейн приостановил работу из-за развёрнутого смарт-контракта, замаскированного под классический «Hello, World!». Уязвимость затронула все блокчейны, использовавшие CosmWasm.
+On April 5, 2022, the blockchain suspended operation due to a deployed smart contract disguised as a classic "Hello, World!" The vulnerability affected all blockchains using CosmWasm.
 
-Это, кстати, произошло менее чем через месяц после нашумевшего 16 предложения.
+This, by the way, happened less than a month after the sensational 16th sentence.
 
-### Экосистема <a href="#ekosistema" id="ekosistema"></a>
+### Ecosystem <a href="#ekosistema" id="ekosistema"></a>
 
-Сейчас на Juno существует около 50 приложений. Из крупных протоколов – Junoswap (DEX), DAODAO (тулза для создания DAO), TFM (DEX агрегатор), JunoMint (DAPP для минта своего токена на JUNO), StrangeClan (p2e игра на движке u5).
+Now there are about 50 applications on Juno. Among big protocols - Junoswap (DEX), DAODAO (DAO creation toolkit), TFM (DEX aggregator), JunoMint (DAPP to mint your token on JUNO), StrangeClan (p2e game on u5 engine).
 
-Тут тоже есть странные вещи: Junoswap до сих пор в бета-версии. Вероятно это из-за непростой разработки на CosmWasm. Одно дело плодить Uniswap/Sushiswap на EVM, а другое написать с нуля. Гитхаб выглядит довольно неплохо (посмотреть можно [тут](https://github.com/cosmoscontracts/junoswap-interface)), а UI-дизайнерам стоило бы подглядеть как надо у Osmosis. Потому что на данный момент, интерфейс выглядит вот так:
+There are strange things here too: Junoswap is still in beta. This is probably because of the complicated development on CosmWasm. It's one thing to fetalize Uniswap/Sushiswap on EVM, but another to write from scratch. The github looks pretty good (you can see it [here](https://github.com/cosmoscontracts/junoswap-interface)), and the UI designers should look up Osmosis. Because at the moment, the UI looks like this:
 
 ![](https://telegra.ph/file/5d2def098abd1560492d2.png)
 
-Что имеем в итоге: блокчейн, ориентированный на разработку быстрых контрактов, но вероятно слишком инновационный, чтобы уже быть на уверенном плаву.
+What we have in the end: a blockchain focused on the development of fast contracts, but probably too innovative to be afloat already.
 
-### Ссылки <a href="#ssylki" id="ssylki"></a>
+### Links <a href="#ssylki" id="ssylki"></a>
 
-1. Текущую стату по блокчейну в Даше от Bro’n’Bro [тут.](https://monitor.bronbro.io/d/juno-stats/juno-stats?orgId=2\&refresh=5s)
-2. С экосистемой ознакомиться [тут.](https://www.junonetwork.io/ecosystem/)
-3. Официальная документация [тут.](https://docs.junonetwork.io/)
+1. Current blockchain statistics you can check in the dashboard from Bro’n’Bro [here](https://monitor.bronbro.io/d/juno-stats/juno-stats?orgId=2\&refresh=5s)
+2. Get to know the ecosystem [here](https://www.junonetwork.io/ecosystem/)
+3. Official docs [here](https://docs.junonetwork.io/)
