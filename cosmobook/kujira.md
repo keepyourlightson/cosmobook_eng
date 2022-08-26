@@ -1,5 +1,9 @@
 # Kujira
 
+##
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
 ## Kujira
 
 The Kujira project was originally conceived as an ecosystem of dApps in the Terra network. The first dApp from Kujira was ORCA (Q4 2021), which allowed some users to receive a discounted deposit from other users with excessive debt. The next dApp was Beluga, which allowed users to send any CW20 token to Terra to multiple addresses simultaneously in a single transaction.
@@ -36,9 +40,11 @@ Kujira boasts a block generation time of around 2.2 seconds, making it one of th
 
 Fast block generation is especially important for FIN, as it is a DEX based on order book. Short block generation times are important for the Kujira network, especially for a decentralized FIN exchange operating on the order book model. Moreover, the shorter the delay between the generation of two successive blocks, the less opportunity validators have for front-running.
 
-#### **Kujira ecosystem** <a href="#lv40" id="lv40"></a>
+### **Kujira ecosystem** <a href="#lv40" id="lv40"></a>
 
-#### **FIN by Kujira** <a href="#el6t" id="el6t"></a>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+### **FIN by Kujira** <a href="#el6t" id="el6t"></a>
 
 FIN is a decentralized order book exchange. Soon the possibility of margin trading will be added.
 
@@ -55,6 +61,8 @@ FIN**fees** are divided into two parts:
 \- You can reallocate the liquidity belonging to your protocol to something more productive.
 
 Every degen faces a vicious cycle where as the supply of tokens increases, their value decreases and inflationary rewards begin to decrease in dollar terms. As the APR decreases for liquidity providers, the rewards may no longer justify the opportunity cost, and they may seek profit elsewhere while taking their liquidity with them. To put it another way, it's a classic story where we farm for the first 3-5 days, then take funds out of the pool and run to another DEX. Exchanges operating on the order book principle are not subject to this problem.
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 2\) Taker **Fees** - fees paid when placing market and limit orders, which are executed immediately. They "take" liquidity from the books and therefore pay a higher fee.
 
@@ -73,11 +81,11 @@ FIN has chosen to use Axelar's USDC wrapper, axlUSDC, as its stablcoin.
 
 Trading is possible with KUJI, ATOM,OSMO, EVMOS, JUNO, LUNA, SCRT, wETH.
 
-![](<../.gitbook/assets/image (29).png>)
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Read more about how to trade on Fin [here](https://medium.com/team-kujira/how-to-buy-kuji-on-fin-485172f23eea).
 
-#### **ORCA** **by Kujira** <a href="#iw6v" id="iw6v"></a>
+### **ORCA** **by Kujira** <a href="#iw6v" id="iw6v"></a>
 
 ORCA is a public trading platform that allows users to purchase liquidated assets at discounts.
 
@@ -107,11 +115,11 @@ Liquidators (those whose application for liquidation is successful) are usually 
 
 It's quiet on the ORCA website today so far. We can only say that they want to interact with Polkadot:
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 I'll say more. Judging by this [tweet](https://twitter.com/TeamKujira/status/1551545612205785092?s=20\&t=QlYZDdSZv663HhQ3rKKDRA), the upcoming launch is being prepared on [@KaruraNetwork](https://twitter.com/KaruraNetwork) (it's the DeFi network in Kusama, Polkadot's Acala counterpart).
 
-#### **BLUE by Kujira** <a href="#uttd" id="uttd"></a>
+### **BLUE by Kujira** <a href="#uttd" id="uttd"></a>
 
 BLUE is the core of the Kujira ecosystem and contains the ecosystem dashboard, a wallet, a simple swap user interface, an IBC bridge, and a management portal.
 
@@ -121,15 +129,15 @@ The Kujira wallet on the Blue dApp has advanced functionality, allowing users to
 
 The Swap interface on BLUE does not differ from the basic swap user interface found on AMM DEX. However, trades made through Swap are routed through Kujira's own CLOB DEX, FIN. This represents an alternative frontend for users who are not used to the more advanced trading interface that FIN offers.
 
-#### Mobile wallet **by Kujira** <a href="#b9i3" id="b9i3"></a>
+### Mobile wallet **by Kujira** <a href="#b9i3" id="b9i3"></a>
 
 on July 4, 2022, Kujira [announced](https://twitter.com/TeamKujira/status/1543908579878518784) Its mobile wallet. While not many details have been given, we see this as a possible catalyst for the Kujira ecosystem, as such a wallet facilitates user connectivity and provides potential utility for everyday transactions.
 
-#### **Team** <a href="#iiei" id="iiei"></a>
+### **Team** <a href="#iiei" id="iiei"></a>
 
 The team operates anonymously, but enjoys a reputation in the Terra and Cosmos communities for their ability to create useful products with much needed utility and excellent UX.
 
-#### **$KUJI** <a href="#fqbo" id="fqbo"></a>
+### **$KUJI** <a href="#fqbo" id="fqbo"></a>
 
 Kujira network's native token is $KUJI. The total supply of $ KUJI is 122.4 million tokens.
 
@@ -137,19 +145,19 @@ Purpose of the token: payment for gas in the network. All fees collected are dis
 
 Issuance: token generation started in November 2021 with the following issuance schedule:
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### **Roadmap** <a href="#cxhk" id="cxhk"></a>
+### **Roadmap** <a href="#cxhk" id="cxhk"></a>
 
 Naturally it is worth watching from the beginning of the network's new life - the launch of Kujira on L1 Cosmos:
 
 Plans for the near future
 
-#### **Summary** <a href="#pxqx" id="pxqx"></a>
+### **Summary** <a href="#pxqx" id="pxqx"></a>
 
 Many believe in Kujira. A very interesting feature is that the interest from the commission is poured rewards in the same coin in which they trade.
 
@@ -157,17 +165,17 @@ Many believe in Kujira. A very interesting feature is that the interest from the
 
 After the launch of ORCA, when the number of participants increases, steakers are entitled to expect good rewards with a very small % (0.47% at the start) for steaking. Today the picture looks like this:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 In addition, protocol interaction rates and site traffic [growing](https://twitter.com/TeamKujira/status/1553716395136909318?s=20\&t=y-fzq\_GXiIxLbkNtObkxjw). These numbers, although small, indicate that Kujira is in a healthy growth state, especially considering the unfavorable market at the moment.
 
 And then you just need to understand the perspective of the project) DYOR!
 
-**Bonus (stabelcoin)**
+### **Bonus (stablecoin)**
 
-In [an article in Medium](https://medium.com/team-kujira/kujira-usk-stablecoin-launch-kickstarting-grown-up-defi-26b4372d7aef), Kujira announced that it is ready to launch its own steblecoin.
+In [an article in Medium](https://medium.com/team-kujira/kujira-usk-stablecoin-launch-kickstarting-grown-up-defi-26b4372d7aef), Kujira announced that it is ready to launch its own stablecoin.
 
-Kujira $USK will be an SDK-native steibcoin Cosmos with excess collateral, with a soft US dollar peg mechanism initially backed by $ATOM. Some users will pledge to mine $USK, while other users will burn $USK to repay their pledge. In addition, if the value of a user's pledge falls too low, it will be liquidated. The $USK is intentionally integrated into ORCA to ensure a smooth democratic liquidation that will be publicly available to all users. Kujira will not allow collateral against the USK from centralised issuers (e.g. USDC) so as not to be dependent on their pledged lock-up in the smart contract.
+Kujira $USK will be an SDK-native stablecoin Cosmos with excess collateral, with a soft US dollar peg mechanism initially backed by $ATOM. Some users will pledge to mine $USK, while other users will burn $USK to repay their pledge. In addition, if the value of a user's pledge falls too low, it will be liquidated. The $USK is intentionally integrated into ORCA to ensure a smooth democratic liquidation that will be publicly available to all users. Kujira will not allow collateral against the USK from centralised issuers (e.g. USDC) so as not to be dependent on their pledged lock-up in the smart contract.
 
 It is planned that the set parameters such as mint fee, loan interest rate, liquidation fee, ORCA withdrawal fee and maximum LTV will be conservative and then monitored by the community management as part of the natural policy. As part of this setting, the following metrics are assumed:
 
@@ -192,7 +200,7 @@ Are you satisfied with these arguments? I have not let go of the UST story yet. 
 
 $USK and ORCA are moving to TestNet starting Wednesday (August 10, 2022) for testing and QA with the prospect of launching about 2 weeks after that date. LTV on credits will initially be made good and safe to ensure maximum stability and will be adjusted as the system grows.
 
-#### **Useful links and notes** <a href="#460x" id="460x"></a>
+### **Useful links and notes** <a href="#460x" id="460x"></a>
 
 * [Gitbook;](https://docs.kujira.app/introduction/grown-up-defi)
 * [Review](https://kujira.explorers.guru/) the polls by proposal;

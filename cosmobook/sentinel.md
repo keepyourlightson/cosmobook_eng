@@ -6,7 +6,7 @@
 
 The goal of the Sentinel ecosystem is to expand universal access to the Internet through a robust and provable approach. This is accomplished by enabling organizations and individuals around the world to build cost-effective, scalable, distributed and decentralized network solutions based on Sentinel Cosmos blockchain, leveraging the following
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Internet has created a form of interconnected global consciousness that can have an enormous positive impact. However, the value and power of the Internet's ability to disseminate information is under threat. There has been a rapid increase in censorship and mass data collection on the Internet, as well as an ever-growing dependence of people on the Internet. Nowadays, this trend of censorship and data collection violates fundamental human rights of access to information and privacy. The initial goal of the Sentinel ecosystem is to provide a framework for building decentralized virtual private networks or dVPNs. VPN applications are used by people around the world to access geographically restricted content by connecting to servers located in regions where the desired content is provided without restriction, while at the same time ensuring the privacy of interactions through the establishment of an encrypted connection. Whether the goal is to gain access to restricted content or to enhance the security of data transmission over the Internet, people around the world are demanding secure, low-cost and reliable VPN services.
 
@@ -46,7 +46,7 @@ The Cosmos ecosystem allows Sentinel to create and manage its own network at the
 
 A centralized VPN architecture consists of multiple intermediary servers that are required to manage user permissions as well as establish a user connection to the VPN host. This centralized architecture requires a high degree of dependency on these intermediate servers, which pose a risk to network resilience due to multiple points of failure as well as multiple points of attack. Downtime in centralized VPN networks can be attributed to the malfunction of one or more of these components, and can lead to degradation in service quality and user satisfaction. The Sentinel dVPN structure provides an incredible degree of fault tolerance and security compared to any consumer-grade VPN. The Sentinel architecture minimizes the number of intermediate servers and dependencies. In addition to the management and account creation system, which occurs entirely on the blockchain, the process of requesting available servers occurs on the blockchain. Because the blockchain on which the application is hosted will run 24/7 without interruption, because the validator community infrastructure is globally decentralized (it will not be affected by 1, 2 or 3 data center outages), the uptime and user experience of such an application far exceeds the offerings of centralized resources.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 A key contributing factor to the resiliency of the Sentinel architecture is the decentralized distribution of computing power required to run Sentinel Hub and Sentinel Zone. The computing power required to run the dVPN Sentinel ecosystem is not provided by, or dependent upon, centralized organizations; instead, it is provided by expert "checkout" organizations that are distributed globally and have highly redundant systems with significant bandwidth and uptime. While **the Sentinel architecture ensures that user anonymity is not compromised by the application itself**, the use of the relay network created by Sentinel is necessary to ensure complete user anonymity from an output node perspective. Sentinel's relay network will allow users to tunnel their connection through a series of "relay nodes" that ensure that the user does not directly communicate with the exit node. Sentinel's proprietary, patented "bandwidth proof" protocol provides reliable and transparent bandwidth measurements from the service provider (community-based nodes) to the end user. The "proof-of-bandwidth" protocol is integrated into Sentinel's blockchain, providing clear tracking of the quality of bandwidth provisioning services and establishing a level of trust between all participants. This data is subsequently used to determine whether a node has met the required level of service to avoid penalties.
 
@@ -64,7 +64,7 @@ According to the Sentinel network's original ERC-20 allocation, which was develo
 
 It is important to note that the lock-in schedule for Team, Trejari and Marketing is designed so that no tokens are released during the first year, and the allocation schedule is heavily weighted towards later years compared to earlier years. For example, 0%, 12%, 30%, 60%, 100% of the assigned allocation will be allocated in years 1, 2, 3, 4 and 5 respectively.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 The main utility of the Sentinel token revolves around its functions:
 
@@ -102,7 +102,7 @@ That's a 12,000% increase from 27 knots on July 6, 2021.
 
 On July 17, 2022, Sentinel's [official statistics website](http://stats.sentinel.co/) shows the following picture:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Today, nearly 3,000 users are actively using Sentinel technology by paying for #dVPN services and connecting to the network.
 

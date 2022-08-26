@@ -4,149 +4,139 @@
 
 ![](https://img2.teletype.in/files/93/1f/931fd987-b8cd-47a0-a37f-88ae3edf47a6.png)
 
-## **Akash**
+## Akash
 
-Первое, о чем хочется сказать сразу - у Akash [блестящий сайт](https://akash.network/ru). Вся информация великолепно подана на русском языке. Чтоб узнать о проекте, вам достаточно перейти на официальный сайт, где вы сможете получить всю нужную информацию. Но мы копнули чуть поглубже.
+The first thing I want to say at once is that Akash has [a brilliant website](https://akash.network/ru). All the information is beautifully presented in several languages. To find out about the project, you just go to the official website where you can get all the information you need. But we dug a little deeper.
 
-Что же такое Akash? Официальный сайт говорит нам: Akash Network, первое в мире децентрализованное облако с открытым исходным кодом, которое ускоряет развертывание (deployment), масштабирование, эффективность и снижает цены для быстрорастущих отраслей, таких как блокчейн и машинное обучение/AI.
+What is Akash? The official website tells us: Akash Network, the world's first decentralized open source cloud that accelerates deployment, scales, efficiency and lowers prices for high-growth industries such as blockchain and machine learning/AI.
 
-По сути ничего нового, но ключевое слово тут децентрализация. Децентрализация Akash Network необходима для того, чтобы пользователи могли без сторонней цензуры и посредников сдавать в аренду, например, свой сервер или часть его неиспользуемой мощности. Ну и еще одно важное свойство - это аукционность, а следовательно снижение цен за аренду из-за конкуренции арендодателей.
+This is essentially nothing new, but the key word here is decentralization. Decentralization of the Akash Network is necessary so that users can rent, for example, their server or part of its unused capacity without third-party censorship and intermediaries. And another important feature is auctionability, hence lower rental prices due to landlord competition.
 
-![](https://telegra.ph/file/0cca49460665536c49a82.png)![](https://telegra.ph/file/0cca49460665536c49a82.png)
+Technically, Akash uses the core [Tendermint](https://tendermint.com/docs/introduction/what-is-tendermint.html); the deployment framework, [Kuberneters](https://ru.wikipedia.org/wiki/Kubernetes); the authentication framework, [SPIFFE](https://spiffe.io/); and the Linux distribution for the server agent, [CoreOS](https://ru.wikipedia.org/wiki/CoreOS). With Kuberneters, applications will be hosted in Docker containers for easier management and migration from other platforms.
 
-Технически, Akash использует ядро [Tendermint](https://tendermint.com/docs/introduction/what-is-tendermint.html); фреймворк для развертывания — [Kuberneters](https://ru.wikipedia.org/wiki/Kubernetes); фреймворк для аутентификации — [SPIFFE](https://spiffe.io/); и Linux-дистрибутив для агента серверов — [CoreOS](https://ru.wikipedia.org/wiki/CoreOS). Благодаря Kuberneters приложения будут размещаться в контейнерах Docker для более удобного управления и миграции с других платформ.
+### **Introduction to Akash** <a href="#hlj3" id="hlj3"></a>
 
-### **Введение в Akash** <a href="#hlj3" id="hlj3"></a>
+Akash means "open space" or "sky" in ancient Sanskrit.\
+The Akash network is a decentralized cloud marketplace where tenants buy cloud-class computing from providers without any permission.\
+To understand how this is organized, I'll give you the answers to the questions from the off-site. A lot of things immediately fall into place:\
+**How to use Akash?**\
+You can get started directly from the site [command line](https://docs.akash.network/guides/cli) or from [the GUI](https://docs.akash.network/guides/deploy).\
+Define your Docker image, CPU, memory and storage in the [deploy.yalm](https://docs.akash.network/readme/stack-definition-language) file. Set your price, get bids from vendors in seconds and choose the lowest price. Deploy your application without the need to install, configure or manage servers. The ability to scale your application with one to hundreds of containers is provided.\
+**What is Akash Deployment Marketplace?**\
+[Akash Marketplace](https://docs.akash.network/other-resources/marketplace) is where users rent computing resources from cloud providers before deploying a Docker container to the Akash container platform. Marketplace stores online records of requests, applications, rentals, and payments using the Akash Token (AKT).\
+**What is the Akash container platform?**\
+[The Akash Container Platform](https://docs.akash.network/other-resources/platform) is a deployment platform for hosting and managing [containers](https://docs.akash.network/other-resources/platform#containers) on which users can run any Cloud-Native application. Akash is built using a set of cloud management services, including [Kubernetes](https://kubernetes.io/) for orchestration and container management.\
+**What is the cost of using Akash?**\
+The cost of hosting an application using Akash is about one-third the cost of Amazon AWS, Google Cloud Platform (GCP), and Microsoft Azure. You can check real-time pricing using [the Akashlitics.com price comparison tool](https://akashlytics.com/price-compare).\
+**How to use Akash?**\
+If you're new to Akash, start with [the deployment guides](https://docs.akash.network/guides) and follow along. The Akash community has written several more advanced guides for learning Akash: [a guide for node operators](https://docs.akash.network/akash-nodes), [a guide for validators](https://docs.akash.network/validating/validator), [a guide for cloud providers](https://docs.akash.network/other-resources/archived-resources/build-a-cloud-provider), and several [guides for deploying various applications](https://docs.akash.network/guides) on Akash.\
+**How is Akash different from other cloud platforms?**\
+Decentralized cloud is a shift from owning and managing computing resources by the three big cloud companies (Amazon, Google and Microsoft) to a decentralized network of cloud providers using open source software developed by the community and creating open market competition with more providers.\
+Similar to Airbnb, Akash is a marketplace for server hosting that gives you control over the price you pay and the included amenities (Akash calls them attributes). Akash provides application developers with a command line tool to lease and deploy applications right from the terminal. Akash leverages a huge market of underutilized resources sitting idle in 8.4 million data centers worldwide. Any cloud and container applications running in the centralized cloud can run faster and at lower cost in Akash's decentralized cloud.\
+**Why is Akash different from other decentralized platforms?**\
+Akash hosts [containers](https://docs.akash.network/other-resources/platform) where users can run any cloud application. There's no need to rewrite the entire internet in a new proprietary language, and there's no tethering that won't let you switch cloud providers. The deployment file is transmitted over a private peer-to-peer network isolated from the blockchain. Asset transfers occur outside the network over mTLS to ensure the security and performance needed by critical applications running in the cloud.\
+**What is Stack Definition Language (SDL)?**\
+You can define deployment services, data centers, requirements, and pricing parameters in a "manifest" file (deploy.yaml). This file is written in a declarative language called [Stack Definition Language (SDL)](https://docs.akash.network/other-resources/platform). SDL is a human-friendly data standard for declaring deployment attributes. The SDL file is a "form" for requesting resources from the network. SDL is compatible with the YAML standard and is similar to Docker Compose files.\
+**How do I set up Networking for a container?**\
+Networking - ensuring communication with and between workloads - can be configured using the Stack Definition Language[(SDL](https://docs.akash.network/readme/stack-definition-language)) file for deployment. By default, workloads in the deployment group are isolated - nothing else is allowed to connect to them. You can relax this restriction.\
+**Do I have to close and recreate my deployment if I want to update it?**\
+No. You can update a deployment. However, only some fields in the Akash stack definition file are modifiable. Image, command, args, env, and open ports can be changed, but compute resources and placement criteria cannot.
 
-Akash означает "открытое пространство" или "небо" на древнем санскрите.\
-Сеть Akash - это децентрализованная облачная торговая площадка, на которой арендаторы покупают вычисления облачного класса у провайдеров без каких-либо разрешений.\
-Для понимания, как это организовано я приведу вам ответы на вопросы с оф. сайта. Многое сразу встает на свои места:\
-**Как использовать Akash?**\
-Вы можете начать работу прямо с [командной строки](https://docs.akash.network/guides/cli) сайта или с [GUI.](https://docs.akash.network/guides/deploy)\
-Определите свой образ Docker, процессор, память и хранилище в файле [deploy.yalm](https://docs.akash.network/readme/stack-definition-language). Установите свою цену, получите предложения от поставщиков за считанные секунды и выберите самую низкую цену. Развертывание приложения происходит без необходимости устанавливать, настраивать или управлять серверами. Предоставляется возможность масштабирования своего приложения с использованием от одного до сотен контейнеров.\
-**Что такое Akash Deployment Marketplace?**\
-[Akash Marketplace](https://docs.akash.network/other-resources/marketplace) - это место, где пользователи арендуют вычислительные ресурсы у облачных провайдеров перед развертыванием контейнера Docker на контейнерной платформе Akash. Marketplace хранит в сети записи о запросах, заявках, аренде и платежах с использованием токена Akash Token (AKT).\
-**Что такое контейнерная платформа Akash?**\
-[Контейнерная платформа Akash](https://docs.akash.network/other-resources/platform) - это платформа развертывания для размещения и управления [контейнерами](https://docs.akash.network/other-resources/platform#containers), на которых пользователи могут запускать любые Cloud-Native приложения. Akash построен с использованием набора облачных сервисов управления, включая [Kubernetes](https://kubernetes.io/) для оркестровки и управления контейнерами.\
-**Какова стоимость использования Akash?**\
-Стоимость размещения приложения с помощью Akash составляет примерно одну треть от стоимости Amazon AWS, Google Cloud Platform (GCP) и Microsoft Azure. Вы можете проверить цены в реальном времени, используя [инструмент сравнения цен Akashlitics.com](https://akashlytics.com/price-compare) .\
-**Как использовать Akash?**\
-Если вы новичок в Akash, начните с [руководств по развертыванию](https://docs.akash.network/guides) и следуйте дальше. Сообщество Akash написало несколько более продвинутых руководств для изучения Akash: [руководство для операторов нод](https://docs.akash.network/akash-nodes), [руководство для валидаторов](https://docs.akash.network/validating/validator), [руководство для облачных провайдеров](https://docs.akash.network/other-resources/archived-resources/build-a-cloud-provider) и несколько [руководств по развертыванию различных приложений](https://docs.akash.network/guides) на Akash.\
-**Чем Akash отличается от других облачных платформ?**\
-Децентрализованное облако - это переход от владения и управления вычислительными ресурсами тремя крупными облачными компаниями (Amazon, Google и Microsoft) к децентрализованной сети облачных провайдеров, использующих программное обеспечение с открытым исходным кодом, разработанное сообществом и создающее конкуренцию на открытом рынке с большим количеством провайдеров.\
-Подобно Airbnb, Akash - это маркетплейс для хостинга серверов, который дает вам контроль над ценой, которую вы платите, и над включенными удобствами (Akash называет их атрибутами). Akash предоставляет разработчикам приложений инструмент командной строки для аренды и развертывания приложений прямо из терминала. Akash использует огромный рынок недоиспользуемых ресурсов, простаивающих в 8,4 миллионах центров обработки данных по всему миру. Любые облачные и контейнерные приложения, работающие в централизованном облаке, могут работать быстрее и с меньшими затратами в децентрализованном облаке Akash.\
-**Почему Akash отличается от других децентрализованных платформ?**\
-Akash размещает [контейнеры](https://docs.akash.network/other-resources/platform), в которых пользователи могут запускать любые облачные приложения. Нет необходимости переписывать весь интернет на новом проприетарном языке, и нет привязки, которая не позволит вам сменить поставщика облачных услуг. Файл развертывания передается по частной одноранговой сети, изолированной от блокчейна. Передача активов происходит вне сети по протоколу mTLS для обеспечения безопасности и производительности, необходимых критически важным приложениям, работающим в облаке.\
-**Что такое язык определения стека (SDL)?**\
-Вы можете определить службы развертывания, центры данных, требования и параметры ценообразования в файле "манифеста" (deploy.yaml). Этот файл написан на декларативном языке под названием [Stack Definition Language (SDL)](https://docs.akash.network/other-resources/platform) . SDL - это удобный для человека стандарт данных для объявления атрибутов развертывания. Файл SDL - это "форма" для запроса ресурсов из сети. SDL совместим со стандартом YAML и похож на файлы Docker Compose.\
-**Как настроить Networking для контейнера?**\
-Сетевое взаимодействие - обеспечение связи с рабочими нагрузками и между ними - можно настроить с помощью файла Stack Definition Language ([SDL](https://docs.akash.network/readme/stack-definition-language)) для развертывания. По умолчанию рабочие нагрузки в группе развертывания изолированы - к ним не разрешается подключаться ничему другому. Это ограничение можно ослабить.\
-**Нужно ли закрывать и заново создавать развертывание, если я хочу обновить его?**\
-Нет. Вы можете обновить развертывание. Однако только некоторые поля в файле определения стека Akash являются изменяемыми. Образ, команду, args, env и открытые порты можно изменить, а вычислительные ресурсы и критерии размещения - нет.
+You also need to understand that Akash is the kind of project that is already aiming for mass-adoption. See how they prepare the user for their product from the ground up, starting with the basics: what a cryptocurrency wallet is and how to buy the platform's token[(here)](https://docs.akash.network/tokens-and-wallets/keplr).
 
-Так же нужно понимать, что Akash - это тот проект, который уже сейчас стремится к масс-адопшн. Посмотрите, как они с нуля готовят пользователя к своему продукту, начиная с азов: что такое криптокошелек и как купить токен платформы ([тут)](https://docs.akash.network/tokens-and-wallets/keplr).
+### Incorporating AKT into the DPoS protocol <a href="#staking-akt-in-a-dpos-protocol" id="staking-akt-in-a-dpos-protocol"></a>
 
-### Включение AKT в протокол DPoS <a href="#staking-akt-in-a-dpos-protocol" id="staking-akt-in-a-dpos-protocol"></a>
+Validators manage nodes to secure AKT transactions on the network. However, only someone with the computing resources and technical expertise to [run](https://docs.akash.network/validating/node) an Akash node can become a validator.
 
-Валидаторы управляют нодами для обеспечения безопасности транзакций AKT в сети. Однако, валидатором может стать , только тот, у кого есть вычислительные ресурсы и технические знания для [запуска](https://docs.akash.network/validating/node) ноды Akash.
+The minimum system requirements that Akash [recommends](https://docs.akash.network/validating/validator) for authentication nodes include a 4-core processor, 16GB of RAM (storage), 256GB of SSD (storage) and Linux Ubuntu OS. Of course, better specs will equal better performance; these are relatively modest minimum requirements compared to blockchains like Solana, for example. In [Solana](https://docs.solana.com/running-validator/validator-reqs), validators require a 12-core / 24-thread processor, at least 128GB of RAM (256GB of RAM is recommended) and three separate stores (recommended) totaling 2TB (500GB for accounts, 1TB for book, 500GB for OS).
 
-Минимальные системные требования, которые Akash [рекомендует](https://docs.akash.network/validating/validator) для работы с нодами проверки подлинности, включают 4-ядерный процессор, 16 ГБ оперативной памяти (памяти), 256 ГБ SSD (хранилища) и ОС Linux Ubuntu. Конечно, лучшие спецификации будут равняться лучшей производительности; это относительно скромные минимальные требования по сравнению с такими блокчейнами, как, например, Solana. В [Solana](https://docs.solana.com/running-validator/validator-reqs) для валидаторов требуется 12-ядерный / 24-потоковый процессор, как минимум 128 ГБ оперативной памяти (рекомендуется 256 ГБ ОЗУ) и три отдельных хранилища (рекомендуется) общим объемом 2 ТБ (500 ГБ для учетных записей, 1 ТБ для книги, 500 ГБ для ОС).
+The frequency with which the consensus algorithm selects [validators](https://akash.bigdipper.live/validators?sort=votingPower\&dir=-1) to approve network transactions - and hence receive rewards - is proportional to the amount of AKT a validator steams. This creates a competitive environment among validators to acquire AKT on their own or from delegates.
 
-Частота, с которой алгоритм консенсуса выбирает [валидаторов](https://akash.bigdipper.live/validators?sort=votingPower\&dir=-1) для утверждения сетевых транзакций — и, следовательно, получения вознаграждений — пропорциональна сумме AKT, которую стейкает валидатор. Это создает конкурентную среду среди валидаторов для приобретения AKT самостоятельно или у делегаторов.
+Delegates delegate their right to receive rewards to a node operator (validator). This validator then shares the rewards with the delegators (in proportion to how much they delegated) and takes a commission on top. AKT token holders can delegate via the Keplr desktop wallet.
 
-Делегаторы делегируют свое право на получение вознаграждений оператору ноды (валидатору). Затем этот валидатор делит вознаграждение с делегаторами (пропорционально тому, сколько они делегировали) и берет комиссионные сверху. Держатели токенов AKT могут делегировать полномочия через десктопный кошелек Keplr.
+### The lack of decentralization in Web3 or why Akash <a href="#otsutstvie-decentralizacii-v-web3" id="otsutstvie-decentralizacii-v-web3"></a>
 
-### Отсутствие децентрализации в Web3 или почему Akash <a href="#otsutstvie-decentralizacii-v-web3" id="otsutstvie-decentralizacii-v-web3"></a>
+I decided to cover the problem of decentralization for the reader here, taking [Messari's article](https://messari.io/report/akash-solving-web3-s-centralization-problems) as a basis. It seems to me that this valuable material should be placed here.
 
-Я решил для читателя осветить тут проблему децентрализации, взяв за основу [статью Messari](https://messari.io/report/akash-solving-web3-s-centralization-problems). Мне кажется, что стоит этот ценный материал поместить именно сюда.
+There are two major issues affecting the sustainability and decentralization of Web3 projects:
 
-Есть две основные проблемы, влияющие на устойчивость и децентрализацию Web3 проектов:
+1. Most of the underlying blockchain infrastructure, including nodes and validators, is hosted on cloud servers by several large technology companies.
+2. The protocol interfaces and middleware are also typically hosted by the same cloud service providers.
 
-1. Большая часть базовой инфраструктуры блокчейна, включая ноды и валидаторов, размещена на облачных серверах нескольких крупных технологических компаний.
-2. Интерфейсы протокола и промежуточное программное обеспечение также обычно размещаются у одних и тех же поставщиков облачных услуг.
+Reliance on large cloud providers to host Web3 infrastructure has resulted in Web3 getting the same centralization issues as Web2. This seriously reduces the anti-fragility and censorship resilience of the protocols and creates numerous vulnerabilities and risks.
 
-Зависимость от крупных облачных провайдеров для размещения инфраструктуры Web3 привела к тому, что Web3 получил те же проблемы, связанные с централизацией, что и Web2. Это серьезно снижает антихрупкость и устойчивость к цензуре протоколов и создает многочисленные уязвимости и риски.
+A closer look at the breakdown of nodes across the two main protocols reveals a lack of decentralization. In Ethereum, [65%](https://www.ethernodes.org/network-types) of all nodes are hosted in data centers. Of those nodes, [63%](https://www.ethernodes.org/networkType/Hosting) are hosted by just three major cloud providers (AWS, Hetzner and OVH) and 43% are hosted only by AWS. This means that Amazon could shut down nearly a third of Ethereum's nodes within minutes. For Solana, the exact breakdown of nodes by network type is unknown, but it is estimated that more than 95% of all nodes are hosted in data centers. That being said, [67%](https://www.validators.app/data-centers?locale=en\&network=mainnet\&sort\_by=asn) of the nodes are hosted by the same top three cloud providers as Ethereum. The services of these three cloud providers are also used by [64%](https://www.validators.app/data-centers?locale=en\&network=mainnet\&sort\_by=asn) of the active SOL stackers on the network.
 
-При более внимательном рассмотрении разбивки нод по двум основным протоколам становится очевидным отсутствие децентрализации. В Ethereum [65%](https://www.ethernodes.org/network-types) всех нод размещены в центрах обработки данных. Из этих нод [63%](https://www.ethernodes.org/networkType/Hosting) размещены всего тремя крупными облачными провайдерами (AWS, Hetzner и OVH), а 43% - только на AWS. Это означает, что Amazon может отключить почти треть нод Ethereum в течение нескольких минут. Для Solana точная разбивка нод по типу сети неизвестна, но, по оценкам, более 95% всех нод-валидаторов размещены в центрах обработки данных. С учетом сказанного, [67%](https://www.validators.app/data-centers?locale=en\&network=mainnet\&sort\_by=asn) нод размещены на тех же трех ведущих облачных провайдерах, что и Ethereum. Услугами этих трех облачных провайдеров также пользуются [64%](https://www.validators.app/data-centers?locale=en\&network=mainnet\&sort\_by=asn) от активных стейкеров SOL в сети.
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-![](https://telegra.ph/file/d05ed121065d05bd9372c.png)
+In addition, many projects use large cloud providers to host their middleware and interfaces for websites and applications, creating another centralized point of vulnerability. If a project's interface, in which most users interact with network contracts, is hosted by AWS, it does not matter how decentralized the back-end protocol is, because AWS can simply disable the interface. A centralized interface also allows the project team to control how the user interacts with the protocol. Finally, using a centralized cloud provider exposes the protocol to the risk of failures depending on the provider's uptime, as was the case with dYdX last December.
 
-Кроме того, многие проекты используют крупных облачных провайдеров для размещения своего промежуточного программного обеспечения и интерфейсов для веб-сайтов и приложений, что создает еще одну централизованную точку уязвимости. Если интерфейс проекта, в котором большинство пользователей взаимодействуют с сетевыми контрактами, размещен на AWS, не имеет значения, насколько децентрализован внутренний протокол, поскольку AWS может просто отключить интерфейс. Централизованный интерфейс также позволяет проектной команде контролировать, как пользователь взаимодействует с протоколом. Наконец, использование централизованного облачного провайдера подвергает протокол риску сбоев в зависимости от времени безотказной работы провайдера, как это было с dYdX в декабре прошлого года.
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-![https://twitter.com/dydx/status/1468293558360805381?lang=en](https://telegra.ph/file/85c2164a58f0c6569d0dc.png)
+As much of the Web3 infrastructure resides on a few cloud providers' servers, the ability of large technology companies and governments to censor these protocols increases. In addition, this concentration increases the likelihood that regulators will seize [the opportunity](https://twitter.com/collins\_belton/status/1478120309332987905) to take the industry under their regulatory umbrella. This is why so many lawyers [are emphasizing](https://twitter.com/jchervinsky/status/1427652238101684231) the importance of decentralizing Web3 front-ends, as they represent a major attack vector...
 
-Поскольку большая часть инфраструктуры Web3 размещается на нескольких серверах облачных провайдеров, возможности крупных технологических компаний и правительств подвергать цензуре эти протоколы возрастают. Кроме того, такая концентрация повышает вероятность того, что регулирующие органы воспользуются [возможностью](https://twitter.com/collins\_belton/status/1478120309332987905) взять отрасль под свой регулирующий зонт. Вот почему так много юристов [подчеркивают](https://twitter.com/jchervinsky/status/1427652238101684231) важность децентрализации фронт-эндов Web3, ведь они представляют собой основной вектор атак...
+Developers need access to a distributed, full-featured Web3 solution to deploy truly decentralized Web applications. The stack must include infrastructure projects that can provide a decentralized domain name system (DNS), computation for middleware and hosting interfaces, and data storage for backups.
 
-Разработчикам необходим доступ к распределенному полнофункциональному решению Web3 для развертывания действительно децентрализованных веб-приложений. Стек должен включать инфраструктурные проекты, которые могут обеспечить децентрализованную систему доменных имен (DNS), вычисления для промежуточного программного обеспечения и интерфейсов хостинга, а также хранилище данных для резервных копий.
+Through multiple technology partnerships, Akash can provide access to [a full-stack decentralized solution](https://docs.akash.network/integrations/unstoppable-web-2.0). Akash collaborates and integrates with the blockchain-based DNS system, [Handshake;](https://handshake.org/) [Filebase](https://filebase.com/blog/filebase-and-akash-announce-partnership/), an S3-compliant object storage platform based on multiple decentralized storage networks; [Skynet](https://akash.network/blog/akash-network-and-skynet-labs-provide-a-full-stack-for-the-unstoppable-web), a hosting platform that provides decentralized storage and interfaces via Sia.
 
-Благодаря многочисленным технологическим партнерствам Akash может предоставить доступ к [децентрализованному решению с полным стеком](https://docs.akash.network/integrations/unstoppable-web-2.0). Akash сотрудничает и интегрируется с DNS системой, работающей на блокчейне, [Handshake;](https://handshake.org/) [Filebase](https://filebase.com/blog/filebase-and-akash-announce-partnership/), S3-совместимой платформой объектного хранения данных на базе нескольких децентрализованных сетей хранения данных; [Skynet](https://akash.network/blog/akash-network-and-skynet-labs-provide-a-full-stack-for-the-unstoppable-web), платформой хостинга, которая обеспечивает децентрализованное хранилище и интерфейсы через Sia.
+Akash gives users the ability to easily choose from a list of 60 (the number is steadily growing) [active providers](https://www.akashlytics.com/) the one they want.
 
-Akash дает пользователям возможность легко выбирать из списка, состоящего из 60 (цифра неуклонно растет) [активных провайдеров](https://www.akashlytics.com/) того, которого они захотят.
+Akash is not the only blockchain project trying to change the nearly half-a-trillion-dollar cloud computing market. Its other decentralized competitors include Dfinity (Internet Computer), Ankr and Cudos. Ankr and Internet Computer have a different approach to cloud computing than Akash. Meanwhile, Cudos almost completely replicates Akash.
 
-Akash не единственный блокчейн-проект, пытающийся изменить рынок облачных вычислений стоимостью почти полтриллиона долларов. Среди других его децентрализованных конкурентов стоит отметить Dfinity (Internet Computer), Ankr и Cudos. У Ankr и Internet Computer подход к облачным вычислениям отличается от того, который использует Akash. Между тем, Cudos практически полностью повторяет Akash.
+### **Akash use options** <a href="#v3w5" id="v3w5"></a>
 
-Обязательно почитайте про эти проекты [тут](https://messari.io/report/akash-a-decentralized-approach-to-cloud-computing?referrer=grid-view), а я скипаю, есть еще немного интересностей про Akash.
+**Nodes**\
+Akash is a great solution for hosting Proof-of-Stake (PoS) validator nodes, and currently hosts nodes for Helium, Osmosis, KYVE and many other projects. As a native Cosmos project, Akash has focused on streamlining the deployment of validator nodes for blockchain in the Cosmos ecosystem by releasing Cosmos Omnibus. Cosmos Omnibus is a standardized Docker image package that simplifies and standardizes node deployment for any Cosmos SDK-based blockchain on Akash.
 
-### **Возможности использования Akash** <a href="#v3w5" id="v3w5"></a>
+In April, Akash unlocked persistent storage, which allows data to remain available for the duration of the lease, even after a power reset. Persistent storage is a feature available in most public cloud environments and is ideal for data-intensive workloads. With persistent storage, Akash can now host full blockchain nodes and database-driven applications. Support for more complex nodes, including THORChain and Solana nodes, is underway.
 
-**Ноды**\
-Akash - это отличное решение для размещения нод валидатора Proof-of-Stake (PoS), и в настоящее время на нем размещены ноды для Helium, Osmosis, KYVE и многих других проектов. Будучи нативным проектом Cosmos, Akash сосредоточился на оптимизации процесса развертывания нод валидатора для блокчейн в экосистеме Cosmos, выпустив Cosmos Omnibus. Cosmos Omnibus - это стандартизированный пакет образов Docker, который упрощает и стандартизирует развертывание ноды для любого блокчейна на базе Cosmos SDK на Akash.
+**Dashboards and middleware**\
+Dashboards act as a bridge between users, developers, and applications. It allows users to interact with the blockchain and developers to create applications. The middleware also provides a friendly user interface and improves the overall user experience for decentralized applications and web applications. Akash can be used to host middleware such as API and RPC nodes, dashboards and blockchain explorers. In addition, each application and website requires a front-end, which can also be hosted on Akash.
 
-В апреле Akash разблокировал постоянное хранилище, которое позволяет данным оставаться доступными в течение всего срока аренды, даже после перезагрузки питания. Постоянное хранение данных - это функция, доступная в большинстве публичных облачных сред, и она идеально подходит для рабочих нагрузок, требующих больших объемов данных. Благодаря постоянному хранилищу Akash теперь может размещать полноценные блокчейн ноды и приложения, основанные на базе данных. В настоящее время осуществляется поддержка более сложных нод, включая ноды THORChain и Solana.
-
-**Дашборды и промежуточное ПО**\
-Промежуточное программное обеспечение выступает в качестве связующего звена между пользователями, разработчиками и приложениями. Оно позволяет пользователям взаимодействовать с блокчейном, а разработчикам - создавать приложения. Промежуточное ПО также обеспечивает дружественный пользовательский интерфейс и улучшает общий пользовательский опыт для децентрализованных приложений и веб-приложений. Akash можно использовать для размещения промежуточного программного обеспечения, такого как ноды API и RPC, дашборды и блокчейн-эксплореры. Кроме того, каждому приложению и веб-сайту требуется фронт-энд, который также может быть размещен на Akash.
-
-**Майнеры**\
-Учитывая низкую цену Akash по сравнению с основными облачными провайдерами, это дает хорошую возможность для майнеров использовать его. В то время как некоторые традиционные облачные платформы ограничивают майнинг, майнеры используют Akash для добычи таких проектов, как Monero, Chia и PKT Cash.
+**Miners**\
+Considering the low price of Akash compared to mainstream cloud providers, it provides a good opportunity for miners to use it. While some traditional cloud platforms limit mining, miners use Akash to mine projects such as Monero, Chia and PKT Cash.
 
 **DAOs**\
-Akash предоставляет идеальное хостинговое решение для DAO. Если у DAO есть веб-сайт или приложение, нуждающееся в хостинге, ей необходимо назначить одного человека для регистрации у централизованного облачного провайдера. Для этого потребуются личные данные человека и информация о его кредитной карте. Помимо потери анонимности, это также приводит к риску "человек-ключ", когда один человек может контролировать развертывание для всей DAO. С помощью Akash можно создать мультисиг-кошелек, чтобы множество людей могли контролировать развертывание, и все это без какого-либо KYC.
+Akash provides an ideal hosting solution for DAOs. If a DAO has a website or application in need of hosting, it needs to designate one person to register with the centralized cloud provider. This will require the person's identity and credit card information. In addition to the loss of anonymity, this also leads to a human-key risk where one person can control the deployment for the entire DAO. With Akash, it is possible to create a multi-sig wallet so that multiple people can control the deployment, all without any KYC.
 
-**Графические процессоры**\
-Akash планирует добавить рынок GPU во втором квартале 2022 года. Это позволит сети обрабатывать большие объемы данных, такие как машинное обучение, искусственный интеллект, рендеринг и облачные игры. Новые сценарии использования, открываемые графическими процессорами в Akash, вызовут дополнительный спрос на сеть.
+**GPUs**\
+Akash plans to add a GPU market in the second quarter of 2022. This will enable the network to handle large amounts of data such as machine learning, artificial intelligence, rendering and cloud gaming. The new use cases opened up by GPUs in Akash will generate additional demand for the network.
 
-Подробный проект обновления дорожной карты [_здесь_](https://akash.network/ru/roadmap).
+A detailed draft of the roadmap update [_is here_](https://akash.network/ru/roadmap).
 
-Сеть Akash была запущена в марте 2021. В апреле 2022 года прошло большое обновление Mainnet 3.0 (версия [0.16)](https://github.com/ovrclk/akash/releases), которое:
+Akash network was launched in March 2021. In April 2022 there was a big update of Mainnet 3.0 (version [0.16)](https://github.com/ovrclk/akash/releases), which:
 
-* Открыло доступ к постоянному хранилищу. Эта функциональность полностью имитирует возможности хранения в общедоступных облачных средах.
-* Возможность сохранения доступности данных в течение срока их аренды является огромным шагом вперед для многих вариантов использования развертывания. В будущих версиях будет рассмотрена возможность сохранения данных при аренде, что добавит еще больше возможностей. Ознакомьтесь с документацией [здесь](https://docs.akash.network/features/persistent-storage).
+* Opened access to persistent storage. This functionality fully mimics the storage capabilities of public cloud environments.
+* The ability to keep data available for the duration of their lease is a huge step forward for many deployment use cases. Future versions will look at the ability to retain data during a lease, which will add even more features. Check out the documentation [here](https://docs.akash.network/features/persistent-storage).
 
-### **Экосистема Akash** <a href="#z5ar" id="z5ar"></a>
+### **Akash Ecosystem** <a href="#z5ar" id="z5ar"></a>
 
-Посмотрите, сколько даппок едут на Akash, меня впечатлило:
+Look at how many dappos are going to Akash, I was impressed:
 
-![](https://img2.teletype.in/files/1a/09/1a09f86a-649d-4570-aa39-d717f0ab42b8.png)![](https://img2.teletype.in/files/1a/09/1a09f86a-649d-4570-aa39-d717f0ab42b8.png)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **$AKT** <a href="#13hx" id="13hx"></a>
 
-**Akash Token (AKT)** - это нативный токен платформы, используемый в качестве основного средства управления, обеспечения безопасности блокчейна, стимулирования участников и механизма для хранения и обмена средствами.
+**Akash Token (AKT)** is a native platform token used as the primary means to manage, secure the blockchain, incentivize participants and a mechanism to store and exchange funds.
 
-![https://messari.io/report/akash-a-decentralized-approach-to-cloud-computing?referrer=grid-view](https://img1.teletype.in/files/49/1b/491b8f34-614d-40b7-b3f2-c1f8a3cfd55c.png)
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p><a href="https://messari.io/report/akash-a-decentralized-approach-to-cloud-computing?referrer=grid-view">https://messari.io/report/akash-a-decentralized-approach-to-cloud-computing?referrer=grid-view</a></p></figcaption></figure>
 
-В момент генезиса 100 миллионов AKT были распределены в соответствии с распределением, представленным на графике выше, в то время как примерно 289 миллионов AKT были запланированы к выпуску в качестве инфляционных наград для стейкеров, изначально установленных на 100% APR, который должен был уменьшаться вдвое каждые два года. Голосование по вопросам управления изменило сокращение вдвое примерно на каждые 3,7 месяца. По словам основателя Akash Грега Осури, протокол планирует вознаграждать облачных провайдеров эмиссиями, хотя эта функция будет реализована позднее.
+At the time of genesis, 100 million AKTs were distributed in accordance with the distribution shown in the chart above, while approximately 289 million AKTs were scheduled for issuance as inflationary awards for stakers, originally set at 100% APR, which was to be halved every two years. The governance vote changed the halving to about every 3.7 months. According to Akash founder Greg Osuri, the protocol plans to reward cloud providers with issuances, though the feature will be implemented at a later date.
 
-Еще не реализованная, но упомянутая в whitepaper новость: Akash планирует взимать "плату за принятие" за каждую успешную аренду. Затем она будет направлять эту плату в пул доходов от сдачи в аренду для распределения среди держателей. Планируется, что комиссия будет составлять 10% для транзакций в AKT и 20% в случае использования других криптовалют. Akash также планирует вознаграждать стейкеров AKT. Держатели, которые стейкают в течение длительного времени, будут иметь право на более крупные вознаграждения.
+News not yet realized, but mentioned in the whitepaper: Akash plans to charge an "acceptance fee" for each successful lease. It will then channel this fee into a pool of rental revenues for distribution to holders. The fee is planned to be 10% for AKT transactions and 20% for other cryptocurrencies. Akash also plans to reward AKT steakers. Holders who steak for a long time will be eligible for larger rewards.
 
-![](https://img4.teletype.in/files/7a/15/7a150750-b625-4018-8cf6-d8ec49b0f4d8.png)
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-### **Выводы** <a href="#4vsq" id="4vsq"></a>
+### **Conclusions** <a href="#4vsq" id="4vsq"></a>
 
-Akash не предназначен для замены централизованной индустрии облачных вычислений, он просто дополнит ее. Облачные вычисления и вхождение Akash в эту отрасль - разные вещи. Подобно тому, как Airbnb не уничтожает отели, Akash не уничтожает централизованных поставщиков данных. И Airbnb, и Akash просто позволяют частным лицам сдавать в аренду неиспользуемые мощности.
+Akash is not intended to replace the centralized cloud computing industry, it will simply complement it. Cloud computing and Akash's entry into that industry are different things. Just as Airbnb is not destroying hotels, Akash is not destroying centralized data providers. Both Airbnb and Akash simply allow individuals to rent out unused capacity.
 
-Возможно, Akash сможет привлечь клиентов облачных сервисов, предлагая цены в разы ниже, чем у большой тройки провайдеров, а также обеспечивая гибкость, отсутствие привязки к поставщику и контроль над ресурсами, используемыми для развертывания. В то время как традиционные предприятия создают криптоподразделения и становятся более грамотными в технологиях Web3, Akash будет находиться в авангарде децентрализованных облачных вычислений с функционирующим мейннетом и бизнес-моделью, которая устраняет неэффективность со стороны предложения.
+Akash may be able to attract cloud customers by offering pricing at times lower than the big three providers, as well as providing flexibility, no vendor lock-in, and control over the resources used for deployment. At a time when traditional enterprises are building crypto-environments and becoming more Web3 technology literate, Akash will be at the forefront of decentralized cloud computing with a functioning mainnet and a business model that eliminates inefficiencies on the supply side.
 
-### **Резюме** <a href="#h83k" id="h83k"></a>
+### **Links** <a href="#ixdt" id="ixdt"></a>
 
-Я наткнулся на множество статей прошлого года, где рассказывалось, почему у Akash не получится. Тем приятнее сейчас это читать и смотреть, что же получилось. У меня проект вызвал те же эмоции восторга, что и Sentinel. Важно видеть проекты, разрывающие шаблон "крипта ради крипты". Я еще не прошел путь аренды инфраструктуры, поэтому не могу оценить удобство и простоту, а так же надежность, но уже точно можно говорить о заметно более низких ценах и фундаментальности подхода. Инфраструктура блокчейна - это базовый слой всей экосистемы, поэтому крайне важно, чтобы фундамент, на котором она строится, был стабильным. Если протокол полностью зависит от нескольких централизованных облачных провайдеров, это подрывает всю цель децентрализованных протоколов. С помощью Akash протоколы могут еще больше децентрализовать свою инфраструктуру и уменьшить зависимость от крупных облачных провайдеров. Децентрализованный облачный рынок Akash предоставляет проектам Web3 большую гибкость и безопасность при меньших затратах, чем традиционные облачные провайдеры.
-
-Мы не знаем, куда придем, но "делай нормально - будет нормально" видится здравым подходом. Можешь нивелировать риск, связанный с провайдером - сделай это!
-
-### **Полезные ссылки** <a href="#ixdt" id="ixdt"></a>
-
-Сайт - [https://akash.network/ru](https://akash.network/ru)\
-Твиттер (ру) - [https://twitter.com/akash\_ru](https://twitter.com/akash\_ru)\
-Форум - [https://forum.akash.network](https://forum.akash.network)\
-Дискорд - [https://discord.gg/ewVh3mss](https://discord.gg/ewVh3mss)\
+Website - [https://akash.network/ru](https://akash.network/ru)\
+Twitter (ru) - [https://twitter.com/akash\_ru](https://twitter.com/akash\_ru)\
+Forum - [https://forum.akash.network](https://forum.akash.network)\
+Discord - [https://discord.gg/ewVh3mss](https://discord.gg/ewVh3mss)\
 Vkontakte - [https://vk.com/akash\_ru](https://vk.com/akash\_ru)

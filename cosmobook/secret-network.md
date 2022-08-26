@@ -26,7 +26,7 @@ Secret Network, thanks to Cosmos IBC, can communicate with a range of other netw
 
 ### **Examples of using the capabilities of the Secret Network**
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 The scheme provides an opportunity to secretly withdraw funds from a wallet (say, that was discredited on CEX) to a newly created wallet. The scheme also allows you to secretly transfer funds from your wallet to someone else's (say, to make a payment). If the payment is made through an intermediary wallet, even the recipient will not be able to determine where the funds came from.
 

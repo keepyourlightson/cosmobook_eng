@@ -2,75 +2,75 @@
 
 ![](https://img2.teletype.in/files/1a/f2/1af2d2b9-0315-405d-b378-4560e891fc5a.png)
 
-## **Injective**
+## Injective
 
-**Injective** - это L1 блокчейн, ориентированный на DeFi и созданный для децентрализованного обмена деривативами следующего поколения. Injective Chain имеет децентрализованный протокол DEX, работающий по модели книги ордеров, и мост токенов ERC-20 к Ethereum.
+**Injective** is a DeFi-centric L1 blockchain designed for decentralized exchange of next-generation derivatives. Injective Chain has a decentralized DEX protocol running on the order book model and an ERC-20 token bridge to Ethereum.
 
-Каждый компонент Injective был создан так, чтобы быть полностью защищенным, устойчивым к цензуре и поддающимся публичной проверке.
+Every component of Injective has been designed to be fully secure, censor-resistant, and publicly verifiable.
 
-На Injective разработчики могут создавать собственные деривативы и торговые рынки.
+On Injective, developers can create their own derivatives and trading markets.
 
-### Команда <a href="#vwfx" id="vwfx"></a>
+### Team <a href="#vwfx" id="vwfx"></a>
 
-За созданием и разработкой Injective стоит компания Injective Labs.
+Behind the creation and development of Injective is Injective Labs.
 
-Injective Labs не только отвечают за интерфейс ретранслятора, который подключает пользователей к сети Injective, но и обеспечивают бэкэнд-поддержку протокола.
+Injective Labs is not only responsible for the repeater interface that connects users to the Injective network, but also provides backend support for the protocol.
 
-У команды Injective есть веб-страница, посвященная исключительно их лабораториям. Посетите ее [здесь](https://injectivelabs.org/).
+The Injective team has a web page dedicated exclusively to their labs. Visit it [here](https://injectivelabs.org/).
 
-### **Будущее финансов для масс-адопшн Injective обозначили в следующих тезисах:**
+**The future of finance for mass-adoption Injective outlined in the following talking points:**
 
-* Оптимизация для DeFi. Взаимозаменяемые примитивы для создания основных DApps.
-* Межсетевая совместимость. Беспрепятственная связь между суверенными блокчейнами для удобной работы пользователей.
-* Высокая степень безопасности и быстрые надежные транзакции с мгновенным завершением.
-* Интуитивно понятный интерфейс для разработчика. Гибкие и выразительные среды разработки на базе Rust и Golang.
-* Горизонтальная масштабируемость. Мгновенная передача данных по параллельным сетям для динамического масштабирования.
-* Низкая плата за использование различные финансовых продуктов.
-* Экологичность. Снижение углеродного следа на 99% благодаря механизму консенсуса Injective (\*по-нашему мнению, попахивает простым популизмом)
-* Полная настраиваемость/кастомизация. Возможность быстрого изменения любого параметра использования продукта в соответствии с вашим сценарием.
+* Optimization for DeFi. Interchangeable primitives for creating basic DApps.
+* Interoperability. Seamless communication between sovereign blockchains for a user-friendly experience.
+* High level of security and fast reliable transactions with instant closure.
+* Intuitive interface for the developer. Flexible and expressive development environments based on Rust and Golang.
+* Horizontal scalability. Instant data transfer over parallel networks for dynamic scalability.
+* Low fees for the use of various financial products.
+* Eco-friendliness. Carbon footprint reduced by 99% thanks to the Injective consensus mechanism.
+* Full customizability/customizability. Ability to quickly change any product usage parameter to suit your scenario.
 
-### **Чем Injective пытается привлечь своих клиентов:**
+### **What Injective is trying to do to attract its customers:**
 
-* Injective оптимизирован для работы с децентрализованными финансами и предоставляет готовые финансовые примитивы, такие как полностью децентрализованная книга ордеров, что позволяет разработчикам легко и просто создавать свои dApps. Например, приложения могут использовать книгу ордеров для запуска бирж, рынков предсказаний и других подобных продуктов.
-* Совместимость: Injective изначально совместим с рядом блокчейн-сетей, а также поддерживает IBC. Injective позволяет осуществлять межсетевые транзакции между Ethereum, Moonbeam и сетями с поддержкой IBC, такими как CosmosHub.
-* Создание dApps с использованием CosmWasm: Injective поддерживает CosmWasm, новую платформу смарт-контрактов, созданную для экосистемы Cosmos. Это означает, что разработчики могут легко запускать свои собственные приложения на основе готовых смарт-контрактов на Injective. Смарт-контракты, работающие в других сетях, поддерживающих CosmWasm, могут быть легко перенесены на Injective.
-* Запуск токенов, совместимых с Ethereum и IBC: Поскольку Injective поддерживает межсетевые транзакции с Ethereum и всеми IBC сетями, токены, запущенные на Injective, могут по умолчанию работать в различных сетях.
-* Интуитивно понятный интерфейс разработчика: Возможность использовать гибкие и выразительные среды разработки на базе Rust и Golang.
-* 25.05.2022 Injective Labs [объявила](https://blog.injective.com/defi-injective-adds-solana-avalanche-polygon-interoperability-with-wormhole-integration/) об интеграции Wormhole, протокола передачи сообщений, в экосистему Injective. Интеграция позволит децентрализованным приложениям (dApps) в экосистеме Injective соединяться с блокчейнами Algorand, Avalanche, BNB Chain, Fantom, Oasis, Polygon и Solana.
-* \- С 3 июня 2022 года вы можете начать перевод активов из Polkadot с помощью [**моста Injective Bridge** ](https://hub.injective.network/bridge)(благодаря интеграции с Moonbeam и Axelar) (детали [тут](https://blog.injective.com/injective-integrates-polkadot-assets-to-expand-the-cross-chain-cosmos-universe/))
+* Injective is optimized to work with decentralized finance and provides off-the-shelf financial primitives, such as a fully decentralized order book, allowing developers to build their dApps easily and easily. For example, apps can use the order book to run exchanges, prediction markets, and other similar products.
+* Compatibility: Injective is initially compatible with a number of blockchain networks and also supports IBC. Injective enables cross-network transactions between Ethereum, Moonbeam and IBC-enabled networks such as CosmosHub.
+* Creating dApps using CosmWasm: Injective supports CosmWasm, a new smart contract platform built for the Cosmos ecosystem. This means that developers can easily run their own apps based on out-of-the-box smart contracts on Injective. Smart contracts running on other networks that support CosmWasm can easily be ported to Injective.
+* Running tokens compatible with Ethereum and IBC: Since Injective supports cross-network transactions with Ethereum and all IBC networks, tokens running on Injective can run on different networks by default.
+* Intuitive developer interface: Ability to use flexible and expressive development environments based on Rust and Golang.
+* 25.05.2022 Injective Labs [announced](https://blog.injective.com/defi-injective-adds-solana-avalanche-polygon-interoperability-with-wormhole-integration/) the integration of Wormhole, a messaging protocol, into the Injective ecosystem. The integration will allow decentralized applications (dApps) in the Injective ecosystem to connect with Algorand, Avalanche, BNB Chain, Fantom, Oasis, Polygon and Solana blockchains.
+* \- From June 3rd, 2022 you can start transferring assets from Polkadot using [**Injective Bridge** ](https://hub.injective.network/bridge)(thanks to integration with Moonbeam and Axelar) (details [here](https://blog.injective.com/injective-integrates-polkadot-assets-to-expand-the-cross-chain-cosmos-universe/))
 
-![](https://img3.teletype.in/files/61/4f/614f49d2-66b3-4d46-a85a-c371ba711981.png)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Протокол Injective состоит из нескольких ключевых компонентов.
+The Injective protocol consists of several key components.
 
-**Injective Chain** - это протокол децентрализованного обмена (DEX), построенный на базе Cosmos, который также позволяет передавать и торговать токенами Ethereum. Эта сеть призвана решить проблемы масштабирования и пропускной способности, с которыми сталкиваются многие блокчейны первого уровня, при этом позволяя разработчикам использовать привычные для них наборы средств разработки Ethereum.
+**Injective Chain** is a decentralised exchange (DEX) protocol built on top of Cosmos that also allows Ethereum tokens to be transmitted and traded. This network is designed to address the scaling and bandwidth challenges faced by many Tier 1 blockchains, while allowing developers to use Ethereum's familiar development toolkits.
 
-### **Трейдеры могут получить доступ к нескольким модулям в рамках Injective Chain DEX:**
+### **Traders can access multiple modules within Injective Chain DEX:**
 
-**Аукцион** - позволяет держателям токенов стейкать корзины токенов, которые были накоплены за счет сборов от биржевой торговли. Токены INJ (нативный токен сети), заплаченные участником, предложившим наибольшую цену, сжигаются, или исключаются из обращения, в соответствии с алгоритмом протокола.
+**Auction** - allows token holders to stake baskets of tokens that have been accumulated through fees from exchange trading. INJ tokens (native network token) paid by the highest bidder are burned, or eliminated from circulation, according to the protocol algorithm.
 
-Согласно решению сообщества Injective в рамках развертывания canonical mainnet, каждую неделю 60% комиссий, взимаемых протоколом за свопы токенов, будут проходить процедуру обратного выкупа и сжигания, которая управляется аукционом, проводимым сообществом. Аукцион работает следующим образом:
+As decided by the Injective community as part of the canonical mainnet rollout, each week 60% of the fees charged by the protocol for token swaps will go through a buy-back and burnout process that is managed by an auction run by the community. The auction works as follows:
 
-* Комиссии, собранные протоколом, включаются в аукцион (например: предположим, что есть корзина в 100 долларов. 50 долларов в ETH и 50 долларов в WBTC).
-* Пользователи могут делать **ставки, используя только INJ** (допустим, пользователь A предлагает 90 долларов в INJ, а пользователь B - 95 долларов в INJ).
-* Пользователь B выиграет ставку с 95 долларами. Фактически, пользователь B может владеть корзиной активов стоимостью 100 долларов всего за 95 долларов, что потенциально открывает возможности для арбитража.
-* 95 долларов, выплаченные INJ, будут немедленно сожжены.
-* После этого начинается новый аукцион
+* The commissions collected by the protocol are included in the auction (for example: suppose there is a basket of $100. $50 in ETH and $50 in WBTC).
+* Users can **bid using only INJ** (let's say user A bids $90 in INJ and user B bids $95 in INJ).
+* User B will win the bet with $95. In fact, User B can own a $100 asset basket for only $95, potentially opening up arbitrage opportunities.
+* The $95 paid to INJ will be burned immediately.
+* After that, a new auction begins
 
-**Биржа** - помогает трейдерам создавать и торговать на новых спотовых и деривативных рынках. Биржа Injective - это биржа с моделью книги ордеров, основанная на популярном протоколе 0x. Команда Injective открыла исходный код всех компонентов биржи (пользовательский интерфейс, набор смарт-контрактов, система управления книгой ордеров), стремясь сделать платформу прозрачной и доступной.
+**Exchange** - helps traders create and trade in new spot and derivatives markets. Injective Exchange is an exchange with an order book model based on the popular 0x protocol. The Injective team has opened the source code of all exchange components (user interface, smart contract set, order book management system), aiming to make the platform transparent and accessible.
 
-Биржа Injective также использует координатор исполнения сделок (TEC). TEC создает задержку, чтобы новые ордера не могли быть размещены раньше старых, пытаясь таким образом решить проблему передовой информации, получаемой некоторыми маркет-мейкерами или ботами.\
-**Страхование** - способствует работе страховщиков, которые поддерживают рынки деривативов, размещенных на бирже.\
-**Oracle** - получает реальные ценовые данные (например, данные традиционного фондового рынка), используемые для установления цен активов на бирже INJ. В общем, это система оракулов.\
-**Peggy** - соединяет протокол Injective с блокчейном Ethereum, позволяя осуществлять торговлю ERC-20 токенами.
+Injective Exchange also uses a Trade Execution Coordinator (TEC). The TEC creates a delay so that new orders cannot be placed before old orders, thus attempting to address the problem of advanced information received by some market makers or bots.\
+**Insurance** - facilitates insurers that support derivatives markets that are listed on the exchange.\
+**Oracle** - obtains real price data (e.g., traditional stock market data) used to set asset prices on the INJ exchange. Basically, it is an oracle system.\
+**Peggy** - connects the Injective protocol with the Ethereum blockchain, allowing ERC-20 tokens to be traded.
 
-### Архитектура Injective <a href="#iiur" id="iiur"></a>
+### Injective architecture <a href="#iiur" id="iiur"></a>
 
-С архитектурной точки зрения существует два основных сервиса, которые предоставляются пользователю:
+Architecturally, there are two main services that are provided to the user:
 
-1. **Injective Chain node** (сетевой API) - детали [тут.](https://api.injective.exchange/#chain-api)
+1. **Injective Chain node** (network API) - details [here ](https://api.injective.exchange/#chain-api).
 
-В настоящее время в майннете можно подключиться к трем нодам, которые расположены в США и Токио:
+There are currently three nodes in Mainnet that can be connected to, which are located in the US and Tokyo:
 
 U.S. Sentry Node: sentry0.injective.network
 
@@ -78,174 +78,177 @@ U.S. Sentry Node: sentry1.injective.network
 
 Tokyo Sentry Node: sentry3.injective.network
 
-2\. **Injective Exchange API** - детали [тут](https://api.injective.exchange/#exchange-api)[.](https://api.injective.exchange/#chain-api)
+2\. **Injective Exchange API** - details [here](https://api.injective.exchange/#exchange-api)[.](https://api.injective.exchange/#chain-api)
 
-Exchange API предназначен только для чтения, в то время как Chain API предназначен для записи, а также включает ограниченный набор API-запросов для чтения данных. Chain API считывает запрос состояния блокчейна непосредственно с ноды, в отличие от Exchange API, который восстанавливает состояние из событий, отправляемых сетью.
+The Exchange API is read-only, while the Chain API is write-only, and includes a limited set of read-only API requests. Chain API reads a blockchain state request directly from a node, as opposed to Exchange API, which recovers state from events sent by the network.
 
-На высоком уровне конечные торговые приложения и продукты Injective используют Exchange API для чтения данных, а Chain API - для записи данных в блокчейн. Хотя можно разрабатывать торговые приложения, используя только Chain API, Exchange API включает больше методов, поддержку потоковой передачи, gRPC, а также позволяет получать исторические данные (Chain API запрашивает состояние блокчейна, которое не включает исторические записи).
+At a high level, endpoint trading applications and Injective products use the Exchange API to read data and the Chain API to write data to the blockchain. While it is possible to develop trading applications using only Chain API, Exchange API includes more methods, streaming support, gRPC, and allows historical data (Chain API queries the state of the blockchain, which does not include historical records).
 
-### Как это работает? <a href="#rpea" id="rpea"></a>
+### How does it work? <a href="#rpea" id="rpea"></a>
 
-Давайте для понимания процессов, происходящих под капотом Injective посмотрим на жизненный цикл торговли, который выглядит следующим образом:
+Let's take a look at the life cycle of a trade to understand the processes going on under the hood of Injective, which is as follows:
 
-1. Во-первых, трейдеры криптографически подписывают транзакцию, содержащую одно или несколько сообщений об ордере (например,`MsgBatchCreateDerivativeLimitOrders`, `MsgCreateSpotMarketOrder`, `MsgCancelDerivativeLimitOrder`, и т.д.).
-2. Затем транзакция транслируется в ноду сети Injective.
-3. Далее транзакция добавляется в mempool и включается в блок. Более подробную информацию об этом процессе можно найти [здесь](https://docs.cosmos.network/master/basics/tx-lifecycle.html) .
-4. Запускается обработчик для каждого соответствующего сообщения. Во время выполнения обработчика сообщения об отмене и ликвидации ордера обрабатываются немедленно, тогда как сообщения о создании ордера добавляются в очередь.
-5. В конце блока начинается процесс пакетного аукциона для сопоставления ордеров.
-6.
-   * Во-первых, рыночные ордера, поставленные в очередь, выполняются в отношении оставшейся книги ордеров (которая НЕ включает новые ордера из текущего блока) и очищаются по единой клиринговой цене.
-   * Во-вторых, поставленные в очередь лимитные ордера сопоставляются друг с другом и с остальной книгой ордеров, чтобы избежать повторов и пересечений. Лимитные ордера, созданные в этом блоке, очищаются по единой клиринговой цене, в то время как остальные лимитные ордера, созданные в предыдущих блоках, очищаются по цене, равной или лучшей, чем цена их лимитного ордера.
-7. Средства рассчитываются соответствующим образом, при этом создаются позиции для сделок с производными инструментами, а активы обмениваются на спотовые сделки.
-8. События, содержащие информацию о торговле и расчетах, генерируются сетью.
-9. Серверная часть Injective Exchange API индексирует события и отправляет обновления всем подписанным трейдерам.
+1. First, traders cryptographically sign a transaction containing one or more order messages (e.g.`,MsgBatchCreateDerivativeLimitOrders`, `MsgCreateSpotMarketOrder`, `MsgCancelDerivativeLimitOrder`, etc.).
+2. The transaction is then broadcast to an Injective network node.
+3. The transaction is then added to mempool and included in the block. More information about this process can be found [here](https://docs.cosmos.network/master/basics/tx-lifecycle.html).
+4. A handler is started for each relevant message. While the handler is running, messages for cancellation and liquidation of an order are processed immediately, while messages for creation of an order are added to the queue.
+5. At the end of the block, the batch auction process begins for matching orders.
 
-![](https://img3.teletype.in/files/ac/55/ac558d6c-765a-4702-862b-fe26e8242677.png)
+* First, market orders placed in the queue are executed against the remaining order book (which does NOT include new orders from the current block) and are cleared at a single clearing price.
+* Second, queued limit orders are matched against each other and against the rest of the order book to avoid repetition and overlap. Limit orders created in this block are cleared at a single clearing price, while other limit orders created in previous blocks are cleared at a price equal to or better than their limit order price.
 
-Обработка транзакций в Injective Chain выгодна конечному пользователю, поскольку доступ к сети через DApp биржи облегчает бремя платы за газ. Т.к. биржи транслируют подписанные сообщения узлам Injective Chain, а не трейдерам, все сборы, связанные с взаимодействием с сетью, покрываются биржевым DApp, что приводит к нулевым сборам за газ для трейдеров. Это даёт возможность пользователям торговать на бирже, не имея INJ на своем счету. Такой подход является значительным улучшением UX. Более того, Injective выделяет пул скидок в размере $100 000 для покрытия расходов на газ пользователей,которые впервые переводят средства с Ethereum.
+6\. Funds are settled accordingly, with positions created for derivative transactions and assets exchanged for spot trades.
 
-### Отличия от CEX <a href="#zuea" id="zuea"></a>
+7\. Events containing trade and settlement information are generated by the network.
 
-Теперь можно выделить основные отличия от CEX:
+8\. The server side of the Injective Exchange API indexes events and sends updates to all subscribed traders.
 
-* Вся информация является общедоступной, включая такие вещи, как неиспользованные ордера Стоп/Тейк или отложенные ордера в mempool.
-* Данные, хранящиеся в сети, минимальны по соображениям производительности и отражают только текущее состояние, ретрансляторы предоставляют дополнительные исторические данные, а также пользовательский интерфейс для трейдеров через серверную часть Injective Exchange API.
-* Обычно DEX страдают от проблем, связанных с фронтраннингом (ниже расскажу), однако за счёт быстрой генерации и подтверждения блоков FBA (Frequent Batch Auction), Injective частично решают эту проблему (фронтраннинг все ещё возможен, но его сложнее осуществить).
-* Порядок выполнения отличается. Любое новое действие обмена является новой транзакцией и не выполняется немедленно. Вместо этого оно добавляется в очередь (mempool) и выполняется после фиксации блока. Во время фиксации блока все включенные транзакции происходят практически мгновенно. Во-первых, код, который находится внутри обработчика, выполняется согласно последовательности транзакций, которая определяется майнером. Это не проблема, поскольку последовательность не влияет на совпадающие цены из-за FBA, и, таким образом, пользователям гарантируется справедливое исполнение их запросов.
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-**Немного про Frequent Batch Auction (FBA) или частый пакетный аукцион (я понимаю, что по-русски звучит не очень, но смысл именно в этом)**
+Transaction processing in Injective Chain is beneficial to the end user, as accessing the network through an exchange's DApp alleviates the burden of gas charges. Since exchanges broadcast subscribed messages to Injective Chain nodes rather than traders, all fees associated with network interactions are covered by the exchange DApp, resulting in zero gas fees for traders. This enables users to trade on the exchange without having INJ in their account. This approach is a significant improvement to the UX. Moreover, Injective allocates a $100,000 rebate pool to cover gas charges for users who transfer funds from Ethereum for the first time.
 
-Цель состоит в том, чтобы иметь еще больше возможностей предотвратить любой [Front-Running](https://www.investopedia.com/terms/f/frontrunning.asp) в децентрализованной среде. Большинство DEX страдают от этого, поскольку вся информация является общедоступной, и трейдеры могут вступать в сговор с майнерами или платить высокие сборы за газ, что позволяет их запросам обрабатываться раньше остальных (**ставить свою цену перед вашей**).
+### Differences from CEX <a href="#zuea" id="zuea"></a>
 
-Подробнее об этом явлении, которое называется MEV (miner extractable value) можно почитать [здесь](https://cyberacademy.dev/blog/20-temnyy-les-ethereum-chto-takoe-mev)
+Now we can highlight the main differences from CEX:
 
-Injective смягчает это за счет быстрого времени генерации блока в сочетании с частым пакетным аукционом:
+* All information is publicly available, including things like unused Stop/Take orders or pending orders in mempool.
+* The data stored on the network is minimal for performance reasons and reflects only the current state, the relays provide additional historical data as well as a user interface for traders via the server side of the Injective Exchange API.
+* Usually DEX suffers from problems related to frontrunning, but by quickly generating and validating FBA (Frequent Batch Auction) blocks, Injective partially solves this problem (frontrunning is still possible, but more difficult to implement).
+* The order of execution is different. Any new exchange action is a new transaction and is not executed immediately. Instead, it is added to the queue (mempool) and executed after the block is committed. During a block commit, all included transactions occur almost instantaneously. First, the code that is inside the handler is executed according to the transaction sequence that is defined by the miner. This is not a problem, as the sequence does not affect the matched prices due to FBA, and thus users are guaranteed fair execution of their requests.
 
-В любом заданном блоке:
+### **A little bit about Frequent Batch Auction (FBA) or Frequent Batch Auction.**
 
-1. Рассчитывается одна единая клиринговая цена для всех рыночных ордеров и они исполняются. Пример сопоставления рыночных ордеров с помощью FBA смотрите [здесь](https://api.injective.exchange/#examples-market-order-matching) .
-2. Лимитные ордера объединяются с остальным портфелем ордеров, и ордера сопоставляются до тех пор, пока сохраняется отрицательный спред. Все лимитные ордера сопоставляются по единой клиринговой цене. Пример, согласования лимитных ордеров с помощью FBA смотрите [здесь](https://api.injective.exchange/#examples-limit-order-matching).
+The goal is to be even more able to prevent any [Front-Running](https://www.investopedia.com/terms/f/frontrunning.asp) in a decentralized environment. Most DEX suffers from this because all information is public, and traders can collude with miners or pay high gas fees, allowing their requests to be processed before anyone else**(putting their price before yours**).
 
-**Торговые сборы и газ**\
-Если вы торгуете на существующих централизованных биржах, вам знакома концепция торговых сборов. С трейдеров взимается комиссия за каждую успешную сделку. Однако на DEX существуют дополнительные расходы на газ, которые необходимо оплачивать сети. Плата за газ при торговле на Injective минимальна. Если вы являетесь трейдером, использующим DEX UI, вам не нужно беспокоиться о расходах на газ, потому что ретранслятор оплатит их за вас. Но взамен вы будете полностью оплачивать торговый сбор.\
-Если вы используете API, то вам придется оплатить стоимость газа.\
-В настоящее время стоимость газа очень мала. 20K транзакций будут стоить около 1 INJ (1,72$ на 08.08.2022).\
-Вы можете установить recipient\_fee на любой адрес вашего собственного кошелька, поскольку вы, по сути, являетесь собственным ретранслятором, что позволяет вам сэкономить около 40% от всех комиссий.
+Read more about this phenomenon, which is called MEV (miner extractable value) [here](https://cyberacademy.dev/blog/20-temnyy-les-ethereum-chto-takoe-mev)
 
-### Биржи на базе Injective <a href="#jfgl" id="jfgl"></a>
+Injective mitigates this with fast block generation times combined with frequent batch auctioning:
 
-В настоящее время существует шесть бирж, построенных на базе Injective Chain: Picasso Exchange, MarsX, Unlimited Exchange, Lunatics Exchange, Inj Dojo Exchange и Injective Pro, которая предоставляется основной командой.
+In any given block:
 
-Все эти биржи подключены к одним и тем же рынкам через общую книгу ордеров, но различаются тем, как они предоставляют доступ пользователю. Например, в отличие от ретранслятора Injective Pro, биржа Picasso предлагает механизм свопа для спотовых рынков с пользовательским интерфейсом, схожим с AMM DEXs. А MarsX дает доступ к двум из перп-рынков, тогда как другие биржи дают доступ ко всем четырем. По сути, эти биржи лишь предлагают различный UX и UI, но, чем больше игроков, тем выше децентрализация.
+1. One single clearing price is calculated for all market orders and they are executed. For an example of matching market orders using FBA [, see here](https://api.injective.exchange/#examples-market-order-matching).
+2. Limit orders are combined with the rest of the order portfolio and the orders are matched as long as the negative spread is maintained. All limit orders are matched at the same clearing price. For an example of how limit orders can be matched using FBA [, see here](https://api.injective.exchange/#examples-limit-order-matching).
 
-#### Injective Hub <a href="#wmxy" id="wmxy"></a>
+**Trading fees and gas**\
+If you trade on existing centralized exchanges, you are familiar with the concept of trading fees. Traders are charged a fee for each successful trade. However, on DEX there are additional gas charges that need to be paid by the network. The gas fee when trading on Injective is minimal. If you are a trader using DEX UI, you don't have to worry about gas costs because the relay will pay them for you. But in return, you will pay the full trade fee.\
+If you're using API, you'll have to pay the cost of gas.\
+Currently, the cost of gas is very low. 20K transactions will cost about 1 INJ ($1.72 on 08.08.2022).\
+You can set recipient\_fee to any address of your own wallet, since you are essentially your own relay, which saves you about 40% of all fees.
 
-**Injective Hub** - это дашборд, который предоставляет пользователям возможности для максимально эффективного использования протокола Injective (гайд как пользоваться [тут](https://blog.injective.com/injective-hub-guide/)).
+#### Exchanges based on Injective <a href="#jfgl" id="jfgl"></a>
 
-Через Injective Hub можно разместить INJ (нативный токен сети), чтобы стать валидатором сети, или же делегировать свои токены другим валидаторам.
+There are currently six exchanges built on Injective Chain: Picasso Exchange, MarsX, Unlimited Exchange, Lunatics Exchange, Inj Dojo Exchange and Injective Pro, which is provided by the core team.
 
-Injective Hub также выполняет роль площадки для вынесение предложений и голосований по поводу дальнейшего развития Injective. Например, здесь держатели INJ голосуют за включение новых торговых пар, поправки в процедуры управления, добавление или изменение существующего функционала платформы.\
-На странице кошелька отображаются важные сведения о ваших активах. Здесь вы можете просмотреть свой баланс, делегировать, ределегировать и заклеймить награды.
+All of these exchanges are connected to the same markets through a common order book, but differ in how they provide access to the user. For example, unlike the Injective Pro relay, the Picasso exchange offers a swap mechanism for spot markets with a user interface similar to AMM DEXs. And MarsX gives access to two of the perp markets, while other exchanges give access to all four. Essentially, these exchanges only offer different UX and UI, but, the more players, the more decentralization.
 
-На странице Injective Bridge пользователи могут переводить активы между Injective Chain и Etherium (Cosmos Hub, Osmosis, Persistence, Evmos, Axelar, Moonbeam).
+### Injective Hub <a href="#wmxy" id="wmxy"></a>
+
+**Injective Hub** is a dashboard that gives users the ability to make the most of the Injective protocol (how-to guide [here](https://blog.injective.com/injective-hub-guide/)).
+
+Through Injective Hub, you can place an INJ (native network token) to become a network validator, or delegate your tokens to other validators.
+
+The Injective Hub also acts as a platform for making suggestions and votes on further development of Injective. For example, here INJ holders vote on the inclusion of new trading pairs, amendments to management procedures, additions or changes to existing platform functionality.\
+The wallet page displays important information about your assets. Here you can view your balance, delegate, re-delegate and brand awards.
+
+On the Injective Bridge page, users can transfer assets between Injective Chain and Etherium (Cosmos Hub, Osmosis, Persistence, Evmos, Axelar, Moonbeam).
 
 ### $INJ <a href="#8bds" id="8bds"></a>
 
-**INJ** является нативным токеном Injective Protocol и используется для гавернанса, участия в аукционах (было описано выше), обеспечения ликвидности и стейкинга. По мере дальнейшего развития экосистемы Injective новые проекты будут способствовать сжиганию токенов (было описано в аукционах) и со временем сократят предложение INJ. Варианты использования INJ включают, но не ограничиваются следующими: управление протоколом, оплата биржевых сборов, обеспечение деривативов, майнинг ликвидности и стейкинг.
+**INJ** is a native Injective Protocol token and is used for havernance, auctioning (was described above), providing liquidity and stacking. As the Injective ecosystem continues to evolve, new projects will promote token burning (has been described in auctions) and reduce the supply of INJ over time. Options for using INJ include, but are not limited to: protocol management, payment of exchange fees, derivatives provisioning, liquidity mining, and stacking.
 
-**Утилити токена:**\
-**1. Proof of Stake безопасность.** Предварительное начальное предложение INJ было установлено на уровне 100 000 000 токенов и будет увеличиваться со временем за счет вознаграждений за генерацию блоков.
+**Utility Token:**\
+**1. Proof of Stake security.** INJ's preliminary initial offering has been set at 100,000,000 tokens and will increase over time through block generation rewards.
 
-Целевая инфляция INJ предварительно составит 7% на этапе генезиса и со временем снизится до 2%. Постепенно общее предложение INJ может оказаться ниже первоначального из-за дефляционного механизма, описанного ниже в разделе "Начисление стоимости комиссии за обмен".
+The INJ inflation target will provisionally be 7% during the genesis phase and will decrease to 2% over time. Gradually, the total supply of INJ may fall below the initial supply due to the deflationary mechanism described below in the section "Exchange fee accrual".
 
-**2. Управление.** Токен INJ также служит в качестве основного гавернанс токена для Injective Chain.
+**2. Governance.** The INJ token also serves as the primary havernance token for Injective Chain.
 
-INJ используется для управления всеми аспектами сети, включая:
+INJ is used to manage all aspects of the network, including:
 
-\- Параметры модуля "Аукцион".\
-\- Пользовательские предложения и параметры модуля "Обмен".\
-\- Параметры модуля "Страхование".\
-\- Модуль Oracle "Предложения пользователей".\
-\- Параметры модуля "Peggy".\
-\- Обновления программного обеспечения.\
-\- Параметры модулей Cosmos-SDK для модулей auth, bank, crisis, distribution, gov, mint, slashing и staking .\
-Полную информацию о процессе управления можно найти [здесь](https://blog.injective.com/injective-governance-proposal-procedure/) .
+\- Parameters of the "Auction" module.\
+\- Custom offers and parameters of the Exchange module.\
+\- Parameters of the Insurance module.\
+\- Oracle's User Bids module.\
+\- Parameters of the Peggy module.\
+\- Software Updates.\
+\- Cosmos-SDK module parameters for the auth, bank, crisis, distribution, gov, mint, slashing and staking modules .\
+Full information about the management process can be found [here](https://blog.injective.com/injective-governance-proposal-procedure/).
 
-**3. Стимулы для ретрансляторов.**\
-В протоколе обмена реализована общая минимальная торговая комиссия 0.1% для тех, кто ставит заявку, и 0.2% для тех, кто эту заявку принимает. В качестве механизма стимулирования ретрансляторов к использованию протокола exchange ретрансляторы, отправляющие ордеры в общую книгу ордеров, получают вознаграждение 40% от торговой комиссии с ордеров, которые они направляют.
+**3. Incentives for repeaters.**\
+The exchange protocol implements a common minimum trading commission of 0.1% for those who place orders and 0.2% for those who accept these orders. As an incentive mechanism for repeaters to use the exchange protocol, repeaters who send orders to the general order book are rewarded 40% of the trade commission on the orders they send.
 
-**4. Начисление стоимости биржевого сбора.**\
-Оставшиеся 60% биржевого сбора за обмен подлежат обратному выкупу в ходе аукциона и дальнейшему сжиганию (опять же, это было описано выше). Детали [тут](https://docs.injective.network/modules/auction/).
+**4. Accrual of the value of the exchange fee.**\
+The remaining 60% of the exchange fee is subject to repurchase at auction and further incineration (again, this was described above). Details [here](https://docs.injective.network/modules/auction/).
 
-**5. Залоговое обеспечение производных финансовых инструментов.**\
-INJ будет использоваться в качестве альтернативы стейблкоинам в качестве маржи и обеспечения для рынков деривативов Injective. На некоторых рынках производных финансовых инструментов INJ также может использоваться в качестве залогового обеспечения или страхового пула, где участники могут получать проценты за свои заблокированные токены.
+**5. Collateralization of derivative financial instruments.**\
+INJ will be used as an alternative to Stablecoins as margin and collateral for Injective derivatives markets. In some derivatives markets, INJ may also be used as collateral or an insurance pool where participants can earn interest on their blocked tokens.
 
-Еженедельное сжигание предложения создает эффект дефляции и в определенной степени компенсирует рост предложения, вызванный минтом токенов. Если быть более точным, то 5% годовая инфляция на 13 миллионов INJ равна 650 000 INJ, сминченных за год, в то время как общее сжигание за восемь недель составило 204 000, что в сумме составляет примерно 1 326 000 INJ, сжигаемых за год, что составляет 1,325% от общего предложения.
+The weekly supply burn creates a deflationary effect and to some extent compensates for the increase in supply caused by token minting. To be more precise, a 5% annual inflation of 13 million INJ equals 650,000 INJ minted over the year, while the total minted over eight weeks is 204,000, which adds up to about 1,326,000 INJ minted over the year, which is 1.325% of the total supply.
 
-![](https://img3.teletype.in/files/ea/28/ea28fc98-08c2-45f8-be76-f4e1cf3669a6.png)
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-### Обновление Injective <a href="#t2zg" id="t2zg"></a>
+### Injective update <a href="#t2zg" id="t2zg"></a>
 
-**5 июля 2022** года прошло масштабное [обновление Injective:](https://blog.injective.com/mainnet-chain-upgrade-smart-contracts-are-now-live-on-injective/)\
-1\. Injective претерпела обновление сети в mainnet, которое включает поддержку смарт-контрактов CosmWasm, межсетевых счетов, бинарных опционов, отрицательных комиссий мейкеров и многое другое.\
-2\. Уникальная реализация CosmWasm в Injective позволяет смарт-контрактам исполняться как вручную внешними пользователями, так и автоматически на каждом блоке.\
-3\. Отрицательные комиссии маркет-мейкеров предоставят больше преимуществ маркет-мейкерам, одновременно стимулируя увеличение ликвидности в сети.\
-4\. Обновление сети запустило новый бинарник приложения Injective Chain.
+**On July 5, 2022**, [Injective](https://blog.injective.com/mainnet-chain-upgrade-smart-contracts-are-now-live-on-injective/) underwent a major update:\
+1\. Injective has undergone a network update in mainnet that includes support for CosmWasm smart contracts, inter-net accounts, binary options, negative maker commissions, and more.\
+2\. Injective's unique implementation of CosmWasm allows smart contracts to be executed manually by external users as well as automatically on each block.\
+3\. negative market maker commissions will provide more benefits to market makers, while stimulating increased liquidity in the network.\
+4\. network update launched a new binary of Injective Chain application.
 
-Смарт-контракты теперь готовы к внедрению на Injective с помощью обновления Injective Canonical 1006-rc1 (или Injective CosmWasm Mainnet Upgrade).
+Smart contracts are now ready to be implemented on Injective with the Injective Canonical 1006-rc1 (or Injective CosmWasm Mainnet Upgrade).
 
-Помимо поддержки смарт-контрактов с помощью CosmWasm, обновление включает в себя:
+In addition to support for smart contracts with CosmWasm, the update includes:
 
-* Поддержку отрицательной платы за создание.
-* Поддержку рынков бинарных опционов.
-* Поддержку межсетевых счетов через IBC v3.
-* И многое другое.
+* Supporting negative creation fees.
+* Supporting the binary options markets.
+* Support for inter-network accounts via IBC v3.
+* And much more.
 
-_Чтобы узнать больше о предложениях по управлению, нажмите_ [_здесь_](https://blog.injective.com/injective-governance-proposal-procedure/).
+To_learn more about management offers, click_ [_here_](https://blog.injective.com/injective-governance-proposal-procedure/).
 
-### Поддержка смарт-контрактов (CosmWasm) <a href="#qj9p" id="qj9p"></a>
+### Support for smart contracts (CosmWasm) <a href="#qj9p" id="qj9p"></a>
 
-Injective теперь поддерживает смарт-контракты CosmWasm.
+Injective now supports CosmWasm smart contracts.
 
-Эта новая реализация CosmWasm позволит любому разработчику создавать разнообразные приложения на Injective, используя при этом готовые модули. Основным примером является модуль книги ордеров Injective, который позволяет разработчикам использовать децентрализованную книгу ордеров "из коробки" для создания dApp, таких как биржи, рынки предсказаний, протоколы кредитования и многое другое.
+This new implementation of CosmWasm will allow any developer to create a variety of applications on Injective while using out-of-the-box modules. The main example is the Injective order book module, which allows developers to use a decentralized order book "out of the box" to create dApps such as exchanges, prediction markets, lending protocols, and more.
 
-Реализация CosmWasm в Injective уникально отличается от любого другого уровня CosmWasm в экосистеме Cosmos. Это обновление Injective mainnet позволит смарт-контрактам исполняться _автоматически_ на каждом блоке.
+The CosmWasm implementation in Injective is uniquely different from any other CosmWasm layer in the Cosmos ecosystem. This update to Injective mainnet will allow smart contracts to execute _automatically_ on every block.
 
-Смарт-контракты традиционно требуют, чтобы внешний агент, например, пользователь, вызвал контракт и запустил логику, связанную с контрактом.
+Smart contracts traditionally require an external agent, such as a user, to invoke the contract and run the logic associated with the contract.
 
-Однако реализация CosmWasm в Injective также позволит смарт-контрактам запускаться на каждом блоке _самостоятельно_, без участия внешнего агента, что даст разработчикам возможность создавать действительно децентрализованные бездоверительные приложения.
+However, Injective's implementation of CosmWasm will also allow smart contracts to run on each blockchain _independently_, without an external agent, giving developers the ability to create truly decentralized, trustless applications.
 
-CosmWasm позволит разработчикам создавать более сложные функции и приложения на Injective. Кроме того, возможность автоматического выполнения смарт-контрактов - это смена парадигмы в методологии взаимодействия с блокчейном.
+CosmWasm will allow developers to create more complex functions and applications on Injective. In addition, the ability to automatically execute smart contracts is a paradigm shift in blockchain interaction methodology.
 
-Injective теперь будет **единственным** (ну они так заявляют, а я привычно не верю) блокчейном, позволяющим самостоятельно исполнять логику смарт-контрактов. Это привлечет больше разработчиков, пользователей и членов сообщества, что приведет к росту экосистемы Injective в целом.
+Injective will now be **the only** blockchain that allows to independently execute smart contract logic. This will attract more developers, users, and community members, leading to the growth of the Injective ecosystem as a whole.
 
-#### Отрицательные сборы с мейкеров <a href="#k8wg" id="k8wg"></a>
+### Negative fees from makers <a href="#k8wg" id="k8wg"></a>
 
-Injective теперь будет поддерживать отрицательные комиссии мейкеров на утвержденных рынках во всех биржевых dApp, построенных на базе Injective.
+Injective will now support negative maker commissions on approved markets in all exchange dApps built on Injective.
 
-Маркет-мейкеры, предоставляющие ликвидность на определенных спотовых или бессрочных рынках с отрицательными маркерными комиссиями, будут получать процент от общей суммы торговли в качестве вознаграждения.
+Market makers providing liquidity in certain spot or open-ended markets with negative mark-to-market commissions will receive a percentage of the total amount traded as compensation.
 
-Члены сообщества могут представить предложения руководству о том, на каких рынках они хотели бы ввести отрицательные комиссии для маркет-мейкеров, и после одобрения руководства, данное предложение будет исполнено.
+Community members can submit proposals to management on which markets they would like to introduce negative commissions for market makers, and once approved by management, the proposal will be implemented.
 
-#### Поддержка бинарных опционов <a href="#ypq2" id="ypq2"></a>
+### Support Binary Options <a href="#ypq2" id="ypq2"></a>
 
-Теперь в сети будут поддерживаться рынки бинарных опционов.
+Binary options markets will now be supported online.
 
-Подобно рынкам бессрочных активов, бинарные опционы являются еще одним видом финансовых деривативов. Однако бинарные опционы - это финансовые контракты, в которых выплата происходит в зависимости от одного из двух исходов базового актива или вопроса.
+Similar to open-ended asset markets, binary options are another type of financial derivatives. However, binary options are financial contracts in which a payout occurs depending on one of two outcomes of the underlying asset or issue.
 
-Например, бинарные опционы могут быть контрактом на исход выборов: станет ли кандидат А президентом? Приведенные варианты являются бинарными - кандидат А либо станет новым президентом, либо нет - и правильный ответ принесет прибыль на рынке бинарных опционов.
+For example, binary options can be a contract on the outcome of an election: Will candidate A become president? The given options are binary - candidate A will either become the new president or not - and the correct answer will generate profits in the binary options market.
 
-[Frontrunner](https://getfrontrunner.com/), например, может использовать бинарные опционы для работы своей полностью децентрализованной платформы спортивных ставок.
+[Frontrunner](https://getfrontrunner.com/), for example, can use binary options to run its fully decentralized sports betting platform.
 
-### Полезные ссылки <a href="#brfn" id="brfn"></a>
+### Links <a href="#brfn" id="brfn"></a>
 
-[Веб-сайт](https://injectiveprotocol.com/)
+[Website](https://injectiveprotocol.com/)
 
 [Telegram](https://t.me/joininjective)
 
 [Discord](https://discord.gg/injective)
 
-[Блог](https://blog.injective.com/)
+[Blog](https://blog.injective.com/)
 
 [Twitter](https://www.twitter.com/@InjectiveLabs)
 

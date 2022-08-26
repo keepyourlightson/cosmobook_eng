@@ -88,7 +88,7 @@ In addition, the engineering team performed the following backend work, which re
 * Implement best practices, including Agile practices and a support ticket system, to help improve the user experience with Sifchain;
 * Finally, before the recent market crash, Sifchain was showing incredible growth rates. After the collapse, the performance declined.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Key areas that the team expects to focus on in the near future:
 

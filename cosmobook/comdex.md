@@ -4,197 +4,191 @@
 
 ## Comdex
 
-Comdex представляет собой протокол создания и обмена синтетических активов, называемы cAssets. Этот протокол играет решающую роль в миссии Comdex по демократизации финансов. Создание цифровых торговых репрезентаций (синтетических активов) широкого спектра активов позволяет инвесторам получить глобальный доступ к финансам. Экосистема Comdex, основанная на принципах совместимости, может объединять ликвидность из многочисленных экосистем DeFi. Синтетические активы закладывают основу для реализации этого видения, создавая мосты к экосистемам криптовалют и рынкам финансовых инструментов.
+Comdex is a protocol for creating and exchanging synthetic assets called cAssets. This protocol plays a crucial role in Comdex's mission to democratize finance. Creating digital trade representations (synthetic assets) of a wide range of assets enables investors to gain global access to finance. Comdex's interoperable ecosystem can aggregate liquidity from multiple DeFi ecosystems. Synthetic assets lay the foundation for realizing this vision by creating bridges to cryptocurrency ecosystems and financial instrument markets.
 
-Сегодня инвесторы не имеют доступа к широкому спектру классов активов из-за цензуры, ограниченной глобальной доступности, ограничений ликвидности и высоких транзакционных издержек. Появление DeFi принесло с собой волну продуктов, которые расширяют возможности для любого инвестора. В основе Comdex лежит технология, позволяющая создавать цифровые представления финансовых активов, которые можно отслеживать и торговать ими на неизменяемых смарт-контрактах. Токенезированные синтетические активы обеспечивают глобальную доступность, улучшенную ликвидность и сниженные транзакционные издержки.\
-Хотя DeFi действительно расширяет доступ криптоинвесторов к широкому спектру финансовых услуг, возможности для инвестиций по-прежнему ограничены в основном активами в сети. Лишь немногие продукты могут построить мосты между криптоактивами и реальными финансовыми активами, позволяя перемещать капитал из экосистемы DeFi в CeFi (централизованные финансы). Даже в рамках CeFi существует ряд нормативных препятствий и ограничений для доступа к стабильным, устойчивым к инфляции активам и долговым продуктам.\
-Помимо необходимости в мостах между криптовалютами и CeFi, существует также необходимость в мостах, которые обеспечат беспрепятственное перемещение цифровых активов по различным блокчейн сетям. Cosmos решает эту проблему с помощью своего протокола IBC. Используя IBC, децентрализованный протокол синтетики позволит пользователям получить доступ к ряду устойчивых к инфляции синтетических активов через Comdex.
+Today, investors do not have access to a wide range of asset classes due to censorship, limited global availability, liquidity constraints and high transaction costs. The emergence of DeFi has brought with it a wave of products that expand the possibilities for any investor. Comdex is based on technology that enables the creation of digital representations of financial assets that can be tracked and traded on immutable smart contracts. Tokenized synthetic assets provide global accessibility, improved liquidity and reduced transaction costs.\
+While DeFi does increase crypto investors' access to a wide range of financial services, investment opportunities are still largely limited to online assets. Few products can build bridges between crypto-assets and real-world financial assets, allowing capital to move from the DeFi ecosystem to CeFi (centralized finance). Even within CeFi, there are a number of regulatory hurdles and restrictions to access stable, inflation-resistant assets and debt products.\
+In addition to the need for bridges between cryptocurrencies and CeFi, there is also a need for bridges that will ensure the seamless movement of digital assets across different blockchain networks. Cosmos solves this problem with its IBC protocol. Using IBC, the decentralized synthetic protocol will allow users to access a range of inflation-resistant synthetic assets through Comdex.
 
-Основная сеть была запущена в ноябре 2021 года ([вечеринка](http://www.youtube.com/watch?v=UTNKMjydIFA) по поводу запуска).
+The main network was launched in November 2021[(](http://www.youtube.com/watch?v=UTNKMjydIFA)launchparty ).
 
-### **Что такое cAssets?** <a href="#fdzn" id="fdzn"></a>
+#### **What are cAssets?** <a href="#fdzn" id="fdzn"></a>
 
-cAssets - это синтетические активы, отражающие производные товарные контракты. Синтетические активы помогают устранить границы и по-настоящему децентрализовать торговлю товарами. В отличие от традиционных сырьевых товаров, которые представляют собой реальный базовый актив, cAssets являются чисто синтетическими и, следовательно, отражают движение цены базового актива. Например, cXAU (золото) отражает движение цен реальных деривативных контрактов на золото.
+cAssets are synthetic assets that reflect commodity derivative contracts. Synthetic assets help eliminate boundaries and truly decentralize commodity trading. Unlike traditional commodities, which represent the real underlying asset, cAssets are purely synthetic and therefore reflect the price movement of the underlying asset. For example, cXAU (gold) reflects the price movements of real derivative contracts for gold.
 
-#### **Листинг cAsset** <a href="#ioiq" id="ioiq"></a>
+#### **Listing of cAsset** <a href="#ioiq" id="ioiq"></a>
 
-cAsset будет включен в листинг синтетического протокола Comdex после выполнения следующих шагов:
+cAsset will be included in the Comdex synthetic protocol listing after the following steps:
 
-* создание токена cAsset и определение всех параметров;
-* назначение оракула-фидера;
-* создание торговой пары cAsset-CMST (CMST - это стейблкоин с избыточным обеспечением, далее будет часто упоминаться) на cSwap и ее токена LP.
+* creating a cAsset token and defining all parameters;
+* the purpose of the oracle-feeder;
+* creation of cAsset-CMST trading pair (CMST is a stackablecoin with redundant collateral, it will be often referred to below) on cSwap and its LP token.
 
-Листинг утверждается новым предложением руководства и немедленно осуществляется после того, как набирается 51% от общего числа голосов руководства. После этого cAsset может быть использован для майнинга ликвидности в экосистеме Cosmos и будет доступен на cSwap. Поставщики ликвидности зарабатывают токены CMDX, которые могут быть использованы для создания новых cAsset.
+The listing is approved by the new management proposal and is immediately implemented once 51% of the total management votes are received. The cAsset can then be used to mine liquidity in the Cosmos ecosystem and will be available on cSwap. Liquidity providers earn CMDX tokens that can be used to create new cAssets.
 
-#### **Удаление cAsset** <a href="#ggt2" id="ggt2"></a>
+#### **Removing cAsset** <a href="#ggt2" id="ggt2"></a>
 
-Если принимается решение об исключении cAsset из списка доступных синтетических активов, то:
+If the decision is made to exclude cAsset from the list of available synthetic assets, then:
 
-* Майнинг ликвидности с использованием данного cAsset становится невозможным.
-* Всё существующее предложение cAsset сжигается по фиксированной конечной цене, установленной оракулом-фидером, для снятия залога с существующих открытых позиций. Пользователям будет предложено сжечь cAsset, чтобы восстановить обеспечение по любым открытым позициям на протоколе Comdex. Старый cAsset будет выведен из обращения и помечен меткой "делистинг", после чего его можно будет только сжигать, закрывать открытые долговые позиции, выводить обеспечение и ликвидность.
+* Liquidity mining using this cAsset becomes impossible.
+* All existing cAsset offerings are burned at a fixed final price set by the oracle feeder to remove collateral from existing open positions. Users will be prompted to burn the cAsset to restore collateral on any open positions on the Comdex protocol. The old cAsset will be withdrawn from circulation and marked "delisting", after which it can only be burned, close open debt positions, withdraw collateral and liquidity.
 
-Важно понимать, что у крипты нет прямой связи с реальным миром. Нельзя взять и просто так токенизировать ценную бумагу или недвижимость. Эту интересную задачу многие сейчас пытаются решить. Если хотите в эту тему погрузиться, то предлагаю вам интересные посты от [0x\_unidentified](https://t.me/uselesscryptoscam) [тут, ](https://t.me/uselesscryptoscam/112)[тут](https://t.me/uselesscryptoscam/113)[ и ](https://t.me/uselesscryptoscam/112)[тут](https://t.me/uselesscryptoscam/114)[.](https://t.me/uselesscryptoscam/112)
+It is important to understand that crypto has no direct connection to the real world. You can't just tokenize a security or real estate. This is an interesting task that many people are trying to solve right now. If you want to dive into this topic, I suggest you interesting posts from [0x\_unidentified](https://t.me/uselesscryptoscam) [here, ](https://t.me/uselesscryptoscam/112)[here](https://t.me/uselesscryptoscam/113)[ and ](https://t.me/uselesscryptoscam/112)[here](https://t.me/uselesscryptoscam/114)[.](https://t.me/uselesscryptoscam/112)
 
-### **Модули Comdex** <a href="#ofmp" id="ofmp"></a>
+#### **Comdex modules** <a href="#ofmp" id="ofmp"></a>
 
-Comdex состоит из различных модулей (инструментов). Поскольку красивую картинку с модулями (как у Агорика, например) они не нарисовали, читайте унылый текст и включайте воображение.
+Comdex consists of different modules (tools). Since they didn't draw a nice picture with modules (like Agoric's, for example), read the dull text and turn on your imagination.
 
-![](https://img4.teletype.in/files/36/13/36130bf3-19d2-40c6-8020-6fd772920056.png)
+<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-**Модуль Vault** отвечает за создание и управление хранилищами.
+**The Vault module** is responsible for creating and managing the repositories.
 
-Collateralized Debt Position (CDP, обеспеченная долговая позиция, т.е. открытая позиция, под залог какого-то актива) позволяет создать товарный синтетический актив, заблокировав другой актив в качестве обеспечения.
+Collateralized Debt Position (CDP, Collateralized Debt Position, i.e. an open position, secured by some asset) allows you to create a commodity synthetic asset by locking another asset as collateral.
 
-Модуль Vault управляет и хранит информацию о создании CDP. Залоговое обеспечение блокируется в хранилище, при этом минтится новый актив. Если пользователь хочет забрать свой залог, то он должен погасить долг, вернув сминченый актив в хранилище и заплатив комиссию. В этот момент сминченый актив будет сожжен, а предоставленный залог разблокирован.
+The Vault module manages and stores CDP creation information. The collateral is locked in the vault and a new asset is mined. If the user wants to retrieve their collateral, they must repay the debt by returning the mined asset to the vault and paying a fee. At this point, the minified asset will be burned and the collateral provided will be unblocked.
 
-Цены на активы отслеживаются с помощью оракулов, таких как Band Protocol, или децентрализованного пула, такого как Osmosis. Ликвидация наступает, когда коэффициент обеспечения позиции падает ниже минимального порогового значения (Liquidation Ratio), т.е. всё стандартно.
+Asset prices are tracked using oracles such as Band Protocol or a decentralized pool such as Osmosis. Liquidation occurs when the position security ratio falls below the minimum threshold (Liquidation Ratio), i.e. everything is standard.
 
-Коэффициент обеспечения = (Стоимость залоговых активов)/(Стоимость заемных активов).
+Collateral ratio = (Value of collateral assets)/(Value of borrowed assets).
 
-Пороговое значение коэффициента обеспечения для наступления ликвидации может варьироваться в зависимости от типа залогового актива и типа заемных активов. Кроме того, это пороговое значение может быть изменено посредством предложений по управлению для каждого актива.
+The collateral threshold for a liquidation occurrence may vary depending on the type of pledged asset and the type of leveraged asset. In addition, this threshold value can be changed through management proposals for each asset.
 
-Пример:\
-Пользователь блокирует ATOM стоимостью $200, чтобы взять взаймы cAsset стоимостью $100. В этом случае коэффициент обеспечения составляет 200%. Если предположить, что коэффициент ликвидации равен 150%, могут произойти два случая, которые снизят коэффициент обеспечения:
+Example:\
+A user locks an ATOM worth $200 to borrow a cAsset worth $100. In this case, the collateral ratio is 200%. Assuming a liquidation ratio of 150%, two cases could occur that would reduce the collateral ratio:
 
-Случай 1: Цены на cAsset растут и ликвидация произойдет, когда стоимость cAsset поднимется до 133,33 (при условии, что стоимость залога (ATOM) останется прежней).
+Case 1: cAsset prices are rising and liquidation will occur when the cAsset value rises to 133.33 (assuming the collateral value (ATOM) remains the same).
 
-Случай 2: Цена залога снижается и ликвидация произойдет, когда цена атома снизится до 150$ (при условии, что стоимость cAsset останется прежней).
+Case 2: The pledge price decreases and liquidation will occur when the atom price decreases to $150 (assuming the cAsset value remains the same).
 
-**Модуль Collector** - это место, где будут накапливаться все сборы и доходы, полученные протоколом.
+**The Collector module** is where all fees and revenues generated by the protocol will be accumulated.
 
-#### **Комиссии** <a href="#d4te" id="d4te"></a>
+#### **Commissions** <a href="#d4te" id="d4te"></a>
 
-Комиссия за вывод средств:
+Withdrawal fee:
 
-Это фиксированная сумма CMST, взимаемая с долга пользователя при каждом снятии CMST.
+This is a fixed amount of CMST charged on the user's debt with each CMST withdrawal.
 
-Комиссия за минт CMST:\
-Взимается с пользователей, которые минтят CMST из своих хранилищ. При погашении долга процент вычитается из их заемной позиции и отправляется в модуль Collector.
+A commission for mining CMST:\
+Charged to users who mine CMSTs from their vaults. Upon repayment, the interest is deducted from their borrowed position and sent to the Collector module.
 
-Штраф за ликвидацию:\
-В случае ликвидации, стоимость актива, продаваемого с аукциона для закрытия долга, превышает сумму долга на небольшой фиксированный процент. Полученная дополнительная сумма CMST отправляется в модуль Collector.
+Penalty for liquidation:\
+In the case of a liquidation, the value of the asset auctioned off to close the debt exceeds the debt amount by a small fixed percentage. The resulting additional CMST amount is sent to the Collector module.
 
-Комиссия StableMint:\
-За каждую транзакцию с модулем stablemint взимается комиссия в CMST.
+StableMint Commission:\
+Each transaction with stablemint module is charged a fee in CMST.
 
-Комиссия Locker Savings:\
-Это единственный компонент отчислений модуля коллектора, где проценты, заработанные пользователями, покидают модуль коллектора.
+Locker Savings Commission:\
+This is the only component of the collector module's deductions where the interest earned by users leaves the collector module.
 
-Этот модуль имеет порог излишков и порог задолженности. В идеальном сценарии CMST будет продолжать накапливаться в этом модуле и в конечном итоге превысит порог излишка, CMST будет изыматься из модуля коллектора фиксированными лотами и продаваться на аукционе за токены HARBOR. Токены HARBOR, полученные по протоколу, будут сожжены.
+This module has a surplus threshold and a debt threshold. In an ideal scenario, CMST will continue to accumulate in this module and eventually exceed the surplus threshold, CMST will be withdrawn from the collector module in fixed lots and auctioned for HARBOR tokens. HARBOR tokens received through the protocol will be burned.
 
-Подробности про протокол HARBOR [тут](https://docs.harborprotocol.one/).
+Read more about HARBOR protocol [here](https://docs.harborprotocol.one/).
 
-В случае увеличения долга, CMST в этом модуле будет продолжать истощаться, в конечном итоге опускаясь ниже порогового значения долга. При таком сценарии HARBOR будет выставлен на аукцион в обратном порядке за фиксированные лоты CMST. CMST будут отправлены в модуль Collector для пополнения, а новые токены HARBOR будут сминчены и выданы пользователю, выигравшему торги.
+In the event of an increase in debt, CMST in this module will continue to deplete, eventually falling below the debt threshold. In this scenario, HARBOR will be auctioned back for fixed CMST lots. CMST will be sent to the Collector module for replenishment and new HARBOR tokens will be smoothed and issued to the user who won the auction.
 
-**Модуль ликвидации**, как понятно из названия, отвечает за механизм проведения ликвидаций. **** Ликвидированные cAsset отправляются на Аукцион.
+**The liquidation module**, as the name implies, is responsible for the mechanism of liquidations.Liquidated cAssets are sent to the Auction.
 
-Торги на аукционе длятся 6 часов, и самая высокая ставка забирает ликвидируемые cAsset. Выставленные на аукцион активы переводятся на счет участника торгов.
+Bidding at the auction lasts for 6 hours, and the highest bid takes the liquidated cAsset. The auctioned assets are transferred to the bidder's account.
 
-**Модуль Locker** позволяет любому владельцу CMST зарабатывать переменные проценты на основной капитал путем блокировки CMST в хранилище Locker в протоколе Harbor Protocol. От пользователей не требуется вносить минимальную сумму CMST для получения процентов от хранилища, и они могут в любое время вывести из хранилища часть или весь свой капитал.
+**The Locker module** allows any CMST owner to earn variable interest on principal by locking CMSTs into the Locker vault in the Harbor Protocol. Users are not required to deposit a minimum amount of CMST to earn interest from the vault, and they can withdraw some or all of their capital from the vault at any time.
 
-**Модуль Market** отвечает за предоставление внешних данных в блокчейн, используя систему оракулов. Ценовые котировки обновляются маркет-фидерами и периодически синхронизируются , а после передаются протоколу протоколу. Все данные берутся только из надежных и авторитетных источников.
+**The Market module** is responsible for providing external data to the blockchain using an oracle system. Price quotes are updated by market feeders and periodically synchronized and then transmitted by the protocol. All data is taken only from reliable and authoritative sources.
 
-**Модуль ликвидности** интегрирует протокол Gravity Dex Protocol. Этот модуль позволяет пользователям Comdex осуществлять свап, передачу и объединение активов.
+**The liquidity module** integrates the Gravity Dex Protocol. This module allows Comdex users to swap, transfer and merge assets.
 
 **cSWAP**\
-cSwap позволяет пользователям платформы обменивать свои cAssets через AMM. Пользователи также могут вносить свои активы в пулы ликвидности и получать за это вознаграждения.
+cSwap allows platform users to exchange their cAssets via AMM. Users can also contribute their assets to liquidity pools and earn rewards for doing so.
 
-### **$CMDX** <a href="#m3yu" id="m3yu"></a>
+#### **$CMDX** <a href="#m3yu" id="m3yu"></a>
 
-**Токен CMDX** является нативным токеном сети COMDEX.
+**The CMDX token** is a native token of the COMDEX network.
 
-Токен выполняет следующие основные функции сети:\
-\- Гавернанс: Пользователи COMDEX и держатели токена CMDX имеют право управлять и контролировать различные параметры платформы. У них также есть возможность изменять ключевые параметры, такие как сборы, набор cAsset и т.д.\
-\- Оплата транзакционных сборов.\
-\- Выплата вознаграждений пользователям и активным участникам сети.
+The token performs the following basic network functions:\
+\- Havernance: COMDEX users and CMDX token holders have the right to manage and control various platform parameters. They also have the ability to change key parameters such as fees, cAsset, etc.\
+\- Payment of transaction fees.\
+\- Payment of rewards to users and active network members.
 
-Токен CMDX является инфляционным по своей природе с инфляцией в 30% в первый год и последующим снижением уровня инфляции на 25% в каждый год с ограничением максимального предложения на уровне 200 000 000 CMDX.
+The CMDX token is inflationary in nature with a 30% inflation rate in the first year and a subsequent 25% inflation rate reduction in each year with a maximum supply cap of 200,000,000 CMDX.
 
-![](https://img3.teletype.in/files/23/08/23083464-6fd9-4677-9d00-4fa719a92fae.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Airdrop токена CMDX на [Airdrop.comdex.one](http://airdrop.comdex.one/) для сообществ экосистемы Cosmos, таких как Persistence, Cosmos, Terra и Osmosis стартовал 7 марта 2022г. Airdrop положен тем, кто держит/стейкает XPRT, ATOM, ~~LUNA~~ или OSMO во время снепшота.
+Airdrop of the CMDX token at [Airdrop.comdex.one](http://airdrop.comdex.one/) for Cosmos ecosystem communities such as Persistence, Cosmos, Terra and Osmosis started on March 7, 2022. Airdrop is put to those who hold/stick XPRT, ATOM, ~~LUNA~~ or OSMO during snapshot.
 
-![](https://img2.teletype.in/files/5f/62/5f629751-b20e-4502-ad6d-0898debe4470.png)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### **Экосистема Comdex** <a href="#0zda" id="0zda"></a>
+#### **Comdex ecosystem** <a href="#0zda" id="0zda"></a>
 
-Помимо cAsset и платформы для корпоративной торговли, команда Comdex работает над несколькими новыми продуктами, такими как Commodo, ShipFi, и стейблкоином $CMST, который будет запущен в ближайшее время.
+In addition to cAsset and the enterprise trading platform, the Comdex team is working on several new products such as Commodo, ShipFi, and the $CMST stabelcoin, which will be launched shortly.
 
-![](https://img4.teletype.in/files/f4/23/f4238b6b-d784-4489-bd3d-be984786b26a.png)
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-Enterprise Trading - это B2B-приложение, созданное для токенизации реальных товарных активов и облегчения мгновенной торговли, расчетов и финансирования. Эта платформа уже подключила более 18 организаций из региона Юго-Восточной Азии.
+Enterprise Trading is a B2B application created to tokenize real commodity assets and facilitate instant trading, settlement and financing. The platform has already connected more than 18 organizations from the Southeast Asian region.
 
-Commodo - это приложение для залогового кредитования/заимствования (подробнее [тут](https://docs.commodo.one/)).
+Commodo is a secured lending/borrowing app (learn more [here](https://docs.commodo.one/)).
 
-С помощью ShipFi компания Comdex стремится войти в мир НФТ путем оцифровки и обмена правами собственности на долговые обязательства по финансированию товарной торговли. Эта платформа будет использовать токен SHIP.
+With ShipFi, Comdex aims to enter the NFT world by digitizing and exchanging ownership of commodity finance debt. This platform will use the SHIP token.
 
-$CMST должен стать нативным сверхобеспеченным стейбкоином экосистемы Comdex.
+$CMST should become the native super-secured stabcoin of the Comdex ecosystem.
 
-### Roadmap <a href="#hlst" id="hlst"></a>
+#### Roadmap <a href="#hlst" id="hlst"></a>
 
-_Январь 2022_: интеграция Comdex c CosmWasm.\
-_Февраль 2022_:
+_January 2022_: Comdex integration with CosmWasm.\
+_February 2022_:
 
-\-начало разработки нативного стейблкоина;\
-\- начало разработки Commodo.
+\-beginning of native Stablecoin development;\
+\- start of Commodo development.
 
-_Март 2022:_
+March 2022:
 
-\- запуск CAsset девнета;\
-\-начало разработки CSwap.
+\- launch of CAsset devnet;\
+\-start of CSwap development.
 
-_В процессе_:
+_In progress_:
 
-\- запуск тестнета Composite;
+\- running the Composite test;
 
-\-запуск тестнета CSwap;
+\-starting the CSwap test;
 
-\- запуск тестнета Commodo.
+\- running Commodo's test run.
 
-_Планируется август 2022_:
+_Planned for August 2022_:
 
-\- Composite запуск в основной сети.
+\- Composite run on the main network.
 
-\- CSwap запуск в основной сети;
+\- CSwap startup on the main network;
 
-\- Commodo запуск в основной сети;
+\- Commodo run on the main network;
 
-\- ShipFi запуск тестнета.
+\- ShipFi test run.
 
-### **Скандалы, интриги...** <a href="#5v3p" id="5v3p"></a>
+#### **Scandal, intrigue...** <a href="#5v3p" id="5v3p"></a>
 
-Пока писал, в центре внимания оказался скандал между Comdex и Osmosis.
+As I was writing, the scandal between Comdex and Osmosis was in the spotlight.
 
-В конце июля OsmosisLab в реддите сделала [заявление , ](https://www.reddit.com/r/OsmosisLab/comments/w7zu03/comdex\_foundation\_wallet\_wash\_trading\_profit/)после которого в чате Osmosis появилось [предложение ](https://www.reddit.com/r/OsmosisLab/comments/w7zu03/comdex\_foundation\_wallet\_wash\_trading\_profit/)(пока решение принимается внутри комьюнити, после которого возможно вынесение предложения на общее голосование), где было предложено удалить все стимулы OSMO и суперфлюидного стейкинга пула #600 ATOM/CMDX и пула #601 CMDX/OSMO. Это связано с обвинениями в адрес Comdex в том, что кошельки, подключенные к узлам Comdex Foundation, участвовали в манипуляции объемом/отмыванием через Osmosis DEX и продаже CMDX через OSMO за USD, во многих случаях ежечасно, каждый час с мая 2022 года. Доказательства и анализ (с изображениями) такого поведения тщательно документированы здесь: [https://medium.com/@Rarma\_/comdex-foundation-wallet-wash-trading-receipts-ddb90b9c7717](https://medium.com/@Rarma\_/comdex-foundation-wallet-wash-trading-receipts-ddb90b9c7717).
+OsmosisLab made [a ](https://www.reddit.com/r/OsmosisLab/comments/w7zu03/comdex\_foundation\_wallet\_wash\_trading\_profit/)reddit announcement in late July, followed by [a suggestion ](https://www.reddit.com/r/OsmosisLab/comments/w7zu03/comdex\_foundation\_wallet\_wash\_trading\_profit/)on the Osmosis chatroom (a decision is still up to the community to vote on) that proposed removing all OSMO and superfluid-stacking incentives from pool #600 ATOM/CMDX and pool #601 CMDX/OSMO. This relates to allegations against Comdex that wallets connected to Comdex Foundation nodes were involved in volume manipulation/washing through Osmosis DEX and selling CMDX through OSMO for USD, in many cases hourly, every hour since May 2022. The evidence and analysis (with images) of this behavior is thoroughly documented here: [https://medium.com/@Rarma\_/comdex-foundation-wallet-wash-trading-receipts-ddb90b9c7717](https://medium.com/@Rarma\_/comdex-foundation-wallet-wash-trading-receipts-ddb90b9c7717).
 
-[В ответ](https://twitter.com/SidP95/status/1550861194302717952) Comdex заявил, что не отмывал средства, что в соответствии с [токеномикой](https://blog.comdex.one/cmdx-token-economics-utility-cd66bda2c1bb) им необходимо продавать свои токены, и что команда получит причитающуюся ей часть только в декабре 2023 года.
+[Comdexresponded](https://twitter.com/SidP95/status/1550861194302717952) by stating that they did not launder the funds, that [tokenomics](https://blog.comdex.one/cmdx-token-economics-utility-cd66bda2c1bb) requires them to sell their tokens, and that the team will not receive its due until December 2023.
 
-В любом случае все это походит на манипуляции, а учитывая, что в Osmosis нет книги ордеров, а все построено на пулах ликвидности, последствия таких действий видятся очень неприятными.
+In any case, it all looks like manipulation, and given that Osmosis has no order book, and everything is built on pools of liquidity, the consequences of such actions are very unpleasant.
 
-Сам токен пока не отреагировал, но посмотрим, чем закончится эта история.
+The token itself hasn't responded yet, but we'll see how this story ends.
 
-### **Резюме** <a href="#iki7" id="iki7"></a>
+#### **Summary** <a href="#iki7" id="iki7"></a>
 
-У проекта много амбициозных планов, но пока нет готовых решений в майннете. Чтобы делать оценку, нужно дождаться готового продукта. Тема синтетических активов сейчас популярна, но все мы еще очень далеко от конкретных рабочих схем для широкого круга пользователей. При этом токен уже достаточно давно торгуется.
+The project has many ambitious plans, but there are no ready solutions in the mainnet yet. To make an assessment, we need to wait for the finished product. The topic of synthetic assets is popular now, but we are all still very far from specific working schemes for a wide range of users. That said, the token has been traded for quite some time.
 
-Не хочется приплетать сюда историю с Osmosis, но я бы дождался ее развязки, поскольку последствия могут быть для проекта серьезными. Следим, теперь мы представляем, что тут происходит...
+I hate to bring the Osmosis story into this, but I'd wait for it to unfold, as the consequences could be serious for the project. Let's watch, now we have an idea of what's going on here...
 
-#### UPD 20.08.2022
+#### **Links** <a href="#xqhe" id="xqhe"></a>
 
-Осмосис вытащил спор с Comdex на голосование. Ждем результат.
-
-![](<../.gitbook/assets/image (5) (1).png>)
-
-### **Ссылки** <a href="#xqhe" id="xqhe"></a>
-
-Веб-сайт: [https://comdex.one/home](https://comdex.one/home)
+Website: [https://comdex.one/home](https://comdex.one/home)
 
 Twitter: [https://twitter.com/ComdexOfficial](https://twitter.com/ComdexOfficial)
 
-Раздор: [https://discord.gg /](https://discord.gg/)
+Discord: [https://discord.gg /](https://discord.gg/)
 
 Telegram: [https://t.me/ComdexChat](https://t.me/ComdexChat)
 
-Средний: [https://blog.comdex.one /](https://blog.comdex.one/)
+Medium: [https://blog.comdex.one /](https://blog.comdex.one/)
 
 Reddit: [https://www.reddit.com/r/ComdexOne](https://www.reddit.com/r/ComdexOne) /

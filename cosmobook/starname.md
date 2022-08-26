@@ -28,7 +28,7 @@ Below you can see Starname's technical roadmap for Q4 2021 (the company's last p
 
 I only found a roadmap from 2021, let's see what was going on there:
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 **1 - Selecting the Proof of Stake (POS) model**
 

@@ -16,7 +16,7 @@ The Cosmos network operates on three different levels.
 
 3\. Application layer: responsible for updating the state given a set of transactions, i.e. processing transactions..
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 All levels is combined by toolkits and applications with opensource code. For example, Tendermint connects the network layer and the consensus layer in a ready-to-use scheme that works automatically. This saves developers time and resources because they only work with app promotions.
 
@@ -46,7 +46,7 @@ Key features of Tendermint that make it a competitive blockchain mechanism:
 
 The Tendermint engine connects to the application layer using a protocol called Application Blockchain Interface (ABCI). The protocol can be built into any programming language, so developers have plenty to choose from.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 Although Tendermint reduces blockchain development time manifold, creating a secure ABCI application from scratch remains a daunting task. CosmsSDK was developed to simplify this task as much as possible.
 
@@ -54,7 +54,7 @@ Although Tendermint reduces blockchain development time manifold, creating a sec
 
 CosmosSDK is an open-source framework for creating permissionless PoS blockchains like CosmosHub, or permissioned Proof-of-Authority (PoA) blockchains.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 The Cosmos SDK aims to allow developers to create their own customized blockchains that are compatible by default with other blockchains in the ecosystem, using pre-made modules and toolsets. In doing so, each developer can create a new module and it will be available to all other developers.
 

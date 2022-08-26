@@ -2,95 +2,89 @@
 
 ![](https://img1.teletype.in/files/09/df/09df3f2f-135d-4387-857b-952388fafae2.png)
 
-## UnUniFi Protocol
+## UnUniFi
 
-### WTF UnUniFi <a href="#wucf" id="wucf"></a>
+The UnUniFi protocol is a Tier 1 blockchain that provides tools and features for users to create a CDP (secured deposit position) to fuse assets tied to legal currency, using NFT and cryptocurrencies as collateral through its NFT marketplace. And this is nothing short of an entry into the NFT x DeFi area, which is now actively developing.
 
-UnUniFi протокол — блокчейн первого уровня, который предоставляет инструменты и функции для создания пользователями CDP (обеспеченная депозитная позиция) для синтеза активов, привязанных к легальной валюте, с использованием NFT и криптовалют в качестве обеспечения через свой NFT маркетплейс. А это ничто иное как вход в область NFT x DeFi, которая сейчас активно развивается.
+The protocol offers as its advantages:\
+\- The largest amount of money users can borrow\
+\- lowest interest rates\
+\- the longest loan duration for NFT holders.
 
-В качестве своих преимуществ протокол предлагает:\
-\- самая наибольшая сумма денег, которую пользователи могут занять\
-\- самые низкие процентные ставки\
-\- самая большая продолжительность кредита для держателей NFT.
+As the team itself declares its mission: " **Give all NFTs the opportunity to DeFi"**
 
-Как сама команда декларирует свою миссию: **“Give all NFTs the opportunity to DeFi”**
+The project is young, at an early stage. Japanese development team from Botany LLP (Yu Kimura, Takeru Shimojima, Kenji Yanagisawa). All principal developers are members of CauchyE, Inc.
 
-Проект молодой, на ранней стадии. Команда разработчиков из Японии из Botany LLP (Yu Kimura, Takeru Shimojima, Kenji Yanagisawa). Все основные разработчики члены CauchyE, Inc.
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-![](https://img4.teletype.in/files/3a/2b/3a2ba526-dbcd-4e7e-91ac-2e5d7eb8278f.png)
+### **What problems is UnUniFi trying to solve?** <a href="#nmr8" id="nmr8"></a>
 
-### **Какие проблемы старается решить UnUniFi?** <a href="#nmr8" id="nmr8"></a>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-Во-первых: NFT достаточно активно набирают популярность и широкое распространение как внутри, так и за пределами крипто-мира. Но, из-за того, что в неликвидных NFT заблокированы большие суммы капитала, многие люди ищут различные способы как разблокировать и использовать эту ликвидность, не продавая при этом свои NFT.
+First: NFTs are quite actively gaining popularity and widespread distribution both inside and outside of the crypto world. But, due to the fact that large amounts of capital are locked up in illiquid NFTs, many people are looking for various ways to unlock and use this liquidity without selling their NFTs.
 
-Во-вторых, это проблемы, с которыми сталкиваются современные проекты стейблкоинов. Несмотря на то, что многие стейблы обеспечены легальными активами, существуют определенные риски их использования. Например, USDT от Tether, обеспечен законным платежным средством, но существует риск того, что компания-эмитент может злоупотребить финансовыми активами, которые служат залогом. Кроме того, стейблкоины, обеспеченные фиатом, подлежат регулированию в различных странах. Необеспеченные же стейблкоины будут работать только в том случае, если спрос на них будет увеличиваться в долгосрочной перспективе. Поэтому наиболее вероятно масштабирование тех стейблкоинов, которые обеспечены криптовалютой.
+Secondly, these are the challenges faced by today's stablocoin projects. Despite the fact that many steibles are backed by legitimate assets, there are certain risks of using them. For example, USDT from Tether, is secured by legal tender, but there is a risk that the issuing company could misuse the financial assets that serve as collateral. In addition, fiat-backed staplecoins are subject to regulation in various countries. Unsecured staplecoins, on the other hand, will only work if the demand for them increases over the long term. Therefore, those steiblocoins that are backed by cryptocurrency are the most likely to scale.
 
-Поэтому, пытаясь решить эти проблемы в совокупности, UnUniFi позволит пользователям выпускать синтетические стабильные активы на основе залога NFT, которые будут продаваться на своем NFT Marketplace и будут иметь ставки выше определенной суммы в качестве обеспечения.
+Therefore, in an attempt to address these issues collectively, UnUniFi will allow users to issue synthetic stable assets based on NFT collateral that will be traded on its NFT Marketplace and will have rates above a certain amount as collateral.
 
-### **Как будет работать UnUniFi?** <a href="#6psu" id="6psu"></a>
+### **How will UnUniFi work?** <a href="#6psu" id="6psu"></a>
 
-![](https://img4.teletype.in/files/f6/55/f6555f75-c8c0-49fa-8381-76e5aeb4963c.png)
+1\. Loan of crypto assets with NFT as collateral
 
-1\. Займ крипто активов с NFT в качестве залога
+The moment NFT holders create a deposit against an NFT as collateral, their NFT will be placed on the marketplace. In doing so, the seller can choose one of the following two methods of placement:\
+\- A method in which buyers are allowed to bid in any token\
+\- the way in which buyers need to bid with a specific token (ETH, BTC, etc.)
 
-В тот момент когда держатели NFT создают депозит под NFT в качестве обеспечения, их NFT будут выставлены на маркетплейсе. При этом продавец может выбрать один из следующих двух способов размещения:\
-\- способ, при котором покупателям разрешается предложить цену в любом токене\
-\- способ, при котором покупателям необходимо предложить цену определенным токеном (ETH, BTC и т. д.)
+If the seller chooses the former, it can borrow any recently released UnUniFi stablocoin, such as JPU or USU. One can borrow _**q × r%**_ of the synthetic asset, where _**q is** the average offer price up to the n-th place**, r is the**_ pledge _**ratio**_ (originally assumed to be 50%). If the seller chooses the latter, he can lend 100% of _**q**_ as the average bid price up to the **n-th** place in these tokens.
 
-Если продавец выбирает первое, то он может заимствовать любой, недавно выпущенный на UnUniFi стейблкоин, например, JPU или USU. Можно взять взаймы _**q**_ × _**r%**_ синтетического актива, где _**q** - средняя цена предложения до n -го места**, r** -_коэффициент залога (изначально предполагалось равным 50%). Если продавец выбирает последнее, то он может одолжить 100% от _**q**_ в качестве средней цены предложения до **n**-го места в этих токенах.
+NFTs are posted free of charge, but the seller must pay a small fee to continue to post NFTs while borrowing assets from bidders. If the seller cannot pay the fees, the posted NFTs will be liquidated. The renewal fee is not paid in GUUs (UnUniFi native token), but in tokens in which the bidding/borrowing is done, respectively.
 
-NFT размещается бесплатно, но продавец должен заплатить небольшие сборы, чтобы продолжать выставлять NFT, при этом занимая активы у участников торгов. Если же продавец не может оплатить сборы, выставленные NFT будут ликвидированы. Плата за продление оплачивается не GUU (нативный токен UnUniFi), а токенами, в которых осуществляется торг/заём, соответственно.
+2\. bargaining
 
-2\. Торги
+Anyone can participate in bidding by depositing tokens, depending on the NFT holder's chosen method of placement. Buyers can bid on an NFT if they want to buy and can cancel their bid if they wish. The pre-auction price, bidding price and cancellation price will be the price change information. During bidding, tokens will be locked, but participants can bid with locked tokens and receive a commission for extending the seller's placement of their NFTs. If a bidder wants to cancel their bid, some fee may be charged. Any bidder with the highest bid can buy NFTs.
 
-В торгах может принимать участие любой желающий, внося токены в зависимости от выбранного способа размещения держателем NFT. Покупатели могут предлагать цену на NFT, если хотят купить и при желании могут отменить свою ставку. При этом пред аукционная цена, цена торгов и цена при отмене будут информацией об изменении цены. В время торгов токены будут заблокированы, но участники могут делать ставки с заблокированными токенами и получать комиссию за продление размещения продавцом своих NFT. Если участник торгов захочет отменить свою ставку, то может взиматься некоторая плата. Любой участник, предложивший самую высокую цену, может купить NFT.
+3\. liquidation
 
-3\. Ликвидация
+If the seller is unable to pay the fees for the delayed end of listing, the NFT it has posted will be liquidated. If the seller does not want to lose the NFT, they can buy it back at a higher price than the current maximum auction price.
 
-Если продавец не может оплатить сборы за отсрочку окончания размещения, выставленная им NFT будет ликвидирована. Если продавец не хочет терять NFT, он может выкупить его по более высокой цене, чем максимальная цена аукциона на данный момент.
+_EXAMPLE for JPU mint:_
 
-_ПРИМЕР для минта JPU:_
+* _NFT seller: places NFT in "collateral vault"_
+* _bidder: places any token for trading_
+* _NFT seller: mines JPU, using the buyer's proposed funds as collateral. If he wants to extend the placement period, he must pay the fee in JPU._
+* _NFT seller: mines JPU, using the buyer's offered funds as collateral, and receives incremental income_
 
-* _продавец NFT: размещает NFT в "залоговое хранилище"_
-* _участник торгов: размещает любой токен для торгов_
-* _продавец NFT: минтит JPU, используя предложенные средства покупателя в качестве залога. Если он хочет продлить срок размещения, он должен оплатить сбор в JPU._
-* _продавец NFT: минтит JPU, используя предложенные средства покупателя в качестве залога, и получает прирост дохода_
+_EXAMPLE of ETH borrowing:_
 
-_ПРИМЕР заимствования ETH:_
+* _NFT seller: places NFT in "collateral vault"_
+* _bidder: places ETH for trading_
+* _NFT seller: lends ETH. If he wants to extend the placement period, he must pay the fee in ETH._
+* _NFT seller: receives direct profit_
 
-* _продавец NFT: размещает NFT в "залоговое хранилище"_
-* _участник торгов: размещает ETH для торгов_
-* _продавец NFT: одалживает ETH. Если он хочет продлить срок размещения, он должен оплатить сбор в ETH._
-* _продавец NFT: получает прямую прибыль_
+### **Tokenomics** <a href="#s2o3" id="s2o3"></a>
 
-### **Токеномика** <a href="#s2o3" id="s2o3"></a>
+A little bit of project tokenomics. Distribution of GUU tokens.
 
-Немного токеномики проекта. Распределение токенов GUU.
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-![](https://img2.teletype.in/files/13/b4/13b446f1-1af2-4ee9-8ec0-01c5d4331f02.png)
+and GUU token unlock chart
 
-и график разлока токена GUU
-
-![](https://img4.teletype.in/files/7d/09/7d098645-535a-4d24-bc2c-f4cb7c387f07.png)
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Roadmap <a href="#mcbw" id="mcbw"></a>
 
-На данный момент проект завершил первый этап тестирования и запустил бета-версию майннета. В роадмап не отмечено, но на данный момент все задачи по Q2 командой выполнены, что внушает ей определенное доверие. Впереди нас ожидает как минимум еще 2 тестнета, в которых мы все сможем принять участие.
+At the moment, the project has completed the first phase of testing and launched the beta version of the mainnet. The roadmap is not marked, but at the moment all Q2 tasks are completed by the team, which inspires a certain confidence. There are at least 2 more tests ahead of us, in which we will all be able to participate.
 
-![](https://img2.teletype.in/files/d9/9f/d99f4fc7-aa29-41e7-ba21-57673783dc12.png)
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-Да, и вернемся к нашим ~~баранам~~ валидаторам. Если вы по нашей наводке или нет, но выполняли тестнет UnUniFi и получили за него награды вы всегда можете застейкать их в нашего валидатора **\[creeptah.team]**. Мы же со своей стороны будем безмерно благодарны за веру в нас и оказанное доверие и впредь будем стараться радовать вас только качественным контентом.
+### **Links** <a href="#fsrg" id="fsrg"></a>
 
-### **Ссылки** <a href="#fsrg" id="fsrg"></a>
+[Website](https://ununifi.io/)
 
-Больше информации о проекте можно получить по следующим ссылкам:
+[Twitter](https://mobile.twitter.com/ununifi)
 
-[Сайт](https://ununifi.io/)
+[GitHub](https://github.com/UnUniFi)
 
-[Твиттер](https://mobile.twitter.com/ununifi)
-
-[Гитхаб](https://github.com/UnUniFi)
-
-[Дискорд](https://discord.gg/82uAU3jW)
+[Discord](https://discord.gg/82uAU3jW)
 
 [Youtube](https://www.youtube.com/c/UnUniFi)

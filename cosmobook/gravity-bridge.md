@@ -59,11 +59,11 @@ The Althea team (one of the authors of Gravity Bridge) is also working closely w
 
 Cosmos® Gravity Bridge™ was launched with a decentralized set of validators and approximately half of the tokens allocated to the DAO community for discretionary airdrops, future ecosystem support and liquidity mining. It is supported by an active and healthy community of token holders and validators who will make guiding decisions such as implementation of interconnect stacking, LM and airdrops.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Statistics on a single slide (**[**here**](https://monitor.bronbro.io/d/gravity-stats/gravity-stats?orgId=2\&refresh=5s)**):**
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **NFT bridge**
 
@@ -97,7 +97,7 @@ Gravity bands can be divided into the following categories:
 
 Instead of a corporation or board of insiders, each gravity group or sub-DAO will elect a representative who will be a member of Gravity Grants and sign 2/3 multi-sig. After the original charter members have served their term, new members must be elected at least once a year, or a special election may be scheduled through the board. These members evaluate the completion of Gravity Grants and release the remaining funds.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Airdrop**
 

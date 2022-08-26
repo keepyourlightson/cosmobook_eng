@@ -6,7 +6,7 @@
 
 **e-Money** is a blockchain-based payment platform that aims to connect the current banking system with a single efficient blockchain layer. e-Money was founded in 2016 by a Danish fintech company.
 
-Built on Cosmos technology, the e-Money protocol is designed to issue a range of steblecoins backed by fiat currency.
+Built on Cosmos technology, the e-Money protocol is designed to issue a range of stablecoins backed by fiat currency.
 
 Advantages:
 
@@ -32,7 +32,7 @@ Advantages:
 
 The e-Money ecosystem has a second token, **NGM** "Next Generation money", which is a stacking and rewards token. Users can stack NGM to secure the e-Money network.
 
-Unlike most existing stackablecoins, which tend to maintain a static 1:1 peg to their underlying assets, the value of e-Money tokens backed by fiat currency constantly changes in line with the interest accrued on reserve assets. This means that holders benefit from the interest accrued on their assets while they are stored in the wallet. Blockchain e-Money supports instant transfers and includes DEX for easy conversion between currencies. e-Money is already integrated with Cosmos Hub, Osmosis and Ethereum and several other networks:
+Unlike most existing stablecoins, which tend to maintain a static 1:1 peg to their underlying assets, the value of e-Money tokens backed by fiat currency constantly changes in line with the interest accrued on reserve assets. This means that holders benefit from the interest accrued on their assets while they are stored in the wallet. Blockchain e-Money supports instant transfers and includes DEX for easy conversion between currencies. e-Money is already integrated with Cosmos Hub, Osmosis and Ethereum and several other networks:
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
@@ -48,7 +48,7 @@ For customers of international banks, remittances are one such area where electr
 
 The stablecoins to be used in e-Money are a new form of stablecoins that are completely unique to the e-Money platform. The cryptocurrency industry is currently dominated by two types of stablecoins: secured stablecoins and algorithmic stablecoins. Despite recent and rapid market growth caused by volatility in both cryptocurrency and traditional markets, both types of stablcoins have weaknesses and pain points.
 
-Algorithmic steblecoins are inherently unstable and inefficient because they rely on redundant collateral to protect the system. On a large scale, algorithmic stablenecoins struggle for instant liquidity. Meanwhile, in an environment of negative interest rates, e-Money predicts that collateralized stackcoins will not be viable in the long run because, as their reserve value declines, they will be forced to take additional risks, use their reserves, or charge redemption fees to cover shortfalls.
+Algorithmic stablecoins are inherently unstable and inefficient because they rely on redundant collateral to protect the system. On a large scale, algorithmic stablenecoins struggle for instant liquidity. Meanwhile, in an environment of negative interest rates, e-Money predicts that collateralized stackcoins will not be viable in the long run because, as their reserve value declines, they will be forced to take additional risks, use their reserves, or charge redemption fees to cover shortfalls.
 
 Currency-backed Stablecoins created by e-Money are a further evolution of the concept of secured Stablecoins. Crucially, however, e-Money's currency-backed stablenecoins are interest-bearing, and have more in common with a bank deposit than money that can be held in your hand. This innovative approach also gives e-Money currency-backed Stablecoins greater resilience in the face of economic uncertainty.
 
@@ -60,7 +60,7 @@ The ecosystem also has an active DEX on which each token can be immediately exch
 
 The team behind e-Money has significant experience in finance, technology, banking, marketing and blockchain. This team is already contributing to Cosmos through the Validator Network for the Cosmos hub.
 
-The Stablecoin market is still a relatively new but thriving sector. It is growing rapidly thanks to the constant price volatility of bitcoin and other cryptocurrencies. In 2020 alone, the total market value of Ethereum-based steblecoins increased by 95.38% to $6.25 billion.
+The Stablecoin market is still a relatively new but thriving sector. It is growing rapidly thanks to the constant price volatility of bitcoin and other cryptocurrencies. In 2020 alone, the total market value of Ethereum-based stablecoins increased by 95.38% to $6.25 billion.
 
 The main disadvantages of cryptocurrencies backed by stabelcoins are:
 

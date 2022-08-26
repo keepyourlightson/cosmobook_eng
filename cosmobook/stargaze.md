@@ -24,7 +24,7 @@ By Q1 2022, Stargaze users will be able to create, curate and trade NFTs in the 
 
 The $STAR issuance schedule is similar to the Bitcoin issuance schedule. However, instead of half issuance, issuance will be reduced by 1/3 each year. Osmosis was the first protocol to use a "treading" token issuance schedule and was largely responsible for the design of Stargaze.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 Stargaze started with an initial offering of 1 billion STARS. Another 1 billion STARS will be issued in the first year. With this "tretting" schedule, the next year's issuance will be \~667M STARS. This infinite sequence is a geometric series that leads to a fixed asymptotic maximum supply of 4 billion STARS.
 
