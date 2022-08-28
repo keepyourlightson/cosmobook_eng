@@ -4,56 +4,56 @@
 
 ## Cronos <a href="#lint" id="lint"></a>
 
-\*_Мы не нашли в открытых источниках какого-то детального описания Cronos, поэтому взяли за основу публикацию мессари “Cronos: An Introduction and Analysis of a New L1” (оригинал_ [_тут_](https://messari.io/article/cronos-an-introduction-and-analysis-of-a-new-l1?referrer=list-view)_), хотя технической информации там тоже найти не удалось._
+\*We couldn't find any detailed description of Cronos in public sources, so we took as a basis the publication of Messari "Cronos: An Introduction and Analysis of a New L1" (original_ [_there_](https://messari.io/article/cronos-an-introduction-and-analysis-of-a-new-l1?referrer=list-view)_), though we couldn't find any technical information there either._
 
-**Crypto.org** – блокчейн, построенный на Cosmos SDK, используется для стейкинга и транзакций в рамках крипто биржи Crypto.com
+**Crypto.org** - a blockchain built on the Cosmos SDK, used for stacking and transactions within the Crypto.com crypto exchange
 
-**Cronos** (ранее называлась Crypto.org EVM chain) – это эфириум-совместимая сеть, построенная на Cosmos SDK. За созданием Cronos стоят Crypto.com, но за разработку и развитие сети сейчас отвечают Cronos Labs. Cronos является бездоверительным блокчейном с открытым кодом, Cronos Labs ставят своей главной задачей предоставить разработчикам и пользователям возможность мгновенно портировать свои приложения и активы из других сетей, тем самым привлекая в экосистему Cosmos новые DeFi, GameFi и новых пользователей.
+**Cronos** (formerly called Crypto.org EVM chain) is an Etherium-compatible network built on the Cosmos SDK. Crypto.com is behind the creation of Cronos, but Cronos Labs is now responsible for the design and development of the network. Cronos is a trustless, open-source blockchain, and Cronos Labs' main goal is to enable developers and users to instantly port their apps and assets from other networks, thereby attracting new DeFi, GameFi and new users to the Cosmos ecosystem.
 
-_\*Поскольку в сети Crypto.org нет ничего примечательного, т.е. это обычная зона в экосистеме Cosmos, которая по сути не привносит никаких новшеств, но, как и все остальные блокчейны на базе Cosmos SDK, является полностью совместимой с остальными блокчейнами внутри экосистемы, дальше будет в основном описание сети Cronos._
+_\*Since there is nothing remarkable about the Crypto.org network, i.e. it is a common area in the Cosmos ecosystem that essentially brings no innovations, but, like all other blockchains based on the Cosmos SDK, is fully compatible with other blockchains within the ecosystem, the description of the Cronos network will mostly follow._
 
-### **Crypto.com и история создания Crypto.org и Cronos**
+### **Crypto.com and history of Crypto.org&Cronos**
 
-Crypto.com был основан в июне 2016 года, сперва проект назывался Monaco и являлся централизованной биржей. Количество пользователей Crypto.com увеличилось с 1 миллиона в 2019-ом году до 50 миллионов в 2022-ом. Crypto.com проводит агрессивную маркетинговую компанию (уверен, что многие из вас видели их лого на различных крупных спортивных мероприятия – NBA, NHL, UFC, формула 1 и т.д.), на данный момент входит в десятку самых крупных бирж, им принадлежит весьма популярный одноименный криптовалютный кошелек и они разработали своего рода крипто-кэшбек на карточку. При этом награды владельцам карт выплачиваются в нативном токене CRO, а для получения этих наград пользователи также должны держать некоторое количество CRO на своей карте.
+Crypto.com was founded in June 2016, at first it was called Monaco and was a centralized exchange. The number of Crypto.com users grew from 1 million in 2019 to 50 million in 2022. Crypto.com conducts an aggressive marketing campaign (I'm sure many of you have seen their logo at various major sporting events - NBA, NHL, UFC, formula 1, etc.), is currently among the ten largest exchanges, they own a very popular cryptocurrency wallet of the same name and they have developed a kind of cryptocashback to the card. In this case, rewards to cardholders are paid in native CRO token, and users must also keep some amount of CRO on their card to receive these rewards.
 
-В 2019 году команда Crypto.com запустила свой собственный блокчейн Crypto.org с целью предоставить пользователям возможность торговать, совершать платежи и пользоваться финансовыми услугами на блокчейн “рельсах”. Однако нормальное развитие сети было невозможным из-за недостаточного функционала нативных смарт-контрактов. Для решения этой проблемы в 2021 году была запущена сеть Crypto.org EVM, которая после ребрендинга стала называться Cronos, а для разработки и развития сети были сформированы Cronos Labs, которые сразу получили 100 миллионный грант от Crypto.com.
+In 2019, the Crypto.com team launched its own blockchain, Crypto.org, with the goal of enabling users to trade, make payments and use financial services on blockchain "rails." However, normal development of the network was impossible due to insufficient functionality of native smart contracts. To solve this problem, the Crypto.org EVM network was launched in 2021, which after rebranding became known as Cronos, and Cronos Labs was formed to design and develop the network, which immediately received a $100 million grant from Crypto.com.
 
-### **Технология Cronos**
+### **Cronos Tech**
 
-Сперва команда планировала создать свой собственный EVM совместимый блокчейн, но по итогу было использовано готовое решение от Ethermint (в настоящее время Evmos) с некоторыми необходимыми доработками.
+At first, the team planned to create their own EVM compatible blockchain, but in the end they used a ready-made solution from Ethermint (now Evmos) with some necessary modifications.
 
-На июль 2022 года в сети Cronos было 27 валидаторов (актуальное количество валидаторов можно посмотреть [тут](https://cronoscan.com/stat/miner/2?range=7\&blocktype=blocks)), планируется увеличить их количество до 60-80 к концу 2022 года. Однако для того, чтобы стать валидатором, пользователь должен иметь некоторое количество гавернанс токенов, которые так и называются “Cronos governance token”, этот токен не торгуется ни на одной из бирж и выдается активным членам комьюнити. И хотя в основе механизма консенсуса лежит Tendermint (т.е. типичный PoS, где вероятность того, что текущий блок будет подписывать определенный валидатор, зависит от количества монет данного валидатора), сама команда характеризует Cronos как Proof-of-Authority блокчейн. Время генерации блока составляет 6 секунд, валидаторы не получают никаких вознаграждений за нахождение нового блока, а лишь транзакционные комиссии. Так же держатели гавернанс токена имеют право участвовать в голосованиях, где сила их голоса также является пропорциональной их количеству токенов.
+As of July 2022, there were 27 validators in the Cronos network (the current number of validators can be seen [here](https://cronoscan.com/stat/miner/2?range=7\&blocktype=blocks)), with plans to increase that number to 60-80 by the end of 2022. However, in order to become a validator, a user must have a certain number of havernance tokens, which are called "Cronos governance token," this token is not traded on any exchange and is issued to active members of the community. Although the consensus mechanism is based on Tendermint (i.e. a typical PoS, where the probability that the current block will be signed by a certain validator depends on the number of coins of that validator), the team itself characterizes Cronos as a Proof-of-Authority blockchain. Block generation time is 6 seconds, validators do not receive any rewards for finding a new block, only transaction fees. Also, havernance token holders have the right to participate in votes, where the strength of their vote is also proportional to their number of tokens.
 
-### **Токеномика**
+### **Tokenomics**
 
-Токен Cronos (CRO) является общим для Crypto.org и сети Cronos, но существует в трех разных стандартах: нативный CRO для Crypto.org, CRC-20 CRO для сети Cronos и ERC-20 CRO для сети Ethereum.
+The Cronos token (CRO) is common to Crypto.org and the Cronos network, but exists in three different standards: native CRO for Crypto.org, CRC-20 CRO for the Cronos network and ERC-20 CRO for the Ethereum network.
 
-В экосистеме Crypto.org токен CRO используется для стейкинга, оплаты транзакционных комиссий, выплаты наград валидаторам (5 миллиардов токенов из общего саплая в 30 миллиардов выделены для данной цели) и в отдаленной перспективе также будет выполнять гавернанс функции. Пользователи могут стейкать CRO валидаторам (любой пользователь может быть валидатором, но лишь топ-100 валидаторов получают награды), и в зависимости от застейканного количества токенов и времени лока получать определенные награды (подробнее [тут](https://crypto.com/earn)).
+In the Crypto.org ecosystem, the CRO token is used for stacking, payment of transaction fees, payment of rewards to validators (5 billion tokens out of a total saplus of 30 billion are allocated for this purpose) and in the long term will also serve as a havernance function. Users can stack CROs to validators (any user can be a validator, but only the top 100 validators get rewards), and depending on the number of tokens and local time they get certain rewards (more details [here](https://crypto.com/earn)).
 
-В сети Cronos существует два токена. Применение гавернанс токена было описано выше, а токен CRC-20 CRO служит для оплаты транзакционных комиссий. Как уже отмечалось, дополнительных наград за нахождение блока в сети Cronos не предусмотрено. Поэтому для привлечения большего количества валидаторов команда работает над расширением пользовательской базы за счет холдеров токена CRO из экосистемы Crypto.org.
+There are two tokens in the Cronos network. The use of the havernance token was described above, and the CRC-20 CRO token serves to pay transaction fees. As noted, there are no additional rewards for finding a block in the Cronos network. Therefore, to attract more validators, the team is working to expand the user base with CRO token holders from the Crypto.org ecosystem.
 
-### **Экосистема, и важные/ожидаемые события**
+### **Ecosystem, and important/expected events**
 
-На данный момент в экосистеме Cronos насчитывается более 200 приложений (рисунок большой, поэтому ссылочка на него [тут](https://twitter.com/NewsCronos/status/1524554990454546432/photo/1)). Команда активно занимается привлечением разработчиков за счет системы грантов и проведения хакатонов (подробнее [тут](https://medium.com/cronos-chain/cronos-ecosystem-grants-7a4a2de3b721) и [тут](https://hidorahacks.medium.com/cronos-hackathon-application-guide-up-to-500k-prize-pool-workshops-and-more-ed8d5c8f9dcc)). Так же в скором времени планируется запуск своего акселератора.
+Currently, there are more than 200 applications in the Cronos ecosystem (the figure is large, so the link to it is [here](https://twitter.com/NewsCronos/status/1524554990454546432/photo/1)). The team is actively engaged in attracting developers through a system of grants and hackathons (more details [here](https://medium.com/cronos-chain/cronos-ecosystem-grants-7a4a2de3b721) and [here](https://hidorahacks.medium.com/cronos-hackathon-application-guide-up-to-500k-prize-pool-workshops-and-more-ed8d5c8f9dcc)). Also in the near future it is planned to launch its own gas pedal.
 
-### **Заметные экосистемные проекты**
+### **Significant ecosystem projects**
 
-· VVS Finance – DEX в экосистеме Cronos, имеет наибольший TVL из всех проектов на Cronos, 70к пользователей (в месяц), а также выделяется уникальным механизмом листинга новых токенов, называемом Initial Gem Offerings (подробнее [тут](https://medium.com/vvs-finance/introducing-vvs-initial-gem-offering-7802bc9aa383)).
+- VVS Finance - DEX in Cronos ecosystem, has the largest TVL of all projects on Cronos, 70k users (per month), and also stands out by a unique mechanism of listing new tokens, called Initial Gem Offerings (more details [here](https://medium.com/vvs-finance/introducing-vvs-initial-gem-offering-7802bc9aa383)).
 
-· MM Finance – еще один DEX, из особенной стоит выделить наличие оптимизатора доходности (yield optimizer) и своего нативного алгоритмического стэйблкоина.
+- MM Finance is another DEX, with a yield optimizer and its own native algorithmic Stablecoin.
 
-· Tectonic – крупнейший лендинговый протокол на Cronos (TVL около 450 миллионов на июль 2022).
+- Tectonic is the largest lending protocol on Cronos (TVL about 450 million as of July 2022).
 
-· Single Finance и Thetanuts Finance – оба проекта фокусируются на структурированных финансах (опционы, деривативы).
+- Single Finance and Thetanuts Finance - both projects focus on structured finance (options, derivatives).
 
-Важные/ожидаемые события
+Important/Expected Developments
 
-· В апреле 2022 года был запущен Cronos Play – платформа, которая позволит разработчикам игр использовать популярные движки, такие как Unity и Unreal, а также предоставит набор инструментов для создания своих игр внутри экосистемы Cronos (подробнее [тут](https://medium.com/cronos-chain/cronos-announces-cronos-play-and-its-first-integration-with-chainsafe-gaming-sdk-523fdbc28d7)).
+- April 2022 saw the launch of Cronos Play, a platform that will allow game developers to use popular engines such as Unity and Unreal, as well as provide a set of tools to create their games within the Cronos ecosystem (more [here](https://medium.com/cronos-chain/cronos-announces-cronos-play-and-its-first-integration-with-chainsafe-gaming-sdk-523fdbc28d7)).
 
-· 11 июля 2022 года Cronos объявили об интеграции с Covalent (что это дает и для чего нужно, можно почитать [тут](https://medium.com/cronos-chain/covalent-integrates-with-cronos-blockchain-to-ease-data-access-for-developers-data-analysts-and-32879a424918)).
+- On July 11, 2022, Cronos announced its integration with Covalent (see [here](https://medium.com/cronos-chain/covalent-integrates-with-cronos-blockchain-to-ease-data-access-for-developers-data-analysts-and-32879a424918)).
 
-· На июль 2022 года Cronos интегрировали технологию Gravity Bridge (существует также одноименный блокчейн в экосистеме Cosmos, но Cronos используют не сам мост, а именно его технологию), которая позволит пользователь осуществлять трансфер ERC-20 токенов в сеть Cronos. На июль 2022 года Gravity Bridge используется в тестовом режиме.
+- For July 2022, Cronos integrated Gravity Bridge technology (there is also a blockchain of the same name in the Cosmos ecosystem, but Cronos uses its technology, not the bridge itself), which will allow users to transfer ERC-20 tokens into the Cronos network. As of July 2022, Gravity Bridge is in test mode.
 
-· К концу второго квартала 2022 года ожидается запуск Aave v3 на Cronos.
+- By the end of the second quarter of 2022, Aave v3 is expected to launch on Cronos.
 
-Стоит отметить, что несмотря на то, что Crypto.com является известной биржей и уже давно функционирует, Cronos это очень молодая сеть даже по меркам экосистемы Cosmos. Им еще предстоит решить вопрос с централизацией (мало валидаторов) и построить/привлечь качественные DeFi и GameFi протоколы и приложения, однако Crypto.com является очень узнаваемым брендом и у Cronos Labs хорошая команда, которая в большом количестве рекрутирует новых сотрудников. И хотя планы и цели Cronos не кажутся чем-то особенно новым, все же интересно будет посмотреть, смогут ли Cronos Labs их реализовать.
+It is worth noting that while Crypto.com is a well-known exchange and has been operating for a long time, Cronos is a very young network even by the standards of the Cosmos ecosystem. They have yet to address the issue of centralization (few validators) and build/attract quality DeFi and GameFi protocols and applications, but Crypto.com is a very recognizable brand and Cronos Labs has a good team that is recruiting new employees in large numbers. While Cronos' plans and goals don't seem particularly new, it will be interesting to see if Cronos Labs can pull them off.

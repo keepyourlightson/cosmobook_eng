@@ -4,38 +4,38 @@
 
 ## Omniflix <a href="#oksn" id="oksn"></a>
 
-OmniFlixNetwork (ранее называлась FreeFlixMediaNetwork) – это p2p-сеть для авторов и сообществ, которая позволяет эффективно управлять, распространять и монетизировать пользовательский контент.
+OmniFlixNetwork (formerly FreeFlixMediaNetwork) is a p2p network for authors and communities to efficiently manage, distribute, and monetize user-generated content.
 
-Сеть создавали для решения трёх проблем:
+The network was created to solve three problems:
 
-1\. Недостаточный охват аудитории;
+1\. Lack of audience reach;
 
-2\. Недостаточное количество инструментов для совместной работы при создании, распространении и монетизации контента;
+2\. Lack of collaboration tools to create, distribute and monetize content;
 
-3\. Недостаточно суверенная инфраструктура при распределении контента.
+3\. Lack of sovereign infrastructure for content distribution.
 
-При этом подчёркивается, что это сеть, а не платформа или приложение. В то же время, OmniFlix не является протоколом, т.к. использует существующий набор протоколов, которые внедряет при необходимости. А недостающие разрабатывает.
+It is emphasized that this is a network, not a platform or an application. At the same time, OmniFlix is not a protocol, because it uses the existing set of protocols, which it implements if necessary. It develops the missing ones.
 
-Сеть OmniFlix использует три типа узлов – валидатор, ретранслятор (релэер) и ноду-хранения. Валидатор отвечает за создание блоков и участие в управлении (от имени делегаторов), ретранслятор за перемещение пакетов между сетями, а ноды хранения отвечают за доставку контента в сети.
+The OmniFlix network uses three types of nodes - a validator, a relay (relayer) and a storage node. The validator is responsible for creating blocks and participating in management (on behalf of delegators), the relayer is responsible for moving packets between networks, and the storage nodes are responsible for delivering content to the networks.
 
-Несмотря на то, что по роадмэпу мэйннет запланирован на 4й квартал 2022, его уже можно потыкать и даже купить NFT на маркетплэйсе.
+Even though the roadmap says the mainnet is scheduled for Q4 2022, you can already poke around and even buy NFT on the marketplace.
 
 ![](https://telegra.ph/file/d3aa4e68024e2268fcf98.png)
 
-Сейчас экосистема состоит всего из четырёх элементов: OmniFlixStudio, OmniFlixMarket, OmniFlixinSync и StreamPay.
+Right now, the ecosystem consists of just four elements: OmniFlixStudio, OmniFlixMarket, OmniFlixinSync, and StreamPay.
 
-**OmniFlixStudio** – базовое приложение, которое позволяет минтить, управлять, распространять и монетизировать контент.
+**OmniFlixStudio** is the basic app that lets you minify, manage, distribute, and monetize content.
 
-**OmniFlixMarket** используется для листинга, коллекционирования и передачи токенов, в том числе и через IBC. На скрине наглядный пример мультичейновости — изначально гопник минтится на CosmosHub (и стоит 2.28 ATOM, кстати).
+**OmniFlixMarket** is used for listing, collecting and transferring tokens, including via IBC. The screenshot is a clear example of multichain - the initial gopnik mines on CosmosHub (and costs 2.28 ATOM, by the way).
 
 ![](https://telegra.ph/file/971f3fb9200824a74f650.png)
 
-**OmniFlixInSync** служит для стейкинга, управления и голосования за предложения. По сути, это аналог dApp, например, от Kepplr.
+**OmniFlixInSync** serves as a steaming, controlling, and voting for proposals. It's essentially analogous to a dApp from Kepplr, for example.
 
-Одна из примечательных даппок чейна – участник HackAtom IV, сервис стриминговых платежей StreamPay ([https://sp.omniflix.network/](https://sp.omniflix.network/)). StreamPay – это модуль, такой же как и CosmWasm. Он может быть использован на любых чейнах экосистемы Cosmos. Сервис имеет свой токен SPAY, но поддерживаются и другие IBC токены, например, FLIX и JUNOX. Идея следующая: Потап хочет оплатить услуги Лилианы на 1 час. Выделяет на это 100 SPAY, выставляет в получателях платежа кошелёк Лили, дату и время начала и окончания предоставления услуги. И в течение всего времени платежи будут равномерно распределены по блокам. Пока сервис довольно примитивный, но планируется к внедрению остановка платежей, добавление ончейн тригеров запуска/остановки, адаптивное изменение доли платежа и др.
+One notable dApp of the chane is a member of HackAtom IV, StreamPay's streaming payment service ([https://sp.omniflix.network/](https://sp.omniflix.network/)). StreamPay is a module like CosmWasm. It can be used on any chains of the Cosmos ecosystem. The service has its own token SPAY, but other IBC tokens are also supported, such as FLIX and JUNOX. The idea is this: Potap wants to pay for Liliana's services for 1 hour. He allocates 100 SPAY for this, puts Lily's wallet in the payment recipients, the date and time of the start and end of the service. And throughout the time, the payments will be evenly distributed in blocks. So far the service is quite primitive, but there are plans to implement stopping payments, adding on-chain start/stop triggers, adaptive change of payment share, etc.
 
-Отметим, что по-прежнему можно потестить возможности сети, разместить коллекцию NFT, залистить её, а также купить картинку за тест-токены.
+Note that you can still try out the capabilities of the network, post a collection of NFT, fill it up, and also buy a picture for test tokens.
 
-Ознакомиться с маркетплэйсом и потыкаться можно [тут.](https://f4.omniflix.market/)
+You can check out the marketplace and poke around [here] (https://f4.omniflix.market/).
 
-Перейти к серьёзным вещам и купить NFT в мэйннете можно [тут.](https://omniflix.market/)
+To get down to serious stuff and buy NFTs in the mainnet, you can [here](https://omniflix.market/)
