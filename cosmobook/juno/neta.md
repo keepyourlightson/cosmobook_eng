@@ -1,114 +1,105 @@
 # Neta
 
-## Neta-конфета или neta-\*уета?
 
-![](https://telegra.ph/file/9e39b3612e6aa59b650db.png)
+NETA is money in the Juno zone. The token was created and distributed by [Core-1](https://docs.junonetwork.io/juno/juno-developers#core-1), the core Juno Network development team. The only utility of $NETA is to be a scarce decentralized asset for savings not only in the Juno zone, but also in Cosmos in general.
 
-NETA — это деньги в зоне Juno. Токен был создан и распространен [Core-1](https://docs.junonetwork.io/juno/juno-developers#core-1), основной командой разработчиков Juno Network. Единственное утилити $NETA — быть дефицитным децентрализованным активом для сбережения не только в зоне Juno, но и в Cosmos в целом.
+All tokens were distributed via airdrop to $Juno stackers in the following quantities:
 
-Все токены были распределены через airdrop среди стейкеров $Juno в следующих количествах:
+1. _Staking from 25 JUNO = 1 NETA_.
+2. _User voted on at least one sentence = 10 additional NETA_
+3. _User voted on all sentences = 5 additional NETAs_.
+4. _User delegated at least one validator from outside the top 20 = 0.2 additional NETA_
 
-1. _Стейкинг от 25 JUNO = 1 NETA_
-2. _Юзер проголосовал минимум по одному предложению = 10 дополнительных NETA_
-3. _Юзер проголосовал по всем предложениям = 5 дополнительных NETA_
-4. _Юзер делегировал минимум одному валидатору не из топ20 = 0.2 дополнительных NETA_
+The total offer was 32950 NETA. The snapshot included users who snapped up JUNO before the Moneta update on December 15, 2021. This is the same update that brought smart contracts to Juno. Claims were available from February 1 to 28 and...1063.4 NETAs went unclaimed and were burned. Total, sapply $3,1886.6 $NETA.
 
-Общее предложение составило 32950 NETA. В снэпшот попали пользователи, застейкавшие JUNO до обновление Moneta 15 декабря 2021 года. Это тот самый апдейт, который принёс смарт-контракты на Juno. Клейм был доступен с 1 по 28 февраля и...1063.4 NETA остались невостребованными и были сожжены. Итого, сапплай 31886.6 $NETA.
-
-Таким образом, максимальное количество токенов, доступных для клейма составило 16,2 на кошелёк. Все токены были распределены между 5372 кошельками. Для любителей наглядной статистики ниже диаграммы от твиттер-юзера @iamtherealjohn\_
+Thus, the maximum number of tokens available for branding was 16.2 per wallet. All tokens were distributed among 5,372 wallets. For those who like visual statistics, below are charts from Twitter user @iamtherealjohn\_
 
 ![](https://telegra.ph/file/509e3005d5b29b114ae31.png)
 
-Отмечу, что хайп (если так можно назвать событие, связанное с дропом на 5372 кошельков) вокруг NETA был неплохим. Его успели назвать биткойном в космосе ([пруф](https://chaindebrief.com/neta-decentralized-inter-chain-store-of-value-juno-network/)), писали о том, что продавшие по 2к+ пожалеют позже ([пруф](https://twitter.com/ShutenDoji20/status/1489707751924240395?ref\_src=twsrc%5Etfw)) и т.д. На сегодняшний день реальность такова, что те, кто слил сразу после клейма, неплохо заработали. Посмотрите как изменялась цена:
+I should note that the haip (if that's what you can call an event related to the drop on 5372 wallets) around NETA was not bad. They managed to call it bitcoin in space ([pruf](https://chaindebrief.com/neta-decentralized-inter-chain-store-of-value-juno-network/)), wrote that those who sold 2k+ would regret it later ([pruf](https://twitter.com/ShutenDoji20/status/1489707751924240395?ref\_src=twsrc%5Etfw)), etc. As of today, the reality is that those who leaked right after the stigma made good money. Look at how the price has changed:
 
 ![](https://telegra.ph/file/c1de960c7d143a65b5257.png)
 
-Но мы с вами тут не флипа ради, а космоса для. Ажиотаж в экосистемных чатах не стих, а значит, давайте посмотрим, что же ещё там есть кроме FOMO)))
+But we are not here for the sake of flip, but for the sake of space. The excitement in ecosystem chats hasn't died down, so let's see what else is out there besides FOMO)))
 
 ### Neta DAO <a href="#neta-dao" id="neta-dao"></a>
 
-В твите из оффициального аккаунта прямо говорится о том, что Neta -- это не проект, и всё развитие зависит от сообщества. То есть core-1 после первичного распространения токена не несёт за него ответственность.
+The tweet from the official account explicitly states that Neta is not a project, and that all development depends on the community. That is, core-1, after the initial distribution of the token, is not responsible for it.
 
 ![](https://telegra.ph/file/caa35b6c17361bd41bed2.png)
 
-Именно поэтому возникло Neta DAO -- децентрализованная автономная организация (DAO), управляемая холдерами $NETA, которая выступает в качестве акселератора сообщества для финансирования и развития $NETA и Neta DAO. Предложение возникло 25.05.2022 на Commonwealth, инициаторами выступили cryptomuse, envy, GlowGator, Heisenberg1, HODLer, Massv, Paul123, TrickyCrypto, whiskey, wtrsld.juno. Документ можно почитать тут [https://netadaozone-backup.neocities.org/docs/neta-dao-statement-2022-05-25.pdf](https://netadaozone-backup.neocities.org/docs/neta-dao-statement-2022-05-25.pdf).
+This is why the Neta DAO, a decentralized autonomous organization (DAO) run by $NETA holders, has emerged to act as a community gas pedal to fund and develop $NETA and the Neta DAO. The proposal originated on 05/25/2022 on Commonwealth, initiated by cryptomuse, envy, GlowGator, Heisenberg1, HODLer, Massv, Paul123, TrickyCrypto, whiskey, wtrsld.juno. You can read the document here [https://netadaozone-backup.neocities.org/docs/neta-dao-statement-2022-05-25.pdf](https://netadaozone-backup.neocities.org/docs/neta-dao-statement-2022-05-25.pdf).
 
-При этом, основной дискорд комьюнити Neta по-прежнему работает, хоть и обсуждения очень вялые.
+At the same time, the main Neta discord community is still working, although the discussions are very sluggish.
 
-Ребята из Neta DAO в дисклеймере пишут о том, что организация вышла из официального дискорда, но будут называть Neta DAO именно себя, т.к. первые это придумали. При этом не отрицают того, что таких организаций может быть несколько.
+The guys from Neta DAO in the disclaimer write that the organization left the official discord, but will call themselves Neta DAO, because they came up with it first. However, they do not deny that there may be several such organizations.
 
-DAO предоставляет преимущества и привилегии, такие как:
+The DAO provides benefits and privileges such as:
 
-**Сообщество.** Заблокировав свои $NETA в Neta DAO, вы помогаете построить мощное сообщество Neta DAO для экосистем Neta и Juno. За это вы получите такие преимущества, как аирдропы, эксклюзивные NFT и вайтлисты NFT.
+**Community.** By locking your $NETAs into the Neta DAO, you help build a powerful Neta DAO community for the Neta and Juno ecosystems. For this, you'll receive benefits such as airdrops, NFT exclusives, and NFT whitelists.
 
-**Выбор направления развития.** Будучи членом сообщества Neta DAO, каждый сможет не только высказать своё мнение через Commonweatlh, но и принимать участие в голосовании DAO.
+**Choice of direction.** As a member of the Neta DAO community, everyone can not only voice their opinion through Commonweatlh, but also participate in DAO voting.
 
-**Трежари.** Вы будете играть ключевую роль в кураторстве и голосовании за распределение и использование фондов DAO Treasury и пула поощрения LP. Эти средства ускорят работу команд, создающих dApps, сервисы, NFT, игры и другие протоколы.
+**Treasury.** You will play a key role in curating and voting on the allocation and use of DAO Treasury funds and the LP incentive pool. These funds will accelerate teams creating dApps, services, NFTs, games, and other protocols.
 
-Всё это ожидается вместе с возможностью залочить свои $Neta. Уже состоялся дроп от Gelotto, а также вероятно будет дроп IDOLS NFT [https://twitter.com/BeholdIdols](https://twitter.com/BeholdIdols), т.к. в твитаке упомянута @Neta\_DAO [https://twitter.com/Neta\_DAO](https://twitter.com/Neta\_DAO), а также в презентации коллекции в колонтитулах та самая Neta DAO.
+All of this is expected, along with the ability to lock your $Neta. There has already been a drop from Gelotto, and there will probably be a drop from IDOLS NFT [https://twitter.com/BeholdIdols](https://twitter.com/BeholdIdols), as the tweet mentions @Neta\_DAO [https://twitter.com/Neta\_DAO](https://twitter.com/Neta\_DAO), and the same Neta DAO in the collection presentation in the footers.
 
 ![](https://telegra.ph/file/115f7e1100d845d89eefa.png)
 
 ***
 
-В этом обзоре много додуманного, давайте резюмирую факты, а потом мысли и выводы по ним.
+There's a lot of second-guessing in this review, let me summarize the facts and then my thoughts and conclusions on them.
 
-### **Факты:** <a href="#zib5" id="zib5"></a>
+### **Facts:** <a href="#zib5" id="zib5"></a>
 
-1. $Neta токен разработан Core-1, создателями Juno. Об этом говорит в т.ч. их твитак [https://mobile.twitter.com/CRootHQ](https://mobile.twitter.com/CRootHQ);
-2. За холд Neta уже давали дроп. Да, я про gelotto [https://gelotto.io/airdrop](https://gelotto.io/airdrop)
-3. Комьюнити вокруг $Neta хоть и вяло, но мутит децентрализованные организации. Сейчас их две: основная, которая возникла вместе с Neta.money и Neta DAO, которая отделилась 25 мая 2022 и топит за DAO.
+1. The $Neta token was developed by Core-1, the creators of Juno. Their tweet [https://mobile.twitter.com/CRootHQ](https://mobile.twitter.com/CRootHQ) says so;
+2. There was already a drop for holding Neta. Yes, I mean gelotto [https://gelotto.io/airdrop](https://gelotto.io/airdrop)
+3. The community around $Neta, though sluggish, is making decentralized organizations. There are two of them now: the main one, which arose with Neta.money, and Neta DAO, which split off on May 25, 2022 and is sinking for DAO.
 
-#### **Мысли и выводы:** <a href="#yn2z" id="yn2z"></a>
+#### **Thoughts and Conclusions:** <a href="#yn2z" id="yn2z"></a>
 
-1. Вероятно холд $Neta будет своеобразным флагом, обозначающим early-supporter Juno. Также, учитывая то, что токен разработали основатели зоны Juno, то возможно это будет учитываться при распределении токенов следующих детищ.
-2. Если запустят DAO, то можно поучаствовать в управлении ради движа, а также ради плюшек, которые обещают Neta DAO.
+1. It is likely that the $Neta hold will be a kind of flag indicating early-supporter Juno. Also, given that the token was developed by the founders of the Juno zone, perhaps this will be taken into account in the allocation of tokens for the next offspring.
+2. If the DAO is launched, it is possible to participate in the management for the sake of the movement, as well as for the plushies that Neta DAO promises.
 
+### 18.08.2022 Staking and DAO
 
+Staking Neta started on 8/11/2022
 
+Contract Address: juno1c5v6jkmre5xa9vf9aas6yxewc7aqmjy0rlkkyk4d88pnwuhclyhsrhhnhns6
 
+Staking in a Neta DAO only provides management rights to the DAO - there are no rewards from staking in a DAO. You will not receive any income in the form of more NETA or other coin/token.
 
+Unlock Period: As decided by the community, this period is initially 91 days. This is a longer unlock period than other tokens as a security deterrent due to the unique and innovative (according to the authors) nature of Neta DAO.
 
+Note: Idols NFT will be taking a snapshot of Neta DAO stackers to give these wallets early access to Idols mining at a discounted price.
 
-### 18.08.2022 Стейкинг и DAO
+#### What is Neta DAO?
 
-Стейкинг Neta стартовал 11.08.2022
+The Neta DAO is a community effort to accelerate the development and implementation of the Juno Network and the broader Cosmos ecosystem.
 
-Адрес контракта: juno1c5v6jkmre5xa9vf9aas6yxewc7aqmjy0rlkkyk4d88pnwuhclyhsrhhns6
+Because NETA was created not only for early adopters of JUNO, but also for early and active management participants, the Neta DAO seeks to honor and build on this foundation through a number of activities and potential sub-DAOs. These include, but are not limited to: validating networks, participating as an organized entity in their governance, identifying teams/dApps/public resources/documentation and distributing grants to developers, producing educational materials on current governance offerings and ecosystem issues, brainstorming type work for new governance mechanisms, working to create "best practices" for Proof of Stake validation, etc. This list is not exclusive or accurate.
 
-Стейкинг в Neta DAO предоставляют только права управления DAO - никаких вознаграждений от стейкинг в DAO нет. Вы не получите никакого дохода в виде большего количества NETA или другой монеты/токена.
+#### What is the structure of the DAO?
 
-Период разблокировки: По решению сообщества этот период изначально составляет 91 день. Это более длительный период разблокировки по сравнению с другими токенами в качестве сдерживающего фактора безопасности в связи с уникальным и инновационным (по мнению авторов) характером Neta DAO.
+The Neta DAO is, and will continue to be, a collective run by its members without a figurehead. Because of the unique nature of NETA drop and the fact that Neta DAO is focused on developing public/network resources and further decentralizing the Cosmos ecosystem as a whole, NETA seeks to harness the power and conviction of its many members to help realize its goals: the public good requires more than one person or faction.
 
-Примечание: Idols NFT будет делать снимок стейкеров Neta DAO, чтобы дать этим кошелькам ранний доступ к майнингу Idols по сниженной цене.
+Neta DAO currently operates as an unincorporated non-profit organization and is working to establish an explicit non-profit structure to establish jurisdiction and formally limit any taxation and liability issues that might affect DAO members.
 
-#### Итак, что же такое Neta DAO?
+#### DAO management
 
-Neta DAO - это усилия сообщества, направленные на ускорение разработки и внедрения сети Juno Network и более широкой экосистемы Cosmos.
+Neta DAO has several methods of protecting its members' shares. Because the NETA token is a scarce decentralized store of value with a closed contract, NETA has created a number of checks and balances for offerings.
 
-Поскольку NETA была создана не только для ранних последователей JUNO, но и для ранних и активных участников управления, Neta DAO стремится почтить и развить эту основу посредством ряда мероприятий и потенциальных суб-DAO. К ним относятся, но не ограничиваются: валидация сетей, участие в качестве организованной структуры в их управлении, выявление команд/dApps/публичных ресурсов/документации и распределение грантов для разработчиков, выпуск образовательных материалов по текущим предложениям управления и проблемам экосистемы, работа по типу "мозгового центра" для новых механизмов управления, работа над созданием "лучших практик" для валидации Proof of Stake и т.д. Этот список не является исключительным или точным.
+Neta DAO has:
 
-#### Какова структура DAO?
+#### 91-Day Release Period
 
-Neta DAO является и будет являться коллективом, управляемым его членами без фигуранта. Благодаря уникальной природе NETA drop и тому, что Neta DAO ориентирована на развитие общественных/сетевых ресурсов и дальнейшую децентрализацию экосистемы Космоса в целом, NETA стремится использовать силу и убежденность своих многочисленных членов, чтобы помочь реализовать цели: общественные блага требуют больше, чем один человек или фракция.
+The token unlock period is set at 91 days when the DAO is created, to make it clear that NETA is here to stay. In the future, there are plans to introduce multiple levels of unlock period, subject to community discussion and approval.
 
-Neta DAO в настоящее время работает как неинкорпорированная некоммерческая организация и работает над созданием явной некоммерческой структуры, чтобы установить юрисдикцию и официально ограничить любые вопросы налогообложения и ответственности, которые могут повлиять на членов DAO.
+#### Organizational Multisig.
 
-#### Управление DAO
+The Neta DAO can accept and distribute funds to projects or teams at the discretion of the DAO leadership; therefore, they need protection from abusers. In the interim, NETA created a 9-member Multisig with a pass threshold of 6 out of 9, which will be responsible for ensuring that funds are used in accordance with the wishes of the community. Also, if the DAO needs to move to a new version of the DAO contracts, the Tregieri will be able to handle it without logistical problems, as has happened with some of the sister DAOs.
 
-У Neta DAO есть несколько методов защиты доли своих членов. Поскольку токен NETA является дефицитным децентрализованным хранилищем ценности с закрытым контрактом, в NETA создали ряд сдержек и противовесов для предложений.
-
-Neta DAO имеет:
-
-#### 91-дневный период освобождения от обязательств
-
-Период разблокировки токенов установлен на 91 день при создании DAO, чтобы ясно показать, что NETA здесь надолго. В будущем планируется внедрить несколько уровней периода разблокировки, при условии обсуждения и одобрения сообществом.
-
-#### Организационный Мультисиг
-
-Neta DAO может принимать и распределять средства среди проектов или команд по решению руководства DAO; поэтому им нужна защита от злоумышленников. В промежуточный период NETA создали Multisig из 9 членов с порогом прохождения 6 из 9, который будет отвечать за то, чтобы средства использовались в соответствии с пожеланиями сообщества. Кроме того, если DAO потребуется перейти на новую версию контрактов DAO, трежери сможет справиться с этим без проблем с логистикой, как это произошло с некоторыми из родственных DAO.
-
-**Члены организационного Multisig и соответствующие адреса:**&#x20;
+**Organizational Multisig members and corresponding addresses:**&#x20;
 
 _massv (Neta DAO): juno1fzw7lp3u708rg49zqv48pdm8e03uz4srw2dx39 | Verification_&#x20;
 
@@ -120,11 +111,11 @@ _envy (Neta DAO): juno1g5t9r670acafp8ys3zpd5dxzunv99l3t6ruq9r | Verification_
 
 _dude from internet (Neta DAO): juno15jxj5tcfqwnmupfzleuxaqfqvyjkjvd35vdea9 | Verification_
 
-#### Исполнительный Мультисиг
+#### Executive Multisig.
 
-Поскольку NETA - это токен дефицитного предложения, который был полностью ликвиден и широко распространен в момент создания, это приводит к уникальным обстоятельствам, связанным с распределением и, соответственно, управлением. Neta DAO создала функцию исполнителя в своем экземпляре DAODAO, которая дает возможность мультисигу из 9 членов (с порогом прохождения 6 из 9) отклонить любое вредоносное предложение от DAO до того, как оно пройдет. Это сделано для того, чтобы защитить сообщество и средства, вложенные членами в DAO, и предотвратить угрозу деятельности DAO со стороны плохих игроков с большим капиталом, которым невозможно противостоять.
+Because NETA is a scarcity supply token that was fully liquid and widely distributed when it was created, this leads to unique circumstances related to distribution and, therefore, management. Neta DAO has created an executor function in its DAODAO instance that allows a multisig of 9 members (with a pass threshold of 6 out of 9) to reject any malicious offer from the DAO before it passes. This is done to protect the community and the funds invested by members in the DAO, and to prevent the threat of DAO activity from bad players with big capital that cannot be countered.
 
-**Члены исполнительного Multisig и соответствующие адреса:**&#x20;
+**Executive Multisig members and corresponding addresses:**&#x20;
 
 _Aswever (Howl): juno1998l0qxj346eznrmwhw3a2z7pacdxepypmxz7f | Verification_&#x20;
 
@@ -144,17 +135,17 @@ _Poroburu (Neta DAO Validator): juno17fzx4rvw04586s8f2c2vv53pe3yypu0ccu566q | Ve
 
 &#x20;_wtrsld (Neta DAO): juno1e6fhmfer34hh7kl9um6p52nkqflkp4jajgxunw | Verification_
 
-#### Операционный Мультисиг
+#### Operational Multisig.
 
-Как и любая другая организация, Neta DAO будет иметь мультисиг для обработки операционных расходов, они перечислены ниже:
+Like any other organization, Neta DAO will have a multisig to handle operating costs, they are listed below:
 
-* Базовая плата за валидатор для Poroburu $125 в месяц (управление валидатором, обновления, лучшие практики). Если добавляется новая сеть, это добавит $125 за валидатор.
-* домен сайта netadao.zone ($50/год примерно)
-* Хостинг Akash ($100/год примерно) - может меняться в зависимости от дополнений к сайту или приложению
+* Basic validator fee for Poroburu $125 per month (validator management, upgrades, best practices). If a new network is added, this will add $125 per validator fee.
+* netadao.zone website domain ($50/year approximately)
+* Akash hosting ($100/year approx.) - may vary depending on site or app additions
 
-Всего $140 USD/месяц
+Total $140 USD/month
 
-**Адреса действующих членов операционного Multisig:**&#x20;
+**Addresses of current operating members Multisig:**&#x20;
 
 _massv (Neta DAO): juno1fzw7lp3u708rg49zqv48pdm8e03uz4srw2dx39 | Verification_&#x20;
 
@@ -166,55 +157,54 @@ _whiskey (Neta DAO): juno1hcqjney83mcm50jvf70lk3h6yytkke0x98czhz | Verification_
 
 _dude from internet (Neta DAO): juno15jxj5tcfqwnmupfzleuxaqfqvyjkjvd35vdea9 | Verification_
 
-#### Состав мультисига
+#### Multisig Composition
 
-Членство: Мультисиги Трежери и Исполнителя являются мультисигами "6 из 9": это мультисиги из 9 членов, которые требуют, чтобы 6 из 9 членов проголосовали за или против предложения , чтобы оно было выполнено или не выполнено. Начальные составы мультисиг имеют следующее:
+Membership: The Tregieri and Executor multisigs are "6 of 9" multisigs: they are multisigs of 9 members that require 6 of the 9 members to vote for or against a motion to be carried or not to be carried. Initial multisig compositions have the following:
 
-* 5 членов DAO, которые регулярно посещали собрания сообщества, провели большую работу и исследования в рамках инициатив DAO и продемонстрировали свою преданность делу создания DAO с самого начала.
-* 4 авторитетных деятеля Interchain: люди, которые являются либо основными участниками известных проектов, построенных на Juno, либо участниками самой сети.
+* 5 DAO members who have regularly attended community meetings, done extensive work and research on DAO initiatives, and have demonstrated their dedication to the DAO from the beginning.
+* 4 Interchain influencers: people who are either major contributors to prominent projects built on Juno or members of the network itself.
 
-Такой состав обеспечивает здоровое сочетание членов DAO и знакомых "внешних" фигур для принятия или отклонения предложений. Например, если члены сообщества DAO единогласно проголосуют за предложение, потребуется подпись одного из внешних фигур в мультисиге.
+This composition ensures a healthy mix of DAO members and familiar "outside" figures to accept or reject proposals. For example, if members of the DAO community vote unanimously in favor of a proposal, the signature of one of the outside figures in the multisig will be required.
 
-#### Предложения:
+#### Proposals:
 
-Предложения Neta DAO будут структурированы с учетом этих параметров:
+Neta DAO proposals will be structured with these parameters in mind:
 
-* Требуется депозит: 15 NETA
-* Продолжительность голосования: 5 дней
-* Переголосование? Вы можете изменить свой голос
-* Кворум: 10%
-* Порог прохождения: Большинство
-* Возврат средств за неудачные предложения: Нет (все депозиты за неудачные предложения пойдут в казну Neta DAO)
+* Deposit required: 15 NETA
+* Voting duration: 5 days
+* Re-voting? You can change your vote.
+* Quorum: 10%
+* Passing threshold: Most
+* Refunds for unsuccessful offers: None (all deposits for unsuccessful offers will go to Neta DAO coffers)
 
-#### Почему нет вознаграждения за стейкинг?
+#### Why is there no reward for steaking?
 
-При нынешнем законодательстве в сфере бизнеса, как оно есть, не представляется возможным управлять DAO, которая распределяет доход среди стейкхолдеров потенциально по всему миру, без инвазивных процедур KYC и сложных вопросов налогообложения.
+With current business legislation as it is, it is not possible to run a DAO that distributes income to stakeholders potentially worldwide, without invasive KYC procedures and complicated tax issues.
 
-### Ресурсы: <a href="#zlr9" id="zlr9"></a>
+### Links: <a href="#zlr9" id="zlr9"></a>
 
 **Neta Money**
 
-1. Сайт [https://www.neta.money/](https://www.neta.money/)
-2. Твиттер [https://twitter.com/NetaMoney/](https://twitter.com/NetaMoney/)
-3. Дискорд [https://discord.com/invite/bK2YYYvjCQ](https://discord.com/invite/bK2YYYvjCQ)
+1. Site [https://www.neta.money/](https://www.neta.money/)
+2. Twitter [https://twitter.com/NetaMoney/](https://twitter.com/NetaMoney/)
+3. Discord [https://discord.com/invite/bK2YYYvjCQ](https://discord.com/invite/bK2YYYvjCQ)
 
 **Neta DAO**
 
-1. Сайт [https://netadaozone-backup.neocities.org/](https://netadaozone-backup.neocities.org/)
-2. Твиттер [https://twitter.com/Neta\_DAO](https://twitter.com/Neta\_DAO)
-3. Дискорд [https://discord.gg/gvjC86WXC2](https://discord.gg/gvjC86WXC2)
-4. Ссылка на гит про стейкинг и ДАО тут.
+1. Site [https://netadaozone-backup.neocities.org/](https://netadaozone-backup.neocities.org/)
+2. Twitter [https://twitter.com/Neta\_DAO](https://twitter.com/Neta\_DAO)
+3. Discord [https://discord.gg/gvjC86WXC2](https://discord.gg/gvjC86WXC2)
 
-**Общее**
+**Other**
 
-NFT коллекция Hold IDOLS [https://twitter.com/BeholdIdols](https://twitter.com/BeholdIdols)
+NFT Hold IDOLS [https://twitter.com/BeholdIdols](https://twitter.com/BeholdIdols)
 
-Твиттер Core-1 (разработчики Juno) [https://mobile.twitter.com/CRootHQ](https://mobile.twitter.com/CRootHQ)
+Твиттер Core-1 (Juno developer) [https://mobile.twitter.com/CRootHQ](https://mobile.twitter.com/CRootHQ)
 
-Обсуждения комьюнити Neta money [https://commonwealth.im/neta-money/](https://commonwealth.im/neta-money/)
+Neta money commonwealth [https://commonwealth.im/neta-money/](https://commonwealth.im/neta-money/)
 
-[Ссылка на анонс DAO](https://github.com/netadao/press/blob/main/2022-08-11-dao-launch.md)
+[DAO announcement](https://github.com/netadao/press/blob/main/2022-08-11-dao-launch.md)
 
-[Ссылка на DAO](https://daodao.zone/dao/juno1c5v6jkmre5xa9vf9aas6yxewc7aqmjy0rlkkyk4d88pnwuhclyhsrhhns6)
+[DAO Link](https://daodao.zone/dao/juno1c5v6jkmre5xa9vf9aas6yxewc7aqmjy0rlkkyk4d88pnwuhclyhsrhhns6)
 
 ![](https://img1.teletype.in/files/84/c1/84c1c2dd-7bb2-403e-9c4e-703bbf6d2848.png)
