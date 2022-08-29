@@ -26,7 +26,7 @@ Stakenet launches the network by issuing a NOM staking token via airdrop to ATOM
 
 The first network upgrade will connect Nomic with other Cosmos networks (via IBC) and with Bitcoin blockchain (via bridge protocol). This will be a significant milestone for the Cosmos ecosystem, as Nomic will be the first IBC network not based on Cosmos SDK, and Bitcoin blockchain will officially become part of The Interchain.
 
-NOM token transfers will also be available at this stage (both locally and via IBC) - however, nBTC will still not be available for deposits or withdrawals.
+NOM token transfers will also be available at this stage (both locally and via IBC)—however, nBTC will still not be available for deposits or withdrawals.
 
 #### Phase 3: A working Bitcoin Bridge <a href="#phase-3-full-bitcoin-bridge" id="phase-3-full-bitcoin-bridge"></a>
 
@@ -80,7 +80,7 @@ Deposit fees are deposited into a rewards fund which is distributed to NOM's sta
 
 The new Bitcoin features activated **on July 5 at 18:00 UTC**, and from then on the Nomic app sees rewards in Bitcoin.
 
-<figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Some of Bitcoin Bridge's most interesting security features (e.g., [emergency payouts](https://gist.github.com/mappum/da11e37f4e90891642a52621594d03f6#emergency-disbursal-process)) are not included in this release and will be gradually added over the next few updates. These security features will be key differences between Nomic and other bridges.
 
@@ -104,9 +104,9 @@ The NOM distribution is modeled after the OSMO token. The network started with a
 
 **Total:** 21,000,000 NOM
 
-* **Airdrop I** - 3,500,000 NOM
+* **Airdrop** I—3 - 3,500,000 NOM
 
-For ATOM Stackers and Holders - see details above.
+For ATOM Stackers and Holders—see details above.
 
 * **Reserve for airfields II and III** - 7 000 000 NOM
 

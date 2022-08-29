@@ -1,6 +1,6 @@
 # Drops of Cosmos
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44) (1).png" alt=""><figcaption></figcaption></figure>
 
 There's only talk of droops in Cosmos...
 
@@ -60,13 +60,13 @@ So now you need to build your portfolio.
 
 How to build a portfolio is a separate song, but you should always start with $ATOM. I haven't found any examples where drops have bypassed it. It is important to form a portfolio both in terms of coins and in terms of quantity. I'll show you some statistics to help you understand how different the conditions for drops are:
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p><a href="https://cosmosdrops.io/stats">https://cosmosdrops.io/stats</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption><p><a href="https://cosmosdrops.io/stats">https://cosmosdrops.io/stats</a></p></figcaption></figure>
 
 How to build a portfolio is a separate song, but you should always start with $ATOM. I haven't found any examples where drops have bypassed it. It is important to form a portfolio both in terms of coins and in terms of quantity. I'll show you some statistics to help you understand how different the conditions for drops are:
 
 So after that tell me, how many coins do you need to drop?) Right, not clear, but the more the better. Fresh drop from Gelotto rolled out the following conditions:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,7 +84,7 @@ One experienced spaceman was asked to share how many drops he collected in a yea
 
 One experienced spaceman was asked to share how many drops he collected in a year. [A service](https://app.citadel.one/overall) from Citadel.one allows you to keep such statistics.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 

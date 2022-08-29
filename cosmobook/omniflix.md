@@ -4,7 +4,7 @@
 
 ## Omniflix <a href="#oksn" id="oksn"></a>
 
-OmniFlixNetwork (formerly FreeFlixMediaNetwork) is a p2p network for authors and communities to efficiently manage, distribute, and monetize user-generated content.
+OmniFlix Network (formerly FreeFlix Media Network) is a p2p network for authors and communities to efficiently manage, distribute, and monetize user-generated content.
 
 The network was created to solve three problems:
 
@@ -36,6 +36,6 @@ One notable dApp of the chane is a member of HackAtom IV, StreamPay's streaming 
 
 Note that you can still try out the capabilities of the network, post a collection of NFT, fill it up, and also buy a picture for test tokens.
 
-You can check out the marketplace and poke around [here] (https://f4.omniflix.market/).
+You can check out the marketplace and poke around \[here] (https://f4.omniflix.market/).
 
 To get down to serious stuff and buy NFTs in the mainnet, you can [here](https://omniflix.market/)

@@ -22,7 +22,7 @@ By design, EVM interoperability will attract TVL to the ecosystem, due to the fa
 
 As for the EVMOS token model, there is also an interest here. In this blockchain, they decided to make a fair distribution of tokens between developers, users, and validators.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 When EVMOS was launched, 200 million tokens were dropped and distributed among Rektdrop members, the community, and the reserve.
 

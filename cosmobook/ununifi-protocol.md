@@ -15,11 +15,13 @@ As the team itself declares its mission: "**Give all NFTs the opportunity to DeF
 
 The project is young, at an early stage. Japanese development team from Botany LLP (Yu Kimura, Takeru Shimojima, Kenji Yanagisawa). All principal developers are members of CauchyE, Inc.
 
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **What problems is UnUniFi trying to solve?** <a href="#nmr8" id="nmr8"></a>
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 First: NFTs are quite actively gaining popularity and widespread distribution both inside and outside of the crypto world. But, due to the fact that large amounts of capital are locked up in illiquid NFTs, many people are looking for various ways to unlock and use this liquidity without selling their NFTs.
 
@@ -65,9 +67,13 @@ _EXAMPLE of ETH borrowing:_
 
 A little bit of project tokenomics. Distribution of GUU tokens.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 and GUU token unlock chart
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -75,7 +81,7 @@ and GUU token unlock chart
 
 At the moment, the project has completed the first phase of testing and launched the beta version of the mainnet. The roadmap is not marked, but at the moment all Q2 tasks are completed by the team, which inspires a certain confidence. There are at least 2 more tests ahead of us, in which we will all be able to participate.
 
-<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### **Links** <a href="#fsrg" id="fsrg"></a>
 

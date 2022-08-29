@@ -2,7 +2,7 @@
 
 ### Secret Network
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Secret Network
 
@@ -32,7 +32,7 @@ The scheme provides an opportunity to secretly withdraw funds from a wallet (say
 
 The Sienna Swap is presented here to show the ability to swap your coin for other secret coins, so that even the number of coins sent and received will not allow at least indirectly linking your 2 wallets.
 
-<figure><img src="../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 Another major advantage of a Secret Network is the inability to use frontrunning against you:
 
@@ -68,7 +68,7 @@ Secret Bridges uses multisig for authorization. 3 out of 5 operators trusted to 
 
 The multi-signature authorization process makes it much more difficult to compromise Secret Bridges, eliminating the single point of failure that is a problem for single-signature systems.
 
-<figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ### **Secret NFTs**
 
