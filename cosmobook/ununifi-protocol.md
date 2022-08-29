@@ -15,7 +15,7 @@ As the team itself declares its mission: "**Give all NFTs the opportunity to DeF
 
 The project is young, at an early stage. Japanese development team from Botany LLP (Yu Kimura, Takeru Shimojima, Kenji Yanagisawa). All principal developers are members of CauchyE, Inc.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **What problems is UnUniFi trying to solve?** <a href="#nmr8" id="nmr8"></a>
 
@@ -23,7 +23,7 @@ The project is young, at an early stage. Japanese development team from Botany L
 
 First: NFTs are quite actively gaining popularity and widespread distribution both inside and outside of the crypto world. But, due to the fact that large amounts of capital are locked up in illiquid NFTs, many people are looking for various ways to unlock and use this liquidity without selling their NFTs.
 
-Secondly, these are the challenges faced by today's stablecoin projects. Despite the fact that many stablecoins are backed by legitimate assets, there are certain risks of using them. For example, USDT from Tether, is secured by legal tender, but there is a risk that the issuing company could misuse the financial assets that serve as collateral. In addition, fiat-backed stablecoins are subject to regulation in various countries. Unsecured stablecoins, on the other hand, will only work if the demand for them increases over the long term. Therefore, those stablecoins that are backed by cryptocurrency are the most likely to scale.
+Secondly, these are the challenges faced by today's stablecoin projects. Despite the fact that many tablecoins are backed by legitimate assets, there are certain risks of using them. For example, USDT from Tether, is secured by legal tender, but there is a risk that the issuing company could misuse the financial assets that serve as collateral. In addition, fiat-backed stablecoins are subject to regulation in various countries. Unsecured stablecoins, on the other hand, will only work if the demand for them increases over the long term. Therefore, those stablecoins that are backed by cryptocurrency are the most likely to scale.
 
 Therefore, in an attempt to address these issues collectively, UnUniFi will allow users to issue synthetic stable assets based on NFT collateral that will be traded on its NFT Marketplace and will have rates above a certain amount as collateral.
 
@@ -69,13 +69,13 @@ A little bit of project tokenomics. Distribution of GUU tokens.
 
 and GUU token unlock chart
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Roadmap <a href="#mcbw" id="mcbw"></a>
 
 At the moment, the project has completed the first phase of testing and launched the beta version of the mainnet. The roadmap is not marked, but at the moment all Q2 tasks are completed by the team, which inspires a certain confidence. There are at least 2 more tests ahead of us, in which we will all be able to participate.
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Links** <a href="#fsrg" id="fsrg"></a>
 

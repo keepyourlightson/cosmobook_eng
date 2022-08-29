@@ -54,7 +54,7 @@ A key contributing factor to the resiliency of the Sentinel architecture is the 
 
 In the coming years, Sentinel's ecosystem will consist of dozens of cross-platform dVPN apps built by third-party developers who take responsibility for the brand strategy and marketing strategy of the app, while monetizing through traditional fiat channels and paying service providers in exchange for provably encrypted and secure bandwidth.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### **Token $DVPN**
 
@@ -92,9 +92,9 @@ OSX Browser: [https://decentr.net/#download](https://decentr.net/#download)
 
 Browser Linux: [https://decentr.net/#download](https://decentr.net/#download)
 
-Браузер для Android: [https://play.google.com/store/apps/details?id=net.decentr.browser](https://play.google.com/store/apps/details?id=net.decentr.browser)
+Browser Android: [https://play.google.com/store/apps/details?id=net.decentr.browser](https://play.google.com/store/apps/details?id=net.decentr.browser)
 
-Browser  iOS: [https://apps.apple.com/us/app/decentr-browser/id1609950309](https://apps.apple.com/us/app/decentr-browser/id1609950309)
+Browser iOS: [https://apps.apple.com/us/app/decentr-browser/id1609950309](https://apps.apple.com/us/app/decentr-browser/id1609950309)
 
 On July 6, 2022, there were 3,268 active nodes (nodes) in the network.
 
@@ -102,7 +102,7 @@ That's a 12,000% increase from 27 knots on July 6, 2021.
 
 On July 17, 2022, Sentinel's [official statistics website](http://stats.sentinel.co/) shows the following picture:
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 Today, nearly 3,000 users are actively using Sentinel technology by paying for #dVPN services and connecting to the network.
 
@@ -110,11 +110,11 @@ Sentinel-based dApps are some of the only, if not the only, apps in the Cosmos e
 
 ### **Links:**
 
-Веб-сайт: [https://decentr.net](https://decentr.net/)
+Web-site: [https://decentr.net](https://decentr.net/)
 
 Twitter: [https://twitter.com/DecentrNet](https://twitter.com/DecentrNet)
 
-Группа Telegram: [https://t.me/DecentrNet](https://t.me/DecentrNet)
+Telegram: [https://t.me/DecentrNet](https://t.me/DecentrNet)
 
 Telegram ANN: [https://t.me/DecentrAnnouncements](https://t.me/DecentrAnnouncements)
 

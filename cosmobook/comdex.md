@@ -22,7 +22,7 @@ cAsset will be included in the Comdex synthetic protocol listing after the follo
 
 * creating a cAsset token and defining all parameters;
 * the purpose of the oracle-feeder;
-* creation of cAsset-CMST trading pair (CMST is a stackablecoin with redundant collateral, it will be often referred to below) on cSwap and its LP token.
+* creation of cAsset-CMST trading pair (CMST is a stablecoin with redundant collateral, it will be often referred to below) on cSwap and its LP token.
 
 The listing is approved by the new management proposal and is immediately implemented once 51% of the total management votes are received. The cAsset can then be used to mine liquidity in the Cosmos ecosystem and will be available on cSwap. Liquidity providers earn CMDX tokens that can be used to create new cAssets.
 
@@ -104,21 +104,21 @@ cSwap allows platform users to exchange their cAssets via AMM. Users can also co
 **The CMDX token** is a native token of the COMDEX network.
 
 The token performs the following basic network functions:\
-\- Havernance: COMDEX users and CMDX token holders have the right to manage and control various platform parameters. They also have the ability to change key parameters such as fees, cAsset, etc.\
+\- Governance: COMDEX users and CMDX token holders have the right to manage and control various platform parameters. They also have the ability to change key parameters such as fees, cAsset, etc.\
 \- Payment of transaction fees.\
 \- Payment of rewards to users and active network members.
 
 The CMDX token is inflationary in nature with a 30% inflation rate in the first year and a subsequent 25% inflation rate reduction in each year with a maximum supply cap of 200,000,000 CMDX.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Airdrop of the CMDX token at [Airdrop.comdex.one](http://airdrop.comdex.one/) for Cosmos ecosystem communities such as Persistence, Cosmos, Terra and Osmosis started on March 7, 2022. Airdrop is put to those who hold/stick XPRT, ATOM, ~~LUNA~~ or OSMO during snapshot.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Comdex ecosystem** <a href="#0zda" id="0zda"></a>
 
-In addition to cAsset and the enterprise trading platform, the Comdex team is working on several new products such as Commodo, ShipFi, and the $CMST stabelcoin, which will be launched shortly.
+In addition to cAsset and the enterprise trading platform, the Comdex team is working on several new products such as Commodo, ShipFi, and the $CMST stablecoin, which will be launched shortly.
 
 <figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
@@ -128,7 +128,7 @@ Commodo is a secured lending/borrowing app (learn more [here](https://docs.commo
 
 With ShipFi, Comdex aims to enter the NFT world by digitizing and exchanging ownership of commodity finance debt. This platform will use the SHIP token.
 
-$CMST should become the native super-secured stabcoin of the Comdex ecosystem.
+$CMST should become the native super-secured stablecoin of the Comdex ecosystem.
 
 #### Roadmap <a href="#hlst" id="hlst"></a>
 
@@ -167,7 +167,7 @@ As I was writing, the scandal between Comdex and Osmosis was in the spotlight.
 
 OsmosisLab made [a ](https://www.reddit.com/r/OsmosisLab/comments/w7zu03/comdex\_foundation\_wallet\_wash\_trading\_profit/)reddit announcement in late July, followed by [a suggestion ](https://www.reddit.com/r/OsmosisLab/comments/w7zu03/comdex\_foundation\_wallet\_wash\_trading\_profit/)on the Osmosis chatroom (a decision is still up to the community to vote on) that proposed removing all OSMO and superfluid-stacking incentives from pool #600 ATOM/CMDX and pool #601 CMDX/OSMO. This relates to allegations against Comdex that wallets connected to Comdex Foundation nodes were involved in volume manipulation/washing through Osmosis DEX and selling CMDX through OSMO for USD, in many cases hourly, every hour since May 2022. The evidence and analysis (with images) of this behavior is thoroughly documented here: [https://medium.com/@Rarma\_/comdex-foundation-wallet-wash-trading-receipts-ddb90b9c7717](https://medium.com/@Rarma\_/comdex-foundation-wallet-wash-trading-receipts-ddb90b9c7717).
 
-[Comdexresponded](https://twitter.com/SidP95/status/1550861194302717952) by stating that they did not launder the funds, that [tokenomics](https://blog.comdex.one/cmdx-token-economics-utility-cd66bda2c1bb) requires them to sell their tokens, and that the team will not receive its due until December 2023.
+[Comdex responded](https://twitter.com/SidP95/status/1550861194302717952) by stating that they did not launder the funds, that [tokenomics](https://blog.comdex.one/cmdx-token-economics-utility-cd66bda2c1bb) requires them to sell their tokens, and that the team will not receive its due until December 2023.
 
 In any case, it all looks like manipulation, and given that Osmosis has no order book, and everything is built on pools of liquidity, the consequences of such actions are very unpleasant.
 

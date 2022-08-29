@@ -36,7 +36,7 @@ The Sienna Swap is presented here to show the ability to swap your coin for othe
 
 Another major advantage of a Secret Network is the inability to use frontrunning against you:
 
-<figure><img src="../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Speaking about features and capabilities of Secret Network I strongly recommend you to watch [the video](https://www.youtube.com/watch?v=LVopimoM8Jk) (time-code 1:27:00) with Anton Pavlutsky, CEO of Citadel.one.
 

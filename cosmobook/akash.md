@@ -10,9 +10,9 @@ The first thing I want to say at once is that Akash has [a brilliant website](ht
 
 What is Akash? The official website tells us: Akash Network, the world's first decentralized open source cloud that accelerates deployment, scales, efficiency and lowers prices for high-growth industries such as blockchain and machine learning/AI.
 
-This is essentially nothing new, but the key word here is decentralization. Decentralization of the Akash Network is necessary so that users can rent, for example, their server or part of its unused capacity without third-party censorship and intermediaries. And another important feature is auctionability, hence lower rental prices due to landlord competition.
+This is essentially nothing new, but the key word here is decentralization. Decentralization of the Akash Network is necessary so that users can rent, for example, their server or part of its unused capacity without third-party censorship and intermediaries. And another important feature is actionability, hence lower rental prices due to landlord competition.
 
-Technically, Akash uses the core [Tendermint](https://tendermint.com/docs/introduction/what-is-tendermint.html); the deployment framework, [Kuberneters](https://ru.wikipedia.org/wiki/Kubernetes); the authentication framework, [SPIFFE](https://spiffe.io/); and the Linux distribution for the server agent, [CoreOS](https://ru.wikipedia.org/wiki/CoreOS). With Kuberneters, applications will be hosted in Docker containers for easier management and migration from other platforms.
+Technically, Akash uses the core [Tendermint](https://tendermint.com/docs/introduction/what-is-tendermint.html); the deployment framework, [Kubernetes](akash.md); the authentication framework, SPIFFE; and the Linux distribution for the server agent, CoreOS. With Kubernetes, applications will be hosted in Docker containers for easier management and migration from other platforms.
 
 ### **Introduction to Akash** <a href="#hlj3" id="hlj3"></a>
 
@@ -67,7 +67,7 @@ Reliance on large cloud providers to host Web3 infrastructure has resulted in We
 
 A closer look at the breakdown of nodes across the two main protocols reveals a lack of decentralization. In Ethereum, [65%](https://www.ethernodes.org/network-types) of all nodes are hosted in data centers. Of those nodes, [63%](https://www.ethernodes.org/networkType/Hosting) are hosted by just three major cloud providers (AWS, Hetzner and OVH) and 43% are hosted only by AWS. This means that Amazon could shut down nearly a third of Ethereum's nodes within minutes. For Solana, the exact breakdown of nodes by network type is unknown, but it is estimated that more than 95% of all nodes are hosted in data centers. That being said, [67%](https://www.validators.app/data-centers?locale=en\&network=mainnet\&sort\_by=asn) of the nodes are hosted by the same top three cloud providers as Ethereum. The services of these three cloud providers are also used by [64%](https://www.validators.app/data-centers?locale=en\&network=mainnet\&sort\_by=asn) of the active SOL stackers on the network.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 In addition, many projects use large cloud providers to host their middleware and interfaces for websites and applications, creating another centralized point of vulnerability. If a project's interface, in which most users interact with network contracts, is hosted by AWS, it does not matter how decentralized the back-end protocol is, because AWS can simply disable the interface. A centralized interface also allows the project team to control how the user interacts with the protocol. Finally, using a centralized cloud provider exposes the protocol to the risk of failures depending on the provider's uptime, as was the case with dYdX last December.
 
@@ -111,9 +111,9 @@ Akash network was launched in March 2021. In April 2022 there was a big update o
 
 ### **Akash Ecosystem** <a href="#z5ar" id="z5ar"></a>
 
-Look at how many dappos are going to Akash, I was impressed:
+Look at how many dapps are going to Akash, I was impressed:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### **$AKT** <a href="#13hx" id="13hx"></a>
 
@@ -121,9 +121,11 @@ Look at how many dappos are going to Akash, I was impressed:
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p><a href="https://messari.io/report/akash-a-decentralized-approach-to-cloud-computing?referrer=grid-view">https://messari.io/report/akash-a-decentralized-approach-to-cloud-computing?referrer=grid-view</a></p></figcaption></figure>
 
-At the time of genesis, 100 million AKTs were distributed in accordance with the distribution shown in the chart above, while approximately 289 million AKTs were scheduled for issuance as inflationary awards for stakers, originally set at 100% APR, which was to be halved every two years. The governance vote changed the halving to about every 3.7 months. According to Akash founder Greg Osuri, the protocol plans to reward cloud providers with issuances, though the feature will be implemented at a later date.
+At the time of genesis, 100 million AKTs were distributed in accordance with the distribution shown in the chart above, while approximately 289 million AKTs were scheduled for issuance as inflationary awards for stakers, originally set at 100% APR, which was to be halved every two years. The governance vote changed the halving to about every 3.7 months. According to Akash founder Greg Osuri, the protocol plans to reward cloud providers with issuance, though the feature will be implemented at a later date.
 
-News not yet realized, but mentioned in the whitepaper: Akash plans to charge an "acceptance fee" for each successful lease. It will then channel this fee into a pool of rental revenues for distribution to holders. The fee is planned to be 10% for AKT transactions and 20% for other cryptocurrencies. Akash also plans to reward AKT steakers. Holders who steak for a long time will be eligible for larger rewards.
+News not yet realized, but mentioned in the whitepaper: Akash plans to charge an "acceptance fee" for each successful lease. It will then channel this fee into a pool of rental revenues for distribution to holders. The fee is planned to be 10% for AKT transactions and 20% for other cryptocurrencies. Akash also plans to reward AKT streakers. Holders who steak for a long time will be eligible for larger rewards.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -139,4 +141,3 @@ Website - [https://akash.network/ru](https://akash.network/ru)\
 Twitter (ru) - [https://twitter.com/akash\_ru](https://twitter.com/akash\_ru)\
 Forum - [https://forum.akash.network](https://forum.akash.network)\
 Discord - [https://discord.gg/ewVh3mss](https://discord.gg/ewVh3mss)\
-Vkontakte - [https://vk.com/akash\_ru](https://vk.com/akash\_ru)

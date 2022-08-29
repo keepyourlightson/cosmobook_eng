@@ -42,7 +42,7 @@ Fast block generation is especially important for FIN, as it is a DEX based on o
 
 ### **Kujira ecosystem** <a href="#lv40" id="lv40"></a>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **FIN by Kujira** <a href="#el6t" id="el6t"></a>
 
@@ -125,6 +125,8 @@ BLUE is the core of the Kujira ecosystem and contains the ecosystem dashboard, a
 
 The Kujira wallet on the Blue dApp has advanced functionality, allowing users to send tokens to multiple recipients with vesting periods (at predefined times). This can be used by protocols, DAOs or anyone who wants to make payments with custom sending periods without having to develop their own vesting contract.
 
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 The Swap interface on BLUE does not differ from the basic swap user interface found on AMM DEX. However, trades made through Swap are routed through Kujira's own CLOB DEX, FIN. This represents an alternative frontend for users who are not used to the more advanced trading interface that FIN offers.
@@ -165,6 +167,8 @@ Many believe in Kujira. A very interesting feature is that the interest from the
 
 After the launch of ORCA, when the number of participants increases, steakers are entitled to expect good rewards with a very small % (0.47% at the start) for steaking. Today the picture looks like this:
 
+After the launch of ORCA, when the number of participants increases, steakers are entitled to expect good rewards with a very small % (0.47% at the start) for steaking. Today the picture looks like this:
+
 <figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 In addition, protocol interaction rates and site traffic [growing](https://twitter.com/TeamKujira/status/1553716395136909318?s=20\&t=y-fzq\_GXiIxLbkNtObkxjw). These numbers, although small, indicate that Kujira is in a healthy growth state, especially considering the unfavorable market at the moment.
@@ -202,6 +206,18 @@ $USK and ORCA are moving to TestNet starting Wednesday (August 10, 2022) for tes
 
 ### **Useful links and notes** <a href="#460x" id="460x"></a>
 
+* [Gitbook;](https://docs.kujira.app/introduction/grown-up-defi)
+* [Review](https://kujira.explorers.guru/) the polls by proposal;
+* [Block Explorer;](https://finder.kujira.app/kaiyo-1/)
+* [Medium;](https://medium.com/team-kujira)
+* [Discord;](https://discord.com/invite/teamkujira)
+* [Twitter;](https://twitter.com/TeamKujira)
+* [Telegram;](https://discord.com/invite/teamkujira)
+* Where to buy $Kuji: [https://fin](https://fin.kujira.app/trade).kujira.app/trade;
+* A useful bot in working with Kujira ( @KujiraNotification\_bot );
+* Get USDC to and from the Kujira network:\
+  bridge -> http://satellite.money
+* How to buy axlUSDC:
 * [Gitbook;](https://docs.kujira.app/introduction/grown-up-defi)
 * [Review](https://kujira.explorers.guru/) the polls by proposal;
 * [Block Explorer;](https://finder.kujira.app/kaiyo-1/)

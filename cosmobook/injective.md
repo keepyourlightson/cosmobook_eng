@@ -185,7 +185,7 @@ INJ will be used as an alternative to Stablecoins as margin and collateral for I
 
 The weekly supply burn creates a deflationary effect and to some extent compensates for the increase in supply caused by token minting. To be more precise, a 5% annual inflation of 13 million INJ equals 650,000 INJ minted over the year, while the total minted over eight weeks is 204,000, which adds up to about 1,326,000 INJ minted over the year, which is 1.325% of the total supply.
 
-<figure><img src="../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ### Injective update <a href="#t2zg" id="t2zg"></a>
 

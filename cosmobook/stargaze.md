@@ -96,7 +96,7 @@ This is how the project positions itself on [the off-site](https://www.stargaze.
 
 Well, it is impossible not to mention that today Stargaze is one of the leaders in the Cosmos ecosystem in terms of volume flowing through IBCs:
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 The main news in the near future will be the possibility to interact with Ethereum via Gravity Bridge. I believe it will give the project a meaningful boost.
 
