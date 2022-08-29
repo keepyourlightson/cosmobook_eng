@@ -42,8 +42,6 @@ Fast block generation is especially important for FIN, as it is a DEX based on o
 
 ### **Kujira ecosystem** <a href="#lv40" id="lv40"></a>
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **FIN by Kujira** <a href="#el6t" id="el6t"></a>
@@ -64,8 +62,6 @@ FIN**fees** are divided into two parts:
 
 Every degen faces a vicious cycle where as the supply of tokens increases, their value decreases and inflationary rewards begin to decrease in dollar terms. As the APR decreases for liquidity providers, the rewards may no longer justify the opportunity cost, and they may seek profit elsewhere while taking their liquidity with them. To put it another way, it's a classic story where we farm for the first 3-5 days, then take funds out of the pool and run to another DEX. Exchanges operating on the order book principle are not subject to this problem.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 2\) Taker **Fees** - fees paid when placing market and limit orders, which are executed immediately. They "take" liquidity from the books and therefore pay a higher fee.
@@ -84,8 +80,6 @@ All the details and features of the FIN and its benefits are described in [this 
 FIN has chosen to use Axelar's USDC wrapper, axlUSDC, as its stablcoin.
 
 Trading is possible with KUJI, ATOM,OSMO, EVMOS, JUNO, LUNA, SCRT, wETH.
-
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -121,8 +115,6 @@ Liquidators (those whose application for liquidation is successful) are usually 
 
 It's quiet on the ORCA website today so far. We can only say that they want to interact with Polkadot:
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p><a href="https://orca.kujira.app/">https://orca.kujira.app/</a></p></figcaption></figure>
 
 I'll say more. Judging by this [tweet](https://twitter.com/TeamKujira/status/1551545612205785092?s=20\&t=QlYZDdSZv663HhQ3rKKDRA), the upcoming launch is being prepared on [@KaruraNetwork](https://twitter.com/KaruraNetwork) (it's the DeFi network in Kusama, Polkadot's Acala counterpart).
@@ -132,10 +124,6 @@ I'll say more. Judging by this [tweet](https://twitter.com/TeamKujira/status/155
 BLUE is the core of the Kujira ecosystem and contains the ecosystem dashboard, a wallet, a simple swap user interface, an IBC bridge, and a management portal.
 
 The Kujira wallet on the Blue dApp has advanced functionality, allowing users to send tokens to multiple recipients with vesting periods (at predefined times). This can be used by protocols, DAOs or anyone who wants to make payments with custom sending periods without having to develop their own vesting contract.
-
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
@@ -157,8 +145,6 @@ Purpose of the token: payment for gas in the network. All fees collected are dis
 
 Issuance: token generation started in November 2021 with the following issuance schedule:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ### **Roadmap** <a href="#cxhk" id="cxhk"></a>
@@ -176,12 +162,6 @@ Plans for the near future
 Many believe in Kujira. A very interesting feature is that the interest from the commission is poured rewards in the same coin in which they trade.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
-
-After the launch of ORCA, when the number of participants increases, steakers are entitled to expect good rewards with a very small % (0.47% at the start) for steaking. Today the picture looks like this:
-
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 After the launch of ORCA, when the number of participants increases, steakers are entitled to expect good rewards with a very small % (0.47% at the start) for steaking. Today the picture looks like this:
 
@@ -215,8 +195,6 @@ These numbers can be discussed by the community later, once everything is in pla
 \- $USK, a key infrastructure, is sovereign, uncensorable and revenue generating.
 
 Are you satisfied with these arguments? I have not let go of the UST story yet. The cosmos really needs Stablecoin, a lot of people are about to head into that water. Let's see what happens next...
-
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
