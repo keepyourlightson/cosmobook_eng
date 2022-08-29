@@ -39,7 +39,7 @@ It is important to understand that crypto has no direct connection to the real w
 
 Comdex consists of different modules (tools). Since they didn't draw a nice picture with modules (like Agoric's, for example), read the dull text and turn on your imagination.
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 **The Vault module** is responsible for creating and managing the repositories.
 
@@ -110,17 +110,17 @@ The token performs the following basic network functions:\
 
 The CMDX token is inflationary in nature with a 30% inflation rate in the first year and a subsequent 25% inflation rate reduction in each year with a maximum supply cap of 200,000,000 CMDX.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Airdrop of the CMDX token at [Airdrop.comdex.one](http://airdrop.comdex.one/) for Cosmos ecosystem communities such as Persistence, Cosmos, Terra and Osmosis started on March 7, 2022. Airdrop is put to those who hold/stick XPRT, ATOM, ~~LUNA~~ or OSMO during snapshot.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 #### **Comdex ecosystem** <a href="#0zda" id="0zda"></a>
 
 In addition to cAsset and the enterprise trading platform, the Comdex team is working on several new products such as Commodo, ShipFi, and the $CMST stabelcoin, which will be launched shortly.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 Enterprise Trading is a B2B application created to tokenize real commodity assets and facilitate instant trading, settlement and financing. The platform has already connected more than 18 organizations from the Southeast Asian region.
 

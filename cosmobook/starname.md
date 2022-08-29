@@ -40,7 +40,7 @@ At the heart of the Starname concept has always been the desire to send cryptocu
 
 In a few words:
 
-* Starname is agnostic, can unite all chains under a single umbrella and a single user name.
+* Starname is agnostic, can unite all chains under a single umbrella and a single username.
 * Starname avoids mistakes and is easily recognizable.
 * Starname is multi-asset: there is no limit to the assets supported by the service, which means that all your cryptocurrencies can be linked to your Starname.
 * Starname can be used as a Whitelabel, you can access a high level of company customization (it's about binding an address to a company).

@@ -24,7 +24,7 @@ Advantages:
 
 **ECHF** is token Swiss franc;
 
-**ESEK is** a Swedish krona token;
+**ESEK is** a Swedish krone token;
 
 **ENOK** is a Norwegian krone token;
 
@@ -34,11 +34,11 @@ The e-Money ecosystem has a second token, **NGM** "Next Generation money", which
 
 Unlike most existing stablecoins, which tend to maintain a static 1:1 peg to their underlying assets, the value of e-Money tokens backed by fiat currency constantly changes in line with the interest accrued on reserve assets. This means that holders benefit from the interest accrued on their assets while they are stored in the wallet. Blockchain e-Money supports instant transfers and includes DEX for easy conversion between currencies. e-Money is already integrated with Cosmos Hub, Osmosis and Ethereum and several other networks:
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 The following networks will appear soon:
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 e-Money is not intended to act as a complete replacement for the existing financial system, but can instead be seen as a second-tier solution for traditional finance.
 
@@ -46,11 +46,11 @@ This solution will bring benefits in a number of areas of the financial industry
 
 For customers of international banks, remittances are one such area where electronic money will provide significant benefits.
 
-The stablecoins to be used in e-Money are a new form of stablecoins that are completely unique to the e-Money platform. The cryptocurrency industry is currently dominated by two types of stablecoins: secured stablecoins and algorithmic stablecoins. Despite recent and rapid market growth caused by volatility in both cryptocurrency and traditional markets, both types of stablcoins have weaknesses and pain points.
+The stablecoins to be used in e-Money are a new form of stablecoins that are completely unique to the e-Money platform. The cryptocurrency industry is currently dominated by two types of stablecoins: secured stablecoins and algorithmic stablecoins. Despite recent and rapid market growth caused by volatility in both cryptocurrency and traditional markets, both types of stablecoins have weaknesses and pain points.
 
-Algorithmic stablecoins are inherently unstable and inefficient because they rely on redundant collateral to protect the system. On a large scale, algorithmic stablenecoins struggle for instant liquidity. Meanwhile, in an environment of negative interest rates, e-Money predicts that collateralized stackcoins will not be viable in the long run because, as their reserve value declines, they will be forced to take additional risks, use their reserves, or charge redemption fees to cover shortfalls.
+Algorithmic stablecoins are inherently unstable and inefficient because they rely on redundant collateral to protect the system. On a large scale, algorithmic stablecoins struggle for instant liquidity. Meanwhile, in an environment of negative interest rates, e-Money predicts that collateralized stack coins will not be viable in the long run because, as their reserve value declines, they will be forced to take additional risks, use their reserves, or charge redemption fees to cover shortfalls.
 
-Currency-backed Stablecoins created by e-Money are a further evolution of the concept of secured Stablecoins. Crucially, however, e-Money's currency-backed stablenecoins are interest-bearing, and have more in common with a bank deposit than money that can be held in your hand. This innovative approach also gives e-Money currency-backed Stablecoins greater resilience in the face of economic uncertainty.
+Currency-backed Stablecoins created by e-Money are a further evolution of the concept of secured Stablecoins. Crucially, however, e-Money's currency-backed stablecoins are interest-bearing, and have more in common with a bank deposit than money that can be held in your hand. This innovative approach also gives e-Money currency-backed Stablecoins greater resilience in the face of economic uncertainty.
 
 The e-Money platform is built on the Cosmos Network, an ecosystem made up of independent sovereign but interoperable parallel blockchains, enabling cross-network communication through the Cosmos Hub. As part of this growing blockchain Internet, e-Money will enjoy a powerful network effect offering a stable means of payment and storing value within the ecosystem.
 
@@ -62,7 +62,7 @@ The team behind e-Money has significant experience in finance, technology, banki
 
 The Stablecoin market is still a relatively new but thriving sector. It is growing rapidly thanks to the constant price volatility of bitcoin and other cryptocurrencies. In 2020 alone, the total market value of Ethereum-based stablecoins increased by 95.38% to $6.25 billion.
 
-The main disadvantages of cryptocurrencies backed by stabelcoins are:
+The main disadvantages of cryptocurrencies backed by stablecoins are:
 
 1\. they have no collateral in the form of an instrument to which they are attached, so they are constantly at risk, lacking the purchasing power necessary to maintain the attachment.
 
@@ -78,7 +78,7 @@ The Next Generation of Money (NGM) token is used to secure the e-Money network b
 
 * The supply of NGM increases with inflation for staking rewards and decreases with redemption and burning. The NGM token must be zapped in order to receive any rewards.
 * Transaction fees are increasing with the introduction of the e-Money network for payments and trade.
-* Staking rewards are increasing with the introduction of (AUM) e-money stackablecoins.
+* Staking rewards are increasing with the introduction of (AUM) e-money stablecoins.
 * Stablecoin adoption can occur both inside and outside the e-Money network, including all areas in the Cosmos ecosystem and bridges to Ethereum, Avalanche and Polkadot.
 
 ### **Tokenomics**
@@ -115,13 +115,13 @@ Attracting customers: 8,300,000 NGM.
 
 Ecosystem Fund (grants): 10,000,000 NGM.
 
-Tregery: 60,000,000 NGM.
+Treasure: 60,000,000 NGM.
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 Vesting
 
-Date of initial Vestinga : 2020-11-04 13:00:00
+Date of initial Vesting : 2020-11-04 13:00:00
 
 Sale of tokens:
 
@@ -167,11 +167,11 @@ Treasury: 3 years (0% unlocked).
 * 31.12.2020 - SWAP is launched in the wallet;
 * 31.01.2021 - $NGM listing;
 * 28.02.2021 - connection to Cosmos IBC;
-* 28.04.2021 - Etherium integration;
+* 28.04.2021 - Ethereum integration;
 * 29.04.2021 - $NGM trading for air on Uniswap was launched;
 * 26.09.2021 - EEUR on Osmosis and Sifchain;
 * 12/22/2021 - Avalanche integration;
-* 25.12.2021 - Poligon integration;
+* 25.12.2021 - Polygon integration;
 * 01.01.2022 - BSC integration;
 * 31.03.2022 - Stablecoin trading for fiat is launched;
 * 31.12.2022 - liquid EEUR and $NGM mining is planned to be launched.

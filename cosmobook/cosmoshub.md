@@ -54,7 +54,7 @@ Although Tendermint reduces blockchain development time manifold, creating a sec
 
 CosmosSDK is an open-source framework for creating permissionless PoS blockchains like CosmosHub, or permissioned Proof-of-Authority (PoA) blockchains.
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 The Cosmos SDK aims to allow developers to create their own customized blockchains that are compatible by default with other blockchains in the ecosystem, using pre-made modules and toolsets. In doing so, each developer can create a new module and it will be available to all other developers.
 

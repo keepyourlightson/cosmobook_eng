@@ -28,4 +28,4 @@
   * [Injective](cosmobook/injective.md)
   * [IRISnet](cosmobook/irisnet.md)
   * [UnUniFi Protocol](cosmobook/ununifi-protocol.md)
-  * [Дропы Космоса](cosmobook/dropy-kosmosa.md)
+  * [Drops in the Cosmos](cosmobook/dropy-kosmosa.md)

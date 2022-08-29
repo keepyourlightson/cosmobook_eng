@@ -20,7 +20,7 @@ Secret Foundation helps establish effective and efficient management practices f
 
 ### **Protocol**
 
-Secret Network, thanks to Cosmos IBC, can communicate with a range of other networks. The Secret Network protocol uses key management, encryption protocols, and Trusted Execution Environments (TEEs) to achieve data privacy. TEEs ensure that nodes cannot view calculations that take place in a trusted environment, preserving the confidentiality of the data underlying the calculations. Secret Network's underlying transaction registry is public; a native SCRT token is used for management, transactions, and gas fees. The protocol implements programmable privacy, which is defined as arbitrarily complex application data privacy controls. Programmable privacy allows tokens to be wrapped in their private and interchangeable equivalent using the Secret Network SNIP-20 standard via Secret Contract. Blocks are created and added approximately every six seconds with a soft limit of approximately twenty-two transactions per second due to the gas limit per block. The current protocol architecture and design can theoretically support up to 10,000 transactions per second .
+Secret Network, thanks to Cosmos IBC, can communicate with a range of other networks. The Secret Network protocol uses key management, encryption protocols, and Trusted Execution Environments (TEEs) to achieve data privacy. TEEs ensure that nodes cannot view calculations that take place in a trusted environment, preserving the confidentiality of the data underlying the calculations. Secret Network's underlying transaction registry is public; a native SCRT token is used for management, transactions, and gas fees. The protocol implements programmable privacy, which is defined as arbitrarily complex application data privacy controls. Programmable privacy allows tokens to be wrapped in their private and interchangeable equivalent using the Secret Network SNIP-20 standard via Secret Contract. Blocks are created and added approximately every six seconds with a soft limit of approximately twenty-two transactions per second due to the gas limit per block. The current protocol architecture and design can theoretically support up to 10,000 transactions per second.
 
 
 
@@ -32,11 +32,11 @@ The scheme provides an opportunity to secretly withdraw funds from a wallet (say
 
 The Sienna Swap is presented here to show the ability to swap your coin for other secret coins, so that even the number of coins sent and received will not allow at least indirectly linking your 2 wallets.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
-Another major advantage of Secret Network is the inability to use frontrunning against you:
+Another major advantage of a Secret Network is the inability to use frontrunning against you:
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 Speaking about features and capabilities of Secret Network I strongly recommend you to watch [the video](https://www.youtube.com/watch?v=LVopimoM8Jk) (time-code 1:27:00) with Anton Pavlutsky, CEO of Citadel.one.
 
@@ -56,7 +56,7 @@ More details in [the overview section of the official website](https://scrt.netw
 
 ### **Secret Bridges**
 
-Secret Ethereum Bridge \*\*\*\* , a bridge to the Ethereum network, was launched \*\*\*\* on December 15, 2020 and is the first of many bridges to other ecosystems. This bridge allowed users to exchange Ethereum and fourteen other ERC-20s for their Secret equivalent SNIP-20.
+Secret Ethereum Bridge \*\*\*\*, a bridge to the Ethereum network, was launched \*\*\*\* on December 15, 2020 and is the first of many bridges to other ecosystems. This bridge allowed users to exchange Ethereum and fourteen other ERC-20s for their Secret equivalent SNIP-20.
 
 Secret Bridges connect the Secret Network with other blockchain networks, allowing users from different ecosystems to create privacy-preserving versions of their assets, called Secret Tokens. Secret Tokens are a very interesting concept: they are programmable, like ERC-20, and can be used in applications, but remain private by default, like Monero and similar coins. Once assets cross the Secret Bridge in the form of Secret Tokens, they can be used in Secret DeFi applications, which by default are private and compatible with multiple networks, which means the assets support different blockchain ecosystems.
 
@@ -66,9 +66,9 @@ Secret already allows a number of tokens to be moved and exchanged on Ethereum a
 
 Secret Bridges uses multisig for authorization. 3 out of 5 operators trusted to manage the bridge must approve (sign) the transaction in order for it to be executed. These operators are very reputable staking operators - Figment, Staked, B-Harvest, Citadel.one and Enigma.
 
-The multi-signature authorization process makes it much more difficult to compromise Secret Bridges , eliminating the single point of failure that is a problem for single-signature systems.
+The multi-signature authorization process makes it much more difficult to compromise Secret Bridges, eliminating the single point of failure that is a problem for single-signature systems.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Secret NFTs**
 

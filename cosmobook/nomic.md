@@ -47,10 +47,10 @@ The Stakenet launch includes an Airdrop for ATOM holders and Stakeholders to sta
 * Formula:
 *
   * `(min(liquidBalance, 1000) + (4 * min(stakedBalance, 1000)) / 20.299325`
-  * (Limit of 1,000 ATOM on both liquid balance and steaking balance, with 4x multiplier on steaking balance)
+  * (Limit of 1,000 ATOM on both liquid balance and staking balance, with 4x multiplier on staking balance)
 * Unlock: linear unlock starting 1 month after nBTC launch
 
-**You can participate in the drop-in and start steaking NOM in the Nomic web app:** [**https://app.nomic.io**](https://app.nomic.io/) (Keplr Chrome extension required).
+**You can participate in the drop-in and start** staking **NOM in the Nomic web app:** [**https://app.nomic.io**](https://app.nomic.io/) (Keplr Chrome extension required).
 
 A total of two more Airdrop are planned - see Tokenomics section below.
 
@@ -78,9 +78,9 @@ Deposit fees are deposited into a rewards fund which is distributed to NOM's sta
 
 #### - Bitcoin update chart <a href="#bitcoin-upgrade-timeline" id="bitcoin-upgrade-timeline"></a>
 
-The new Bitcoin features activated **on July 5 at 18:00 UTC**, and from then on the Nomic app sees rewards in Bitcoin .
+The new Bitcoin features activated **on July 5 at 18:00 UTC**, and from then on the Nomic app sees rewards in Bitcoin.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 Some of Bitcoin Bridge's most interesting security features (e.g., [emergency payouts](https://gist.github.com/mappum/da11e37f4e90891642a52621594d03f6#emergency-disbursal-process)) are not included in this release and will be gradually added over the next few updates. These security features will be key differences between Nomic and other bridges.
 
@@ -124,7 +124,7 @@ At the discretion of multisig members, the reserve can also be used to delegate 
 
 The NOM will be spread over 9 years, reducing the inflation rate by 1/3 each year.
 
-* **Remuneration for steaking** - 47,250,000 NOM
+* **Remuneration for** staking - 47,250,000 NOM
 
 Rewards will be distributed to NOM validators and delegates similar to other Cosmos networks.
 
@@ -160,17 +160,17 @@ Be aware that NOMIC is built on a custom stack, so it is still limited to the nu
 
 🔗 Website [:](https://nomic.io) https://nomic.io
 
-🔗 Application: [https:](https://app.nomic.io) //app.nomic.io
+🔗 Application: [https:](https://app.nomic.io)//app.nomic.io
 
-🔗 Telegram: [https:](https://t.me/nomicbtc) //t.me/nomicbtc
+🔗 Telegram: [https:](https://t.me/nomicbtc)//t.me/nomicbtc
 
-🔗 Twitter: [https:](https://twitter.com/nomicbtc) //twitter.com/nomicbtc
+🔗 Twitter: [https:](https://twitter.com/nomicbtc)//twitter.com/nomicbtc
 
 🔗 Discord: [https://discord.gg/7FjMJ49Vbc](https://discord.gg/7FjMJ49Vbc)
 
-🔗 Blog: https://blog [.nomic.io/](https://blog.nomic.io/)
+🔗 Blog: https://blog[.nomic.io/](https://blog.nomic.io/)
 
-🔗 GitHub: [https:](https://github.com/nomic-io) //github.com/nomic-io
+🔗 GitHub: [https:](https://github.com/nomic-io)//github.com/nomic-io
 
 🔗 Explorer: [http://nomic.zenscan.io/index.php](http://nomic.zenscan.io/index.php)
 

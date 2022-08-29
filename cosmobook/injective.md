@@ -4,7 +4,7 @@
 
 ## Injective
 
-**Injective** is a DeFi-centric L1 blockchain designed for decentralized exchange of next-generation derivatives. Injective Chain has a decentralized DEX protocol running on the order book model and an ERC-20 token bridge to Ethereum.
+**Injective** is a DeFi L1 blockchain designed for decentralized exchange of next-generation derivatives. Injective Chain has a decentralized DEX protocol running on the order book model and an ERC-20 token bridge to Ethereum.
 
 Every component of Injective has been designed to be fully secure, censor-resistant, and publicly verifiable.
 
@@ -39,11 +39,11 @@ The Injective team has a web page dedicated exclusively to their labs. Visit it 
 * 25.05.2022 Injective Labs [announced](https://blog.injective.com/defi-injective-adds-solana-avalanche-polygon-interoperability-with-wormhole-integration/) the integration of Wormhole, a messaging protocol, into the Injective ecosystem. The integration will allow decentralized applications (dApps) in the Injective ecosystem to connect with Algorand, Avalanche, BNB Chain, Fantom, Oasis, Polygon and Solana blockchains.
 * \- From June 3rd, 2022 you can start transferring assets from Polkadot using [**Injective Bridge** ](https://hub.injective.network/bridge)(thanks to integration with Moonbeam and Axelar) (details [here](https://blog.injective.com/injective-integrates-polkadot-assets-to-expand-the-cross-chain-cosmos-universe/))
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 The Injective protocol consists of several key components.
 
-**Injective Chain** is a decentralised exchange (DEX) protocol built on top of Cosmos that also allows Ethereum tokens to be transmitted and traded. This network is designed to address the scaling and bandwidth challenges faced by many Tier 1 blockchains, while allowing developers to use Ethereum's familiar development toolkits.
+**Injective Chain** is a decentralized exchange (DEX) protocol built on top of Cosmos that also allows Ethereum tokens to be transmitted and traded. This network is designed to address the scaling and bandwidth challenges faced by many Tier 1 blockchains, while allowing developers to use Ethereum's familiar development toolkits.
 
 ### **Traders can access multiple modules within Injective Chain DEX:**
 
@@ -103,7 +103,7 @@ Let's take a look at the life cycle of a trade to understand the processes going
 
 8\. The server side of the Injective Exchange API indexes events and sends updates to all subscribed traders.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 Transaction processing in Injective Chain is beneficial to the end user, as accessing the network through an exchange's DApp alleviates the burden of gas charges. Since exchanges broadcast subscribed messages to Injective Chain nodes rather than traders, all fees associated with network interactions are covered by the exchange DApp, resulting in zero gas fees for traders. This enables users to trade on the exchange without having INJ in their account. This approach is a significant improvement to the UX. Moreover, Injective allocates a $100,000 rebate pool to cover gas charges for users who transfer funds from Ethereum for the first time.
 
@@ -120,7 +120,7 @@ Now we can highlight the main differences from CEX:
 
 The goal is to be even more able to prevent any [Front-Running](https://www.investopedia.com/terms/f/frontrunning.asp) in a decentralized environment. Most DEX suffers from this because all information is public, and traders can collude with miners or pay high gas fees, allowing their requests to be processed before anyone else**(putting their price before yours**).
 
-Read more about this phenomenon, which is called MEV (miner extractable value) [here](https://cyberacademy.dev/blog/20-temnyy-les-ethereum-chto-takoe-mev)
+Read more about this phenomenon, which is called MEV (miner extractable value) [here](https://cyberacademy.dev/blog/20-temnyy-les-ethereum-chto-takoe-mev).
 
 Injective mitigates this with fast block generation times combined with frequent batch auctioning:
 
@@ -150,18 +150,18 @@ Through Injective Hub, you can place an INJ (native network token) to become a n
 The Injective Hub also acts as a platform for making suggestions and votes on further development of Injective. For example, here INJ holders vote on the inclusion of new trading pairs, amendments to management procedures, additions or changes to existing platform functionality.\
 The wallet page displays important information about your assets. Here you can view your balance, delegate, re-delegate and brand awards.
 
-On the Injective Bridge page, users can transfer assets between Injective Chain and Etherium (Cosmos Hub, Osmosis, Persistence, Evmos, Axelar, Moonbeam).
+On the Injective Bridge page, users can transfer assets between Injective Chain and Ethereum (Cosmos Hub, Osmosis, Persistence, Evmos, Axelar, Moonbeam).
 
 ### $INJ <a href="#8bds" id="8bds"></a>
 
-**INJ** is a native Injective Protocol token and is used for havernance, auctioning (was described above), providing liquidity and stacking. As the Injective ecosystem continues to evolve, new projects will promote token burning (has been described in auctions) and reduce the supply of INJ over time. Options for using INJ include, but are not limited to: protocol management, payment of exchange fees, derivatives provisioning, liquidity mining, and stacking.
+**INJ** is a native Injective Protocol token and is used for governance, auctioning (was described above), providing liquidity and stacking. As the Injective ecosystem continues to evolve, new projects will promote token burning (has been described in auctions) and reduce the supply of INJ over time. Options for using INJ include, but are not limited to: protocol management, payment of exchange fees, derivatives provisioning, liquidity mining, and stacking.
 
 **Utility Token:**\
 **1. Proof of Stake security.** INJ's preliminary initial offering has been set at 100,000,000 tokens and will increase over time through block generation rewards.
 
 The INJ inflation target will provisionally be 7% during the genesis phase and will decrease to 2% over time. Gradually, the total supply of INJ may fall below the initial supply due to the deflationary mechanism described below in the section "Exchange fee accrual".
 
-**2. Governance.** The INJ token also serves as the primary havernance token for Injective Chain.
+**2. Governance.** The INJ token also serves as the primary governance token for Injective Chain.
 
 INJ is used to manage all aspects of the network, including:
 
@@ -185,7 +185,7 @@ INJ will be used as an alternative to Stablecoins as margin and collateral for I
 
 The weekly supply burn creates a deflationary effect and to some extent compensates for the increase in supply caused by token minting. To be more precise, a 5% annual inflation of 13 million INJ equals 650,000 INJ minted over the year, while the total minted over eight weeks is 204,000, which adds up to about 1,326,000 INJ minted over the year, which is 1.325% of the total supply.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Injective update <a href="#t2zg" id="t2zg"></a>
 
@@ -204,7 +204,7 @@ In addition to support for smart contracts with CosmWasm, the update includes:
 * Support for inter-network accounts via IBC v3.
 * And much more.
 
-To_learn more about management offers, click_ [_here_](https://blog.injective.com/injective-governance-proposal-procedure/).
+To _learn more about management offers, click_ [_here_](https://blog.injective.com/injective-governance-proposal-procedure/).
 
 ### Support for smart contracts (CosmWasm) <a href="#qj9p" id="qj9p"></a>
 

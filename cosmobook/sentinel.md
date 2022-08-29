@@ -6,7 +6,7 @@
 
 The goal of the Sentinel ecosystem is to expand universal access to the Internet through a robust and provable approach. This is accomplished by enabling organizations and individuals around the world to build cost-effective, scalable, distributed and decentralized network solutions based on Sentinel Cosmos blockchain, leveraging the following
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Internet has created a form of interconnected global consciousness that can have an enormous positive impact. However, the value and power of the Internet's ability to disseminate information is under threat. There has been a rapid increase in censorship and mass data collection on the Internet, as well as an ever-growing dependence of people on the Internet. Nowadays, this trend of censorship and data collection violates fundamental human rights of access to information and privacy. The initial goal of the Sentinel ecosystem is to provide a framework for building decentralized virtual private networks or dVPNs. VPN applications are used by people around the world to access geographically restricted content by connecting to servers located in regions where the desired content is provided without restriction, while at the same time ensuring the privacy of interactions through the establishment of an encrypted connection. Whether the goal is to gain access to restricted content or to enhance the security of data transmission over the Internet, people around the world are demanding secure, low-cost and reliable VPN services.
 
@@ -50,11 +50,11 @@ A centralized VPN architecture consists of multiple intermediary servers that ar
 
 A key contributing factor to the resiliency of the Sentinel architecture is the decentralized distribution of computing power required to run Sentinel Hub and Sentinel Zone. The computing power required to run the dVPN Sentinel ecosystem is not provided by, or dependent upon, centralized organizations; instead, it is provided by expert "checkout" organizations that are distributed globally and have highly redundant systems with significant bandwidth and uptime. While **the Sentinel architecture ensures that user anonymity is not compromised by the application itself**, the use of the relay network created by Sentinel is necessary to ensure complete user anonymity from an output node perspective. Sentinel's relay network will allow users to tunnel their connection through a series of "relay nodes" that ensure that the user does not directly communicate with the exit node. Sentinel's proprietary, patented "bandwidth proof" protocol provides reliable and transparent bandwidth measurements from the service provider (community-based nodes) to the end user. The "proof-of-bandwidth" protocol is integrated into Sentinel's blockchain, providing clear tracking of the quality of bandwidth provisioning services and establishing a level of trust between all participants. This data is subsequently used to determine whether a node has met the required level of service to avoid penalties.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the coming years, Sentinel's ecosystem will consist of dozens of cross-platform dVPN apps built by third-party developers who take responsibility for the brand strategy and marketing strategy of the app, while monetizing through traditional fiat channels and paying service providers in exchange for provably encrypted and secure bandwidth.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### **Token $DVPN**
 
@@ -62,7 +62,7 @@ Sentinel's institutional capital raising began in Q4 2020 and ended in February 
 
 According to the Sentinel network's original ERC-20 allocation, which was developed in 2017, 75% of the token stock was to be owned by the community. As the Sentinel network switched from Ethereum to Sentinel's own Cosmos-based network, the total amount of tokens circulating in the network will increase from 2 billion to 10 billion over the next 5 years.
 
-It is important to note that the lock-in schedule for Team, Trejari and Marketing is designed so that no tokens are released during the first year, and the allocation schedule is heavily weighted towards later years compared to earlier years. For example, 0%, 12%, 30%, 60%, 100% of the assigned allocation will be allocated in years 1, 2, 3, 4 and 5 respectively.
+It is important to note that the lock-in schedule for Team, Treasure and Marketing is designed so that no tokens are released during the first year, and the allocation schedule is heavily weighted towards later years compared to earlier years. For example, 0%, 12%, 30%, 60%, 100% of the assigned allocation will be allocated in years 1, 2, 3, 4 and 5 respectively.
 
 <figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -74,27 +74,27 @@ The main utility of the Sentinel token revolves around its functions:
 
 \- dVPN extended service payment facility.
 
-Steaking is possible today with an APY of 61%:
+Staking is possible today with an APY of 61%:
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 ### **Applications**
 
 At the moment, the Sentinel website only offers us its [app](https://play.google.com/store/apps/details?id=co.sentinel.dvpn) for Android devices.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 Nevertheless, thanks to Posthuman's validator [article](https://medium.com/@danilmilyutin/decentr-sentinel-dvpn-%D0%B2%D1%8B%D1%88%D0%B5%D0%BB-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%81%D0%BA%D1%82%D0%BE%D0%BF%D0%BD%D1%8B%D1%85-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2-ca46fb7d8b58), the following links were found:
 
-Браузер для Windows: [https://decentr.net/#download](https://decentr.net/#download)
+Browser Windows: [https://decentr.net/#download](https://decentr.net/#download)
 
 OSX Browser: [https://decentr.net/#download](https://decentr.net/#download)
 
-Браузер Linux: [https://decentr.net/#download](https://decentr.net/#download)
+Browser Linux: [https://decentr.net/#download](https://decentr.net/#download)
 
 Браузер для Android: [https://play.google.com/store/apps/details?id=net.decentr.browser](https://play.google.com/store/apps/details?id=net.decentr.browser)
 
-Браузер для iOS: [https://apps.apple.com/us/app/decentr-browser/id1609950309](https://apps.apple.com/us/app/decentr-browser/id1609950309)
+Browser  iOS: [https://apps.apple.com/us/app/decentr-browser/id1609950309](https://apps.apple.com/us/app/decentr-browser/id1609950309)
 
 On July 6, 2022, there were 3,268 active nodes (nodes) in the network.
 
@@ -102,13 +102,13 @@ That's a 12,000% increase from 27 knots on July 6, 2021.
 
 On July 17, 2022, Sentinel's [official statistics website](http://stats.sentinel.co/) shows the following picture:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 Today, nearly 3,000 users are actively using Sentinel technology by paying for #dVPN services and connecting to the network.
 
 Sentinel-based dApps are some of the only, if not the only, apps in the Cosmos ecosystem right now that ordinary users can use in their daily lives. You don't have to know the ins and outs of the cryptocurrency market to do so: just download the app and pay for dVPN services. This is the first step towards mass adoption of Sentinel.
 
-### **Cсылки:**
+### **Links:**
 
 Веб-сайт: [https://decentr.net](https://decentr.net/)
 

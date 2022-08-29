@@ -88,7 +88,7 @@ In addition, the engineering team performed the following backend work, which re
 * Implement best practices, including Agile practices and a support ticket system, to help improve the user experience with Sifchain;
 * Finally, before the recent market crash, Sifchain was showing incredible growth rates. After the collapse, the performance declined.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 Key areas that the team expects to focus on in the near future:
 
@@ -104,7 +104,7 @@ Sifchain was the first bridge between ETH and Cosmos, and now the team sees its 
 
 Over the past few months, the business development team has been working hard to build relationships with other EVM networks. Forty-five different EVM networks were analyzed to identify the most suitable ones. Today, the list of top contenders has been narrowed down to six possible options for the next EVM connection.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 At the same time, the engineering team is working on a critical Peggy 2.0 update. Peggy 2.0 code base is in the process of smart contract migration and load testing. The code has already passed 3 audits, with a fourth in progress.
 
