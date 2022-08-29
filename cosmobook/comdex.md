@@ -39,8 +39,6 @@ It is important to understand that crypto has no direct connection to the real w
 
 Comdex consists of different modules (tools). Since they didn't draw a nice picture with modules (like Agoric's, for example), read the dull text and turn on your imagination.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 **The Vault module** is responsible for creating and managing the repositories.
@@ -116,15 +114,11 @@ The CMDX token is inflationary in nature with a 30% inflation rate in the first 
 
 Airdrop of the CMDX token at [Airdrop.comdex.one](http://airdrop.comdex.one/) for Cosmos ecosystem communities such as Persistence, Cosmos, Terra and Osmosis started on March 7, 2022. Airdrop is put to those who hold/stick XPRT, ATOM, ~~LUNA~~ or OSMO during snapshot.
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Comdex ecosystem** <a href="#0zda" id="0zda"></a>
 
 In addition to cAsset and the enterprise trading platform, the Comdex team is working on several new products such as Commodo, ShipFi, and the $CMST stablecoin, which will be launched shortly.
-
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (62) (1).png" alt=""><figcaption></figcaption></figure>
 

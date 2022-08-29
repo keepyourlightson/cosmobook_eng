@@ -12,11 +12,11 @@ Read more about oracles at Binance Academy. Link [here](https://academy.binance.
 
 Here's an excerpt from [press release](https://www.bloomberg.com/press-releases/2022-03-24/oraichain-launches-mainnet-2-0-to-boost-scalability-enable-mass-adoption-of-ai-in-the-blockchain-ecosystem) Orai Mainnet 2.0 on Bloomberg
 
-Oraichain Mainnet 2.0 is a major update that paves the way for mass adoption of artificial intelligence and interoperability with other blockchains. It provides greater interoperability (\*the same interoperability that every zone in the cosmos has_) through retransmission protocols, bridges, and IBC in CosmosSDK-based networks, creating AI L1 for dApps.
+Oraichain Mainnet 2.0 is a major update that paves the way for mass adoption of artificial intelligence and interoperability with other blockchains. It provides greater interoperability (\*the same interoperability that every zone in the cosmos has\_) through retransmission protocols, bridges, and IBC in CosmosSDK-based networks, creating AI L1 for dApps.
 
 ### **The problem of compatibility of artificial intelligence and smart contracts**
 
-AI models use complex learning methods ([support vector method](https://en.wikipedia.org/wiki/Support-vector_machine), [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning), neural networks, clustering. Therefore, smart contracts cannot run AI models in code, and it is very difficult to integrate an AI model into a smart contract. The point is three characteristics of smart contracts:
+AI models use complex learning methods ([support vector method](https://en.wikipedia.org/wiki/Support-vector\_machine), [supervised learning](https://en.wikipedia.org/wiki/Supervised\_learning), neural networks, clustering. Therefore, smart contracts cannot run AI models in code, and it is very difficult to integrate an AI model into a smart contract. The point is three characteristics of smart contracts:
 
 * Strictness: smart contracts always follow strict rules in which input data must be 100% accurate (e.g., signature -- either there or not) to generate output data. However, AI models cannot yet provide such accuracy (facial recognition is a good example).
 * Environment: Smart contracts are mostly written in high-level programming languages such as Solidity and Rust, which provide more rigorous syntax and better security. However, AI models are usually written in Python or R.
@@ -26,7 +26,7 @@ AI models use complex learning methods ([support vector method](https://en.wikip
 
 First, let me remind you how oracle in blockchain works: a user initiates a contract execution, which he-chain refers to the oracle contract. That in turn refers to the server (already off-chain) connected to the outside world. Then in reverse order.
 
-![](https://telegra.ph/file/c2d9a08b3158763b58abb.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 For a better understanding of oracles, we recommend that you read the translation of the article with a breakdown of the various solutions that oracles use. Here is the link [here.](https://telegra.ph/Orakuly-razbor-reshenij-predostvlyayushchih-dannye-v-blokchejn-05-25)
 
@@ -78,7 +78,7 @@ Separately, I will say that the APR for ORAI stacking is now about 29%, which, i
 
 ### **Dashboard**
 
-You can't steak ORAI through Keplr wallet or Keplr-dashboard, the zone is not there. However, Oraichain has its own [dashboard] (https://scan.orai.io/), combined with havernance, transaction scanner, IBC card.
+You can't steak ORAI through Keplr wallet or Keplr-dashboard, the zone is not there. However, Oraichain has its own \[dashboard] (https://scan.orai.io/), combined with havernance, transaction scanner, IBC card.
 
 You will need it if you decide to delegate your Orai, or get involved in management. You can also find channel numbers here to manually add to Keplr to transfer tokens between zones.
 

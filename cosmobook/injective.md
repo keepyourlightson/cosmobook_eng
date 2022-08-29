@@ -41,8 +41,6 @@ The Injective team has a web page dedicated exclusively to their labs. Visit it 
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
-
 The Injective protocol consists of several key components.
 
 **Injective Chain** is a decentralized exchange (DEX) protocol built on top of Cosmos that also allows Ethereum tokens to be transmitted and traded. This network is designed to address the scaling and bandwidth challenges faced by many Tier 1 blockchains, while allowing developers to use Ethereum's familiar development toolkits.
@@ -106,8 +104,6 @@ Let's take a look at the life cycle of a trade to understand the processes going
 8\. The server side of the Injective Exchange API indexes events and sends updates to all subscribed traders.
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 Transaction processing in Injective Chain is beneficial to the end user, as accessing the network through an exchange's DApp alleviates the burden of gas charges. Since exchanges broadcast subscribed messages to Injective Chain nodes rather than traders, all fees associated with network interactions are covered by the exchange DApp, resulting in zero gas fees for traders. This enables users to trade on the exchange without having INJ in their account. This approach is a significant improvement to the UX. Moreover, Injective allocates a $100,000 rebate pool to cover gas charges for users who transfer funds from Ethereum for the first time.
 

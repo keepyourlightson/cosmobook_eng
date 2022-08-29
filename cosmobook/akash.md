@@ -69,13 +69,9 @@ A closer look at the breakdown of nodes across the two main protocols reveals a 
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
-
 In addition, many projects use large cloud providers to host their middleware and interfaces for websites and applications, creating another centralized point of vulnerability. If a project's interface, in which most users interact with network contracts, is hosted by AWS, it does not matter how decentralized the back-end protocol is, because AWS can simply disable the interface. A centralized interface also allows the project team to control how the user interacts with the protocol. Finally, using a centralized cloud provider exposes the protocol to the risk of failures depending on the provider's uptime, as was the case with dYdX last December.
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 As much of the Web3 infrastructure resides on a few cloud providers' servers, the ability of large technology companies and governments to censor these protocols increases. In addition, this concentration increases the likelihood that regulators will seize [the opportunity](https://twitter.com/collins\_belton/status/1478120309332987905) to take the industry under their regulatory umbrella. This is why so many lawyers [are emphasizing](https://twitter.com/jchervinsky/status/1427652238101684231) the importance of decentralizing Web3 front-ends, as they represent a major attack vector...
 
@@ -128,8 +124,6 @@ Look at how many dapps are going to Akash, I was impressed:
 At the time of genesis, 100 million AKTs were distributed in accordance with the distribution shown in the chart above, while approximately 289 million AKTs were scheduled for issuance as inflationary awards for stakers, originally set at 100% APR, which was to be halved every two years. The governance vote changed the halving to about every 3.7 months. According to Akash founder Greg Osuri, the protocol plans to reward cloud providers with issuance, though the feature will be implemented at a later date.
 
 News not yet realized, but mentioned in the whitepaper: Akash plans to charge an "acceptance fee" for each successful lease. It will then channel this fee into a pool of rental revenues for distribution to holders. The fee is planned to be 10% for AKT transactions and 20% for other cryptocurrencies. Akash also plans to reward AKT streakers. Holders who steak for a long time will be eligible for larger rewards.
-
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
