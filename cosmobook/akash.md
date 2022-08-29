@@ -125,7 +125,7 @@ At the time of genesis, 100 million AKTs were distributed in accordance with the
 
 News not yet realized, but mentioned in the whitepaper: Akash plans to charge an "acceptance fee" for each successful lease. It will then channel this fee into a pool of rental revenues for distribution to holders. The fee is planned to be 10% for AKT transactions and 20% for other cryptocurrencies. Akash also plans to reward AKT streakers. Holders who steak for a long time will be eligible for larger rewards.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
