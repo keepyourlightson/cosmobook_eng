@@ -66,6 +66,8 @@ How to build a portfolio is a separate song, but you should always start with $A
 
 So after that tell me, how many coins do you need to drop?) Right, not clear, but the more the better. Fresh drop from Gelotto rolled out the following conditions:
 
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 So after that tell me, how many coins do you need to drop?) Right, not clear, but the more the better. Fresh drop from Gelotto rolled out the following conditions:
@@ -83,6 +85,8 @@ One experienced spaceman was asked to share how many drops he collected in a yea
 One experienced spaceman was asked to share how many drops he collected in a year. [A service](https://app.citadel.one/overall) from Citadel.one allows you to keep such statistics.
 
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 Yes, here too, not everything is transparent and obvious, but you can see that they are dropping regularly, and the number of coins is very different. It's also important to understand that you'll start getting regular drops after six months in staking. Until then, luck is much rarer. The project makes a snapshot, and announces it much later (from the established practice).
 

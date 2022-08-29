@@ -34,13 +34,9 @@ The e-Money ecosystem has a second token, **NGM** "Next Generation money", which
 
 Unlike most existing stablecoins, which tend to maintain a static 1:1 peg to their underlying assets, the value of e-Money tokens backed by fiat currency constantly changes in line with the interest accrued on reserve assets. This means that holders benefit from the interest accrued on their assets while they are stored in the wallet. Blockchain e-Money supports instant transfers and includes DEX for easy conversion between currencies. e-Money is already integrated with Cosmos Hub, Osmosis and Ethereum and several other networks:
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 The following networks will appear soon:
-
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 

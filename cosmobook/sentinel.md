@@ -54,8 +54,6 @@ A key contributing factor to the resiliency of the Sentinel architecture is the 
 
 In the coming years, Sentinel's ecosystem will consist of dozens of cross-platform dVPN apps built by third-party developers who take responsibility for the brand strategy and marketing strategy of the app, while monetizing through traditional fiat channels and paying service providers in exchange for provably encrypted and secure bandwidth.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### **Token $DVPN**
@@ -79,8 +77,6 @@ The main utility of the Sentinel token revolves around its functions:
 Staking is possible today with an APY of 61%:
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 ### **Applications**
 
@@ -107,8 +103,6 @@ That's a 12,000% increase from 27 knots on July 6, 2021.
 On August 29, 2022, Sentinel's [official statistics website](http://stats.sentinel.co/) shows the following picture:
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p><a href="https://stats.sentinel.co/stats">https://stats.sentinel.co/stats</a></p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 Today, nearly 3,000 users are actively using Sentinel technology by paying for #dVPN services and connecting to the network.
 

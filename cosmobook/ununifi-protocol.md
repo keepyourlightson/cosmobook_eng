@@ -17,6 +17,8 @@ The project is young, at an early stage. Japanese development team from Botany L
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
+
 ### **What problems is UnUniFi trying to solve?** <a href="#nmr8" id="nmr8"></a>
 
 <figure><img src="../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
@@ -67,9 +69,13 @@ A little bit of project tokenomics. Distribution of GUU tokens.
 
 <figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+
 and GUU token unlock chart
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Roadmap <a href="#mcbw" id="mcbw"></a>
 

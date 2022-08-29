@@ -97,8 +97,6 @@ Gravity bands can be divided into the following categories:
 
 Instead of a corporation or board of insiders, each gravity group or sub-DAO will elect a representative who will be a member of Gravity Grants and sign 2/3 multisig. After the original charter members have served their term, new members must be elected at least once a year, or a special election may be scheduled through the board. These members evaluate the completion of Gravity Grants and release the remaining funds.
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Airdrop**
