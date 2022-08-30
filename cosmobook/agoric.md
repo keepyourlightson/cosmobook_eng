@@ -6,108 +6,146 @@
 
 ![](https://img2.teletype.in/files/5e/35/5e356a10-0239-4840-92a1-303cd3c9a9d6.png)
 
-## Agoric <a href="#0ugm" id="0ugm"></a>
+Currently, most DeFi applications use an architecture where the Web2 frontend (the user interface) is written in JavaScript and the backend (the executable code), which is a set of smart contracts, is written in another specialized programming language. First, this requires the developers of smart-contracts to know a highly specialized language, and second, it complicates the creation of a robust framework linking the frontend and backend.
 
-В настоящее время большинство DeFi приложений используют архитектуру, где Web2 фронтенд (пользовательский интерфейс) пишется на JavaScript, а бэкенд (исполнительный код), представляющий собой набор смарт-контрактов, пишется на другом специализированном языке программирования. Во-первых, это требует от разработчиков смарт-контрактов знания узко специализированного языка, во-вторых, усложняет создание надежного фрэймворка, связывающего фронтенд и бэкенд.
+_\* In some networks, smart contracts are written in widely known languages, such as Rust in Near, but still most smart contracts are written in Solidity, so for most developers there is a threshold of entry into the crypto sphere, which is the need to learn a new language_
 
-_\* В некоторых сетях смарт-контракты пишутся на широко известных языках, например, в сети Near это Rust, но все же большая часть смарт-контрактов написано на Solidity, поэтому для большинства разработчиков и существует порог входа в крипто сферу, который заключается в необходимости изучения нового языка_
+**Agoric is** a smart contract platform that allows developers to use Hardened JavaScript to write contracts. In this way Agoric intends to attract a large number of developers to DeFi, NFTs and Dapps, as JavaScript is one of the most common programming languages.
 
-**Agoric** – это платформа смарт-контрактов, которая позволяет разработчикам использовать для написания контрактов Hardened JavaScript. Таким образом Agoric намереваются привлечь большое количество разработчиков в DeFi, NFTs и Dapps, ведь JavaScript является одним из самых распространенных языков программирования.
+**Hardened JavaScript** is a variation of JavaScript that allows you to work with potentially unsafe code without the risk of being affected by bugs or malicious third parties. Simply put, it is an advanced sandbox for working with any kind of code, even insecure code. A more detailed technical description can be found [here](https://github.com/endojs/endo/blob/master/packages/ses/docs/guide.md)
 
-**Hardened JavaScript** – это вариация JavaScript, позволяющая работать с потенциально небезопасным кодом, без рисков пострадать от багов или сторонних злонамеренных действий. Говоря простым языком – это такая продвинутая песочница для безопасной работы с любым, даже небезопасным, кодом. Более подробное техническое описание можно найти [тут](https://github.com/endojs/endo/blob/master/packages/ses/docs/guide.md)
+The Agoric network was developed to reduce risk in decentralized financial systems, and the team aims to create a large-scale composite library of crypto-economic standards, similar to the libraries that have led to the explosive growth of JavaScript ecosystems (e.g., Node.js). Having such a library would give developers the ability to quickly create smart contracts from pre-built components (that's why the library is called composite). Agoric has also added improved determinism and asynchrony features to JavaScript, giving developers even more options for developing unique smart contracts.
 
-Сеть Agoric разрабатывалась для того, чтобы уменьшить риски в децентрализованных финансовых системах, а также команда ставит своей задачей создание масштабной композитной библиотеки крипто экономических стандартов, наподобие тех библиотек, которые привели к взрывному росту JavaScript экосистем (например, Node.js). Наличие такой библиотеки даст разработчикам возможность быстро создавать смарт-контракты из уже готовых компонентов (поэтому библиотека и называется композитной). Также Agoric добавили в JavaScript улучшенные функции детерминизма и асинхронности, что дает разработчикам еще больше возможностей для разработки уникальных смарт-контрактов.
-
-### **Компоненты Agoric** <a href="#vrot" id="vrot"></a>
+#### **Agoric components** <a href="#vrot" id="vrot"></a>
 
 ![](https://img3.teletype.in/files/6a/3b/6a3ba116-ede2-45dd-9d9e-c09330c17347.png)
 
-#### **Эндпоинты (ключевые элементы архитектуры Agoric)** <a href="#2uo3" id="2uo3"></a>
+#### **Endpoints (key elements of Agoric architecture)**
 
-**Zoe** – это фреймворк для написание смарт-контрактов на JavaScript, отвечает за безопасное исполнение кода, а также обеспечивает пользователям и разработчикам защиту от злонамеренных действий c третьей стороны. Более того, Zoe выступает своего рода эскроу-агентом, т.е. при проведении сделок у пользователя есть гарантии, что, либо сделка была осуществлена, либо он получит назад свои активы.
+**Zoe,** a JavaScript framework for writing smart contracts, is responsible for secure code execution, and provides users and developers with protection against malicious third-party actions. Moreover, Zoe acts as a kind of escrow agent, i.e., the user has a guarantee that either the transaction is executed or he gets his assets back.
 
-**Цифровые активы** – это любые токены (в том числе и NFT).
+**Digital assets** are any tokens (including NFTs).
 
-**Endo** - выполняет такую же функцию для Hardened JavaScript, как и Node.js для JavaScript, а именно запускает гостевые программы и взаимодействует с протоколом передачи сообщений CapTP.
+**Endo -** Performs the same function for Hardened JavaScript as Node.js does for JavaScript, namely running guest programs and interacting with the CapTP messaging protocol.
 
-**Tendermint** – движок, на котором в данный момент строятся все блокчейны в экосистеме Cosmos (\*подробнее в первой главе).
+**Tendermint is** the engine on which all blockchains in the Cosmos ecosystem are currently built (\*more details in chapter one).
 
-#### **Протоколы** <a href="#jawq" id="jawq"></a>
+#### **Protocols** <a href="#jawq" id="jawq"></a>
 
-**ERTP (Electronic Rights Transfer Protocol)** - это стандарт Agoric для создания и передачи цифровых активов. Используя ERTP IP пользователь может создавать и использовать токены (NFT тоже), при этом все эти токены обладают одинаковыми свойствами безопасности и могут передаваться внутри сети.
+**ERTP (Electronic Rights Transfer Protocol)** is an Agoric standard for creating and transferring digital assets. Using ERTP IP the user can create and use tokens (NFT too), and all these tokens have the same security properties and can be transmitted within the network.
 
-**Cap TP (capability transport protocol)** – протокол, который позволяет объектам на одном компьютере безопасно обмениваться сообщениями с объектами на другом компьютере.
+**Cap TP (capability transport protocol)** - A protocol that allows objects on one computer to securely exchange messages with objects on another computer.
 
-**IBC** – о том, что это такое, читайте в первой главе.
+**IBC** - read about what this is in the first chapter.
 
 #### **Agoric VM** <a href="#qb6q" id="qb6q"></a>
 
-Agoric VM – это виртуальная машина Agoric, которая обеспечивает три основные функции:
+Agoric VM is an Agoric virtual machine that provides three main functions:
 
-1\) Предоставляет безопасную распределенную среду для исполнения кода JavaScript с возможностью использования готовых модулей. Безопасность использования модулей и повторного использования кода (code reuse) обеспечивается за счет OCap.
+1\) Provides secure distributed environment for JavaScript code execution with the ability to use out-of-the-box modules. Safe use of modules and code reuse is provided by OCap.
 
-_\* Под использованием готовых модулей подразумевается такая функция, как составность или композитность (composability), о том, что это такое можно почитать_ [_тут._](https://en.wikipedia.org/wiki/Composability)
+_\* By using prefabricated modules we mean a feature called composability, you can read about it_ [_here_](https://en.wikipedia.org/wiki/Composability)_._
 
-_Code reuse – это использование уже готового кода для написания новых функций или приложения._
+_Code reuse is the use of already prepared code to write new functions or application._
 
-2\) Модель объектных возможностей (Object-Capability model или сокращенно OCap)**–** модель безопасности, использующаяся в защищенных вычислительных системах. Agoric расширили возможности данной модели для обеспечения асинхронного программирования между сетями (\*_должен признаться, что мы сами не особо понимаем, что это значит_).
+2\) Object-Capability model (OCap for short**) is** a security model used in secure computing systems. Agoric have extended this model to allow asynchronous programming between networks (\*I must_admit that we don't really know what this means ourselves_).
 
-_Более подробно об OCap можно почитать_ [_тут._](https://en.wikipedia.org/wiki/Object-capability\_model)
+_Read more about OCap_ [_here_](https://en.wikipedia.org/wiki/Object-capability\_model)_._
 
-3\) Экспоненциальная композитность (Exponential composability) – этот термин обозначает использование готового кода, модулей и пакетов для создания новых приложений. Чтобы вы понимали масштабы – на середину 2021 года из библиотек Node.js было скачано более 800к различных пакетов, а ежедневное количество скачиваний превышает 1 миллиард (\*данные из официальной документации Agoric). При этом лишь 3% кода пишется с нуля, весь остальной код является готовым и повторно используемым. Однако использование чужого кода может нести риски безопасности, а OCap как раз и защищает пользователей и разработчиков от этих рисков, привнося в блокчейн сферу все плюсы от использования готового кода.
+3\) Exponential composability - This term refers to the use of off-the-shelf code, modules and packages to create new applications. To give you an idea of the scale - by the middle of 2021 more than 800k different packages have been downloaded from Node.js libraries, and the daily number of downloads exceeds 1 billion (\*data from official Agoric documentation). Only 3% of the code is written from scratch, the rest is ready-made and reusable. However, using someone else's code can carry security risks, and OCap protects users and developers from these risks by bringing all the benefits of using off-the-shelf code to the blockchain sphere.
 
-### **Токеномика и экономическая модель Agoric** <a href="#8kr2" id="8kr2"></a>
+#### **Tokenomics and economic model Agoric** <a href="#8kr2" id="8kr2"></a>
 
-Экономическая модель Agoric строится на децентрализованных приложениях. Разработчики строят и запускают свои приложения в сети Agoric, пользователи могут создавать свои цифровые активы (токены и NFT), пользоваться приложениями и совершать транзакции, при этом платя комиссии. В общем, все довольно стандартно.
+The economic model of Agoric is built on decentralized applications. Developers build and run their applications on the Agoric network, users can create their digital assets (tokens and NFTs), use the applications and make transactions while paying commissions. All in all, everything is pretty standard.
 
-В сети Agoric есть два нативных токена – IST (изначально назывался RUN) и BLD.
+There are two native tokens on the Agoric network - IST (originally called RUN) and BLD.
 
-**BLD** выполняет функции гавернанс токена и служит для обеспечения безопасности сети посредством стейкинга. Т.е. любой держатель этих токенов может депонировать их валидаторам и получать за это награды за стейкинг, а также принимать участие в голосованиях BLDer DAO (название DAO сети Agoric). Здесь опять все стандартно, но есть у этого токена и другая функция, о чем будет рассказано ниже.
+**BLD** acts as a **Inter Protocol token IST** is a super-secured ecosystem stablecoin tied to USD. All commissions on the Agoric network are paid in IST, then those IST go to reward validators and partially to the protocol reserve fund. Agoric's long-term plans are to make IST the primary staple in the Cosmos ecosystem, as users will have the ability to mine IST against the native tokens of many IBC blockchains, such as ATOM, OSMO, SCRT and others. Which tokens can be used as collateral by voting will be determined by BLDer DAO members. Users will be charged a small fee for the IST mine, which the user will pay when repaying the loan. This commission, as well as transaction fees, will be distributed in the form of rewards to network validators and deductions to the protocol reserve fund.
 
-Распределение токенов приведено на диаграмме
+IST is linked to the U.S. dollar through three types of arbitrage mechanism, which depend on the type of pledged asset. Parity stability mechanism is used if Stablecoins serve as collateral, Vaults - if assets approved by BLDer DAO serve as collateral, ISTstake - if BLD tokens in staking serve as collateral.
+
+**Vaults** are smart contracts in which users lock their assets as collateral and mine IST. Each user creates their own individual vault for each type of pledged asset. Users are charged a fee for the mint (intended mainly to prevent spam), as well as an interest rate that the user pays to the protocol for the use of the debt (interest rate).
+
+In addition, depending on the volatility of a particular pledged asset, an overdraft ratio is determined for it (e.g., to withdraw 100 IST against Coin A, the user would have to deposit the equivalent of 150 USD in Coin A, which means that the overdraft ratio for Coin A is 1.5. And there will be a different coefficient for coin B, set to reflect the volatility of that coin). The over-collateralisation ratio, maximum loan amount, fees and liquidation penalty for each pledged asset are set by the BLDer DAO.
+
+To reduce liquidation risks, the user can bind ISTstake to the treasury and then when the liquidation threshold is passed, IST tokens will be automatically added to increase the collateral. About ISTstake in the next paragraph.
+
+**ISTstake is** an alternative way of minting IST available to BLD stackers. Users who have minted their BLD tokens to validators can mint some of these tokens as collateral and mint IST. These pledged tokens continue to earn users staking rewards, but they cannot be withdrawn from staking until the debt is paid off and the mint fees are paid. The repayment of the debt is done by deducting the staking rewards in payment of the debt. ISTstake has no liquidation mechanism (i.e. BLD collateral cannot be liquidated). The maximum amount of possible debt and the limit per min, as well as the commissions are set by the BLDer DAO.
+
+**Parity stability module** - gives users the ability to mint IST against popular stablecoins through a special smart contract without creating vaults. This method of minting is subject to the lowest commissions and allows to quickly take advantage of arbitrage opportunities in case IST deviates from the nominal value of $1.
+
+**Kinetic,** the native AMM of the Agoric network, provides exchange and trade of assets in the network and is also responsible for executing liquidation processes.
+
+**The Reserve Pool** plays two key roles: it provides Kinetic with liquidity for liquidations and ensures repayment of debt positions from its reserves in case of force majeure. The Reserve Pool holds various crypto-assets for these purposes.
+
+To summarize, IST is designed to play a key role in the development of DeFi in the Agoric network, binding IST to USD rate is protected by the following mechanisms:
+
+* Overcollateralization of collateral assets;
+* Liquidation, in case the collateral ratio falls below the threshold value;
+* Reserve Fund;
+* Commissions payable at the time of the mines;
+* The possibility of using ISTstake as insurance.
+
+It should also be noted that during the preparation of the material some questions arose for which we could not find an exact answer. We have greatly reduced the technical description of the project due to our incompetence in this matter, however, if you have a good understanding of JavaScript, you can read the entire technical documentation on the official site. The project has really Napoleonic plans, and only time will tell whether they will succeed.
+
+**Where to see, what to read**
+
+Official website (with links to all documentation and resources) [here](https://agoric.com/blog/)
+
+Whitepaper [here](https://agoric.com/wp-content/uploads/2021/12/Agoric-White-Paper-v1.0-1.pdf).
+
+Whitepaper Inter Protocol [here](https://agoric.com/wp-content/uploads/2022/05/Draft-Inter-Protocol-Whitepaper-v0.9-1.pdf).
+
+Inter Protocol mechanics (video) [here](https://www.youtube.com/watch?v=0bd9zsNXDpY)
+
+Official blog [here](https://agoric.com/blog/)
+
+The Agoric group is on the trolley [here](https://t.me/agoricrussian). token and serves to secure the network through staking. That is, any holder of these tokens can deposit them with validators and receive staking rewards for doing so, as well as participate in BLDer DAO (Agoric's DAO network name) voting. Here again, everything is standard, but this token also has another function, which will be described below.
+
+Distribution of tokens is shown on the diagram
 
 ![](https://img4.teletype.in/files/34/75/3475426d-f36e-48fe-a7fa-791e8f686724.png)
 
-На момент написания данной главы (конец июля 2022) токен не торговался ни на одной бирже, однако у пользователей была возможность добавить свои токены в стейкинг.
+At the time of writing this chapter (late July 2022), the token was not traded on any exchange, but users had the option to add their tokens to the stack.
 
-**Inter Protocol token IST** – сверхобеспеченный экосистемный стейблкоин с привязкой к USD. Все комиссии в сети Agoric платятся в IST, далее эти IST идут на вознаграждение валидаторам, а также частично в резервный фонд протокола. В долгосрочных планах Agoric сделать так, чтобы IST был основным стейблом в экосистеме Cosmos, поскольку у пользователей будет возможность минтить IST под залог нативных токенов многих IBC блокчейнов, например, ATOM, OSMO, SCRT и других. Какие именно токены могут использоваться в качестве обеспечения путем голосования будут определять участники BLDer DAO. За минт IST с пользователей будет взиматься небольшая комиссия, которую пользователь будет выплачивать при погашении займа. Эта комиссия, также как и транзакционные комиссии, будет распределяться в виде наград валидаторам сети и отчислений в резервный фонд протокола.
+**Inter Protocol token IST** is a super-secured ecosystem stablecoin tied to USD. All commissions on the Agoric network are paid in IST, then those IST go to reward validators and partially to the protocol reserve fund. Agoric's long-term plans are to make IST the primary staple in the Cosmos ecosystem, as users will have the ability to mine IST against the native tokens of many IBC blockchains, such as ATOM, OSMO, SCRT and others. Which tokens can be used as collateral by voting will be determined by BLDer DAO members. Users will be charged a small fee for the IST mine, which the user will pay when repaying the loan. This commission, as well as transaction fees, will be distributed in the form of rewards to network validators and deductions to the protocol reserve fund.
 
-Привязка курса IST к доллару США обеспечивается тремя типами арбитражного механизма, которые зависят от вида залогового актива. Parity stability mechanism используется, если залогом служат стейблкоины, Vaults – если залогом служат активы, одобренные BLDer DAO, ISTstake – если залогом служат токены BLD, находящиеся в стейкинге.
+IST is linked to the U.S. dollar through three types of arbitrage mechanism, which depend on the type of pledged asset. Parity stability mechanism is used if Stablecoins serve as collateral, Vaults - if assets approved by BLDer DAO serve as collateral, ISTstake - if BLD tokens in staking serve as collateral.
 
-**Хранилища (vaults)** – смарт-контракты, в которых пользователи лочат свои активы в качестве залога и минтят IST. Каждый пользователь создает свое индивидуальное хранилище для каждого типа залогового актива. С пользователей взимается комиссия за минт (предназначена в основном для предотвращения спама), а также процентная ставка, которую пользователь выплачивает протоколу за использование долга (interest rate).
+**Vaults** are smart contracts in which users lock their assets as collateral and mine IST. Each user creates their own individual vault for each type of pledged asset. Users are charged a fee for the mint (intended mainly to prevent spam), as well as an interest rate that the user pays to the protocol for the use of the debt (interest rate).
 
-Кроме того, в зависимости от волатильности того или иного залогового актива для него определяется коэффициент сверхобеспечения (например, чтобы сминтить 100 IST под залог монеты A, пользователь должен будет внести монет A на сумму 150 USD в эквиваленте, это значит, что коэффициент сверхобеспечения для монеты A равняется 1,5. А для монеты B будет другой коэффициент, установленный с учетом волатильности этой монеты). Коэффициент сверхобеспечения, максимальный размер займа, комиссии и ликвидационные издержки (liquidation penalty) для каждого залогового актива устанавливаются BLDer DAO.
+In addition, depending on the volatility of a particular pledged asset, an overdraft ratio is determined for it (e.g., to withdraw 100 IST against Coin A, the user would have to deposit the equivalent of 150 USD in Coin A, which means that the overdraft ratio for Coin A is 1.5. And there will be a different coefficient for coin B, set to reflect the volatility of that coin). The over-collateralisation ratio, maximum loan amount, fees and liquidation penalty for each pledged asset are set by the BLDer DAO.
 
-Для уменьшения рисков ликвидации, пользователь может привязать к сокровищнице ISTstake, и тогда в момент прохождения ликвидационного порога залоченные IST токены будут автоматически добавляться для увеличения залогового обеспечения. Про ISTstake в следующем абзаце.
+To reduce liquidation risks, the user can bind ISTstake to the treasury and then when the liquidation threshold is passed, IST tokens will be automatically added to increase the collateral. About ISTstake in the next paragraph.
 
-**ISTstake** – это альтернативный способ минта IST, доступный стейкерам BLD. Пользователи, застейкавшие свои BLD токены валидаторам, могут залочить часть этих токенов в качестве залога и сминтить IST. Эти залоговые токены продолжают приносить пользователям награды за стейкинг, но их нельзя вывести из стейкинга до тех пор, пока не будет погашен долг и уплачены комиссии за минт. Погашения долга происходит за счет списывания наград за стейкинг в уплату долга. ISTstake не имеет никакого ликвидационного механизма (т.е. BLD залог не может быть ликвидирован). Максимальный размер возможного долга и лимит на минт, а также комиссии устанавливаются BLDer DAO.
+**ISTstake is** an alternative way of minting IST available to BLD stackers. Users who have minted their BLD tokens to validators can mint some of these tokens as collateral and mint IST. These pledged tokens continue to earn users staking rewards, but they cannot be withdrawn from staking until the debt is paid off and the mint fees are paid. The repayment of the debt is done by deducting the staking rewards in payment of the debt. ISTstake has no liquidation mechanism (i.e. BLD collateral cannot be liquidated). The maximum amount of possible debt and the limit per min, as well as the commissions are set by the BLDer DAO.
 
-**Parity stability module** – даёт пользователям возможность минтить IST под залог популярных стейблкоинов через специальный смартконтракт без создания хранилищ. Этот способ минта облагается наименьшими комиссиями и позволяет быстро воспользоваться возможностями для арбитража в случае отклонения IST от номинального значения в 1 доллар.
+**Parity stability module** - gives users the ability to mint IST against popular stablecoins through a special smart contract without creating vaults. This method of minting is subject to the lowest commissions and allows to quickly take advantage of arbitrage opportunities in case IST deviates from the nominal value of $1.
 
-**Kinetic** – нативный AMM сети Agoric, обеспечивает обмен и торговлю активами в сети, а также отвечает за осуществление ликвидационных процессов.
+**Kinetic,** the native AMM of the Agoric network, provides exchange and trade of assets in the network and is also responsible for executing liquidation processes.
 
-**Резервный фонд (Reserve Pool)** – играет две ключевые роли: предоставляет для Kinetic ликвидность для осуществления ликвидаций и обеспечивает погашение долговых позиций из своих резервов в случае форс-мажорных ситуаций. Для этих целей в резервном фонде хранятся различные криптоактивы.
+**The Reserve Pool** plays two key roles: it provides Kinetic with liquidity for liquidations and ensures repayment of debt positions from its reserves in case of force majeure. The Reserve Pool holds various crypto-assets for these purposes.
 
-Подводя итоги, хочется сказать, что IST предназначена ключевая роль в развитии DeFi в сети Agoric, привязка курса IST к USD защищена следующими механизмами:
+To summarize, IST is designed to play a key role in the development of DeFi in the Agoric network, binding IST to USD rate is protected by the following mechanisms:
 
-* Сверхобеспечение залоговыми активами;
-* Ликвидация, в случае снижения коэффициента обеспечения ниже порогового значения;
-* Резервный фонд;
-* Комиссии, выплачиваемые при минте;
-* Возможность использования ISTstake в качестве страховки.
+* Overcollateralization of collateral assets;
+* Liquidation, in case the collateral ratio falls below the threshold value;
+* Reserve Fund;
+* Commissions payable at the time of the mines;
+* The possibility of using ISTstake as insurance.
 
-Также нужно отметить, что во время подготовки материала возникли некоторые вопросы, на которые не удалось найти точного ответа. Мы сильно урезали техническое описание проекта ввиду нашей некомпетентности в данном вопросе, однако, если вы хорошо разбираетесь в JavaScript, то сами можете ознакомиться со всей технической документацией на официальном сайте. У проекта действительно наполеоновские планы, а удастся ли им их реализовать, покажет только время.
+It should also be noted that during the preparation of the material some questions arose for which we could not find an exact answer. We have greatly reduced the technical description of the project due to our incompetence in this matter, however, if you have a good understanding of JavaScript, you can read the entire technical documentation on the official site. The project has really Napoleonic plans, and only time will tell whether they will succeed.
 
-### **Где посмотреть, что почитать**
+**Where to see, what to read**
 
-Официальный сайт (там и ссылочки на всю документацию и ресурсы) [тут](https://agoric.com/blog/)
+Official website (with links to all documentation and resources) [here](https://agoric.com/blog/)
 
-Вайтпейпер [тут](https://agoric.com/wp-content/uploads/2021/12/Agoric-White-Paper-v1.0-1.pdf)
+Whitepaper [here](https://agoric.com/wp-content/uploads/2021/12/Agoric-White-Paper-v1.0-1.pdf).
 
-Вайтпейпер Inter Protocol [тут](https://agoric.com/wp-content/uploads/2022/05/Draft-Inter-Protocol-Whitepaper-v0.9-1.pdf)
+Whitepaper Inter Protocol [here](https://agoric.com/wp-content/uploads/2022/05/Draft-Inter-Protocol-Whitepaper-v0.9-1.pdf).
 
-Механики работы Inter Protocol (видео) [тут](https://www.youtube.com/watch?v=0bd9zsNXDpY)
+Inter Protocol mechanics (video) [here](https://www.youtube.com/watch?v=0bd9zsNXDpY)
 
-Официальный блог [тут](https://agoric.com/blog/)
+Official blog [here](https://agoric.com/blog/)
 
-Ру группа Agoric в телеге [тут](https://t.me/agoricrussian)
+The Agoric group is on the trolley [here](https://t.me/agoricrussian).

@@ -4,125 +4,125 @@
 
 ## pSTAKE
 
-pSTAKE– это протокол ликвидного стейкинга, позволяющий пользователям получать дополнительную выгоду от стейкинга PoS активов. Когда пользователь стейкает свои PoS токены на платформе pSTAKE, происходит минт их обернутых аналогов, так называемых stkAssets или stkTokens (например, токен Atom будет представлен как stkAtom). При этом оригинальные токены pSTAKE отправляет надежным валидаторам, для каждой поддерживаемой сети есть свой набор таких валидаторов. Таким образом, пользователь может получать награды за стейкинг, при этом направлять обернутые токены в различные DeFi активности, тем самым эффективно используя свои активы и получая дополнительную прибыль по сравнению с простым стейкингом.
+pSTAKE is a liquid-stacking protocol that allows users to benefit from additional PoS asset stacking. When a user stacks their PoS tokens on the pSTAKE platform, their wrapped counterparts, known as stkAssets or stkTokens (e.g., an Atom token would be represented as stkAtom) are minted. In doing so, the original tokens are sent by pSTAKE to reliable validators; each supported network has its own set of such validators. In this way, the user can earn rewards for staking, while directing the wrapped tokens to various DeFi activities, thereby leveraging their assets and gaining additional profit compared to simple staking.
 
-На данный момент все stkTokens являются ERC-20 токенами и функционируют на сети эфира, однако в долгосрочной перспективе pSTAKE собираются эволюционировать в мультичейн протокол и добавить поддержку многих других сетей.
+Currently, all stkTokens are ERC-20 tokens and operate on the ether network, but in the long run pSTAKE is going to evolve into a multichain protocol and add support for many other networks.
 
-За созданием pSTAKE стоит команда [Persistence](https://persistence.one), которая является ранним контрибьютором в экосистему космос и фокусируется на развитии PoS в целом, и ликвидного стейкинга в частности. Им также принадлежит компания AUDIT.one, которая валидирует более 20 сетей и под управлением которой находится активов более, чем на 150 миллионов долларов.
+Behind the creation of pSTAKE is the [Persistence](https://persistence.one/) team, which is an early contributor to the space ecosystem and focuses on the development of PoS in general, and liquid-stacking in particular. They also own AUDIT.one, which validates over 20 networks and has over $150 million in assets under management.
 
-На сегодняшний день через площадку pSTAKE можно застейкать ATOM, XPRT (нативный токен сети Persistence), ETH и BNB.
+Today, ATOM, XPRT (Persistence Network native token), ETH and BNB can be zapped through the pSTAKE platform.
 
-### **Ликвидный стейкинг ATOM**
+### **Liquid staking ATOM**
 
-\*Стейкинг Persistence и других нативных токенов из экосистемы Cosmos, которые будут добавлены в будущем, происходит по такой же модели
+\*Stacking Persistence and other native tokens from the Cosmos ecosystem that will be added in the future follow the same model
 
 ![](https://coin98.s3.amazonaws.com/69DFSFVXX2)
 
-Пользователь вносит свои ATOM на площадку pSTAKE (минимальное количество ATOM для депозита равняется пяти), и получает обернутые ERC-20 токены pATOM в пропорции 1:1. pATOM можно в любой момент момент времени обратно развернуть (unwrap) в ATOM, за выпуск и сжигание pTOKEN, таких как pATOM, отвечает мост, называемый pBridge, о нем будет подробнее рассказано ниже.
+The user deposits their ATOM into the pSTAKE pad (the minimum number of ATOMs to deposit is five), and receives wrapped ERC-20 pATOM tokens in a 1:1 ratio. pATOM can be unwrapped into ATOM at any point in time, a bridge called pBridge is responsible for issuing and burning pTOKEN such as pATOM, discussed in more detail below.
 
-Далее пользователь может отправить свои pATOM в стейкинг, при этом он получает ERC-20 токены stkATOM, которые может использовать для различных DeFi активностей. Например, получать вознаграждение за предоставление ликвидности в пуле ETH/stkATOM на SushiSwap (ссылка на пул [тут](https://app.sushi.com/add/ETH/0x44017598f2AF1bD733F9D87b5017b4E7c1B28DDE)).
+The user can then send their pATOMs to the stack and in doing so they receive ERC-20 stkATOM tokens that they can use for various DeFi activities. For example, to get rewards for providing liquidity in ETH/stkATOM pool on SushiSwap (link to pool [here](https://app.sushi.com/add/ETH/0x44017598f2AF1bD733F9D87b5017b4E7c1B28DDE)).
 
-Также пользователь получает вознаграждение за стейкинг pATOM (как если бы он просто стейкал токены ATOM), на данный момент APR при стейкинге pATOM составляет 13,5% годовых, а при стейкинге pXRPT – 24.63% годовых. Награды пользователю начисляются в pTOKENS, период анстейкинга составляет 21 день (устанавливается гавернансом сети ATOM). APR не является статической величиной и может автоматически изменяться, например, если сеть ATOM перестанет функционировать на некоторое время, то смарт контракты pSTAKE внесут необходимые корректировки для начисления наград стейкерам.
+The user is also rewarded for staking pATOM (as if he were just staking ATOM tokens), currently the APR for staking pATOM is 13.5% APR and for staking pXRPT it is 24.63% APR. Rewards to the user are accrued in pTOKENS, the period of anstaking is 21 days (set by the ATOM network havernance). APR is not a static value and can automatically change, for example, if the ATOM network stops functioning for some time, pSTAKE smart contracts will make the necessary adjustments to accrue rewards to stakers.
 
 ### **pBridge**
 
-pBridge – это мост, позволяющий осуществлять передачу ценности между различными сетями, такими как Cosmos и Ethereum.
+pBridge is a bridge that enables value transfer between different networks such as Cosmos and Ethereum.
 
-pBridge отвечает за минт/сжигание, стейкинг/анстейкинг, перевод наград и другие действия, которые пользователь осуществляет на платформе pSTAKE при делегировании ненативных эфировских активов. Т.е. pBridge гарантирует, что операции, происходящие на стороне платформы (т.е. на сети Ethereum), также мгновенно исполняются и на стороне протокола нативной сети (в нашем примере это сеть Cosmos).
+pBridge is responsible for minting/burning, stacking/anstaking, reward transfer and other actions that the user performs on the pSTAKE platform when delegating non-native Ethereum assets. That is, pBridge ensures that transactions that occur on the platform side (i.e., on the Ethereum network) are also instantly executed on the protocol side of the native network (in our example, the Cosmos network).
 
-**Валидаторы**\
-pSTAKE отправляет застейканные токены ATOM в равных долях валидатором из своего набора, в который входят только надежные и проверенные валидаторы. Этот набор может меняться, однако изначально в него входят: Stake.fish, Chorus One, Figment, Cosmostation, Everstake, SG-1, AUDIT.one
+### **Validators**
 
-Набор валидаторов pBridge также определяет команда pSTAKE, изначально в этот набор входят: Stake.fish, Chorus One, Figment, Cosmostation, Everstake, AUDIT.one
+pSTAKE sends ATOM tokens in equal shares to a validator from its set, which includes only reliable and trusted validators. This set is subject to change, but initially it includes: Stake.fish, Chorus One, Figment, Cosmostation, Everstake, SG-1, AUDIT.one
 
-На конец июля 2022 года ликвидный стейкинг ATOM помимо pSTAKE предлагал только еще один децентрализованный протокол – StaFi. Сравнительные характеристики этих двух площадок показаны на рисунке ниже.
+The pBridge validator set is also defined by the pSTAKE command, initially this set includes: Stake.fish, Chorus One, Figment, Cosmostation, Everstake, AUDIT.one
+
+As of the end of July 2022, ATOM's liquid staking, in addition to pSTAKE, offered only one other decentralized protocol - StaFi. The comparative characteristics of these two platforms are shown in the figure below.
 
 ![](https://img1.teletype.in/files/c5/64/c564662d-5292-44bf-99e1-41b2ab58a5a8.png)
 
-О том, как застейкать ATOM через площадку pSTAKE можно почитать [тут](https://docs.pstake.finance/How%20to%20connect%20a%20blockchain%20wallet/)
+You can read about how to zip the ATOM via the pSTAKE pad [here](https://docs.pstake.finance/How%20to%20connect%20a%20blockchain%20wallet/)
 
-### **Ликвидный стейкинг BNB**
+### **Liquid staking BNB**
 
-\*Сеть BNB состоит из двух составляющих:\
+\*The BNB network consists of two components:
 
+* BNB Beacon Chain (BC), formerly called Binance Chain, is a network used on havernance (e.g. voting) and staking.
+* BNB Smart Chain (BSC), formerly called Binance Smart Chain, is an EVM compliant network that hosts consensus layers and hubs to connect with other networks.
 
-* BNB Beacon Chain (BC), ранее называлась Binance Chain, - эта сеть используется на гавернанса (например, голосований) и стейкинга.
-* BNB Smart Chain (BSC), ранее называлась Binance Smart Chain – EVM совместимая сеть, на ней размещаются уровни консенсуса и хабы для соединения с другими сетями.
+The module responsible for staking in the BSC network is located on BC.
 
-Модуль, отвечающий за стейкинг в сети BSC, находится на BC.
+BNB token holders can stack their coins via pSTAKE and receive wrapped stkBNB tokens. At the same time, the value of stkBNB's swiped tokens increases relative to BNB's value as they "accumulate" staking rewards. As a matter of fact, it is exactly the same model as Compound uses (more details about this model you can find [here](https://compound.finance/docs/ctokens), or if you want to get really deep, you can calculate stkBNB to BNB value ratio [here](https://www.mathcha.io/editor/2X2VVI3mi5DtPxG5ZHLGypBFpEBXWQHlqM6YY)).
 
-Холдеры токена BNB могут застейкать свои монеты через pSTAKE и получить обернутые токены stkBNB. При этом стоимость сминченных токенов stkBNB растет относительно стоимости BNB, поскольку они “накапливают” награды за стейкинг. По сути, это точно такая же модель, какую использует Compound (подробнее с этой моделью можно ознакомиться [тут](https://compound.finance/docs/ctokens), а если хочется совсем заморочиться, то есть и сам расчет отношения стоимости stkBNB к BNB [тут](https://www.mathcha.io/editor/2X2VVI3mi5DtPxG5ZHLGypBFpEBXWQHlqM6YY)).
+Staked BNB tokens are sent to the StakePool contract. Every day at 23.00 UTC the bot in the BC network launches a staking transaction that aggregates all BNB tokens received during the day on the StakePool contract and sends them to the approved pSTAKE validator set.
 
-Застейканные BNB отправляются на контракт StakePool. Ежедневно в 23.00 UTC бот в сети BC запускает стейкинг транзакцию, в которой аггрегируются все BNB токены, поступившие в течение суток на StakePool контракт, и отправляет их одобренному pSTAKE набору валидаторов.
+If user wants to take his BNB tokens from staking, his stkBNB tokens will be burned, the current stkBNB/BNB exchange rate will be automatically calculated, which takes into account the rewards received by user during the staking period, but the anstaking process takes 15 days. If the user wants to get BNB tokens immediately, he can exchange his stkBNB to BNB on decentralized exchanges.
 
-Если пользователь хочет забрать свои BNB токены из стейкинга, то его stkBNB токены будут сожжены, автоматически будет подсчитан текущий курс обмена stkBNB/BNB, который учитывает награды, полученные пользователем за период стейкинга, но процесс анстейкинга занимает 15 дней. Если же пользователь хочет немедленно получить BNB токены, то он может обменять свои stkBNB на BNB на децентрализованных биржах.
+It's worth noting that a small percentage of the staking rewards go to the validators and also go as a commission to the protocol. These commissions will be sent by pSTAKE to the ecosystem, but at the moment the protocol fee is 0% (the website says that the zero protocol fee is only valid for the first three months of stacking).
 
-Стоит отметить, что небольшой процент от наград за стейкинг отходит валидаторам, а также идет в качестве комиссии протоколу. Эти комиссии pSTAKE будет отправлять на развитие экосистемы, однако в данный момент комиссия протоколу составляет 0% (на сайте указано, что нулевая комиссия протокола действует только три первых месяца стейкинга).
+### **How pSTAKE generates a set of validators**
 
-### **Как pSTAKE формирует набор валидаторов**
+Assets of pSTAKE users are placed only with reliable and trusted validators, and they try to choose the ones that charge the lowest commission percentage. When selecting a validator, the focus is on the following two factors:
 
-Активы пользователей pSTAKE размещают только надежным и проверенным валидаторам, при этом стараются выбирать тех, которые берут наименьший комиссионный процент. При выборе валидатора акцент делается на двух следующих факторах:
+**1. APR** (annual percentage rate) provided by the validator. APR is influenced by validator's commissions (the less the better for the user) and the number of coins that the validator is charging (in the official documentation it is written that the LESS stak the validator has, the more likely the APR will be higher).
 
-**1. APR** (annual percentage rate) который предоставляет валидатор. На APR оказывают влияние комиссии валидатора (чем меньше, тем лучше для пользователя) и количество монет, которое застейкано у данного валидатора (в офф документации написано, что чем МЕНЬШЕ стейк у валидатора, тем вероятнее, что APR будет выше).
+**2. security**. BNB network does not apply slashing to delegators (stackers), so they cannot lose the tokens they already have, but if a penalty is applied to a validator, users may get less rewards. Therefore, when selecting a validator in your set, pSTAKE looks at how often the validator has been penalized in the last year, as well as its uptime in the last six months.
 
-**2. Безопасность**. В сети BNB не применяется слэшинг для делегаторов (стейкеров), поэтому они не могут потерять те токены, которые у них уже есть, однако если наказание будет применено к валидатору, то пользователи могут получить меньше наград. Поэтому при выборе валидатора в свой набор, pSTAKE смотрят на то, как часто валидатор подвергался наказанию за последний год, а также на его время бесперебойной работы (uptime) в течение последнего полугода.
+\*What slashing is and what the term jail means you can read in the "Slashing " section in the first part of Hitchhiking through Cosmos.
 
-\*Что такое слэшинг и что означает термин jail можете почитать в разделе “Слэшинг” в первой части "Автостопом по Cosmos".
+Based on these two criteria, pSTAKE assigns a rating to all validators, and the top 10 are added to their active set.
 
-По этим двум критериям pSTAKE присваивают всем валидаторам рейтинг, и топ 10 добавляют в свой активный набор.
+The process of BNB staking and anstaking is very simple and straightforward and is done via the pSTAKE platform; [here](https://blog.pstake.finance/2022/08/07/stkbnb-user-guide-bnb-liquid-staking-tutorial/) you can see step-by-step instructions.
 
-Процесс стейкинга и анстейкинга BNB максимально прост и понятен и совершается через платформу pSTAKE, пошаговую инструкцию можно посмотреть [тут.](https://blog.pstake.finance/2022/08/07/stkbnb-user-guide-bnb-liquid-staking-tutorial/)
+### **Using stkBNB in DeFi protocols**
 
-### **Использование stkBNB в DeFi протоколах**
+At the moment users have the following options to use their stkBNB:
 
-На данный момент у пользователей есть следующие варианты использования своих stkBNB:
+* Providing liquidity in the stkBNB/BNB pool at Pancakeswap (link to the pool [here](https://pancakeswap.finance/add/BNB/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16)) and receiving trading commissions, as well as the opportunity to use LP tokens of the pool for staking and farming rewards in the form of CAKE tokens;
+* Farming with leverage in the stkBNB/BUSD pool on Alpaca.
 
-* Предоставление ликвидности в пул stkBNB/BNB на Pancakeswap (ссылочка на пул [тут](https://pancakeswap.finance/add/BNB/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16)) и получение торговых комиссий, а также возможность использовать LP токены этого пула для стейкинга и фарминга наград в виде токенов CAKE;
-* Фарминг с плечом в пуле stkBNB/BUSD на Alpaca.
+Also on Pancakeswap, the user can instantly exchange their stkBNB to BNB.
 
-Также на Pancakeswap пользователь может мгновенно обменять свои stkBNB на BNB.
+pSTAKE pays special attention to the security of the smart contracts responsible for BNB steering. A full audit of these smart contracts was conducted by Halborn (report [here](https://pancakeswap.finance/add/BNB/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16)), Peckshield (report [here](https://github.com/persistenceOne/pStake-auditReports/blob/main/stkBNB/pSTAKE\_stkBNB\_Smart\_Contract\_Audit\_Halborn%20\[05.08.2022].pdf)) and Certora (currently no report in the public domain, but promises to be). For on-chain tracking of suspicious activity, pSTAKE collaborated with Forta.
 
-pSTAKE особое внимание уделяет безопасности смартконтрактов, отвечающих за стейкинг BNB. Полный аудит этих смартконтрактов был проведен компаниями Halborn (отчет [тут](https://pancakeswap.finance/add/BNB/0xc2E9d07F66A89c44062459A47a0D2Dc038E4fb16)), Peckshield (отчет [тут](https://github.com/persistenceOne/pStake-auditReports/blob/main/stkBNB/pSTAKE\_stkBNB\_Smart\_Contract\_Audit\_Halborn%20\[05.08.2022].pdf)) и Certora (в данный момент отчета в открытом доступе нет, но обещают, что будет). Для проведения он-чейн отслеживания подозрительной деятельности pSTAKE сотрудничают с Forta.
+### **Liquid ETH staking**
 
-### **Ликвидный стейкинг ETH**
+At the moment, ETH stacking is possible on the Ethereum 2.0 Beacon network, which is connected to the ether PoW network via a deposit contract. After the merge planned for September, the two networks will become one. If a user steams his ether on the Beacon network, he will be able to withdraw his ether only after the merge.
 
-На данный момент стейкинг ETH возможен на сети Ethereum 2.0 Beacon, которая соединена с PoW сетью эфира через депозитный контракт. После слияние (merge), запланированного на сентябрь, эти две сети станут единой. Если пользователь стейкает свой эфир в Beacon сети, то вывести свои эфиры он сможет лишь после слияния.
+The model of ETH staking via the pSTAKE platform is very similar to BNB staking, token minnet stkETH and "accumulation" of rewards via stkETH value increase also follow a model similar to the Compound model. However, there are differences in the mechanism of the staking itself. The ether deposited through the site is deposited to a special contract. When 32 ethers (the minimum number of ethers needed to start a node) are deposited to the contract, those ethers are sent to the validator (node operator). To become a validator, you must first deposit 1 ETH in the Beacon network and specify withdrawal credentials provided by pSTAKE, thus pSTAKE identify the validity of the steering address. If there is more than one person who wants to become a validator, the choice is made on a first-come-first-serve principle (i.e. the one who applied first is the validator). After the air is staked in the Beacon network, pSTAKE receives the data about the successful staking through the oracle. In the future, it is planned that oracles will also monitor the effectiveness of the validators to perform their duties and inform the platform if there are any problems. Also, unlike Binance Chain, in case of slashing, not only validator's personal stack is reduced, but also delegator's stack. To protect its users in further updates pSTAKE is going to introduce slashing risk mitigation mechanism.
 
-Модель стейкинга ETH через площадку pSTAKE очень похожа на стейкинг BNB, минт stkETH токенов и “аккумулирование” наград через увеличение стоимости stkETH также происходят по модели, схожей с моделью Compound. Однако в механизме самого стейкинга есть отличия. Застейканный через площадку эфир депонируется на специальный контракт. Когда на контракте накапливается 32 эфира (минимальное кол-ва эфира, необходимое для запуска ноды), эти эфиры отправляются валидатору (оператору ноды). Для того, чтобы стать валидатором, необходимо заранее депонировать 1 ETH в сеть Beacon и указать учетные данные для вывода средств (withdrawal credentials), предоставленные pSTAKE, таким образом pSTAKE идентифицируют валидность адреса для стейкинга. Если желающих стать валидаторам несколько, то выбор осуществляется по принципу first-come-first-serve (т.е. кто первым подал заявку, тот и валидатор). После того, как эфир стейкается в сети Beacon, pSTAKE через оракула получает данные об успешном стейкинге. В будущем планируется, что оракулы также будут отслеживать эффективность выполнения валидаторами своих обязанностей и информировать площадку, если будут возникать какие-то проблемы. Так же, в отличие от Binance Chain, в случае слэшинга сокращается не только личный стек валидатора, но и стек делегаторов. Чтобы обезопасить своих пользователей в дальнейших обновлениях pSTAKE собираются ввести механизм уменьшения риска от слэшинга (slashing risk mitigation mechanism).
+\*At this point in time you need to contact pSTAKE to become an operator of a node and if the application is approved, the potential node operator should follow the process described [here](https://docs.pstake.finance/stkETH\_Node\_Operators\_Onboarding/)\
+\*\* For more details on what constitutes withdrawal credentials [, please click here](https://launchpad.ethereum.org/en/faq)
 
-\*В данный момент для того, чтобы стать оператором ноды, необходимо связаться с командной pSTAKE, если заявка будет одобрена, то далее потенциальному оператору ноды нужно выполнить процесс, описанный [тут](https://docs.pstake.finance/stkETH\_Node\_Operators\_Onboarding/)\
-\*\* Подробнее почитать о том, что такое withdrawal credentials можно почитать [тут](https://launchpad.ethereum.org/en/faq)
+ETH staking is done via the pSTAKE platform, instructions and description of the process can be found in the official user guide [here](https://blog.pstake.finance/2022/06/08/stketh-user-guide-eth-liquid-staking-tutorial/).
 
-Стейкинг ETH совершается через платформу pSTAKE, инструкцию и описание этого процесса можно найти в официальном пользовательском гайде [тут](https://blog.pstake.finance/2022/06/08/stketh-user-guide-eth-liquid-staking-tutorial/).
+The user receives standard rewards for ETH stacking, with 5% paid to the validator for its work and another 5% to the protocol commission (these funds also go to pSTAKE ecosystem development).
 
-За стейкинг ETH пользователь получает стандартные награды, при этом 5% он выплачивает валидатору за его работу, а еще 5% составляет комиссия протоколу (эти средства также идут на развитие экосистемы pSTAKE).
+### **Using stkETH in DeFi protocols**
 
-### **Использование stkETH в DeFi протоколах**
+At the moment users only have an option to add tokens to stkETH/ETH liquidity pool on Uniswap V3 or exchange their stkETH tokens for ETH there as well. However, like in case of stkBNB, in time more supported DeFi protocols and more new possibilities to use strETH will appear, at least pSTAKE assures that.
 
-На данный момент у пользователей есть возможность только добавить токены в пул ликвидности stkETH/ETH на Uniswap V3 или там же обменять свои stkETH токены на ETH. Однако, как и в случае с stkBNB, со временем будет появляться больше поддерживаемых DeFi протоколов и больше новых возможностей использования strETH, по крайней мере pSTAKE в этом заверяют.
+Audit reports on smart contracts responsible for staking stkETH can be viewed [here](https://github.com/persistenceOne/pStake-auditReports/blob/main/stkETH/pSTAKE%20ETH2.0%20Staking%20Audit%20-%20Trail%20of%20Bits%20\[26.04.22].pdf) and [here](https://github.com/persistenceOne/pStake-auditReports/blob/main/stkETH/pSTAKE%20ETH2.0%20Staking%20Audit%20-%20Peckshield%20\[26.05.2022].pdf)
 
-Отчеты по аудиту смартконтрактов, отвечающих за стейкинг stkETH можно посмотреть [тут](https://github.com/persistenceOne/pStake-auditReports/blob/main/stkETH/pSTAKE%20ETH2.0%20Staking%20Audit%20-%20Trail%20of%20Bits%20\[26.04.22].pdf) и [тут](https://github.com/persistenceOne/pStake-auditReports/blob/main/stkETH/pSTAKE%20ETH2.0%20Staking%20Audit%20-%20Peckshield%20\[26.05.2022].pdf)
+### **Token $PSTAKE**
 
-### **Токен $PSTAKE**
+PSTAKE is a native ERC-20 token of pSTAKE Finance and performs governance functions. Holders of this token can participate in votes on the development of the protocol and make their own proposals. To do so, they must lock their tokens into a special smart contract. Active users are rewarded for their activity, but in case of their malicious activity or non-compliance with their duties (e.g. if the pBridge validator fails to perform its functions) the user can be punished by slashing part of their stack. PSTAKE is also used to pay rewards to key contributors to the pSTAKE ecosystem.
 
-PSTAKE является нативным ERC-20 токеном pSTAKE Finance и выполняет гавернанс функции. Держатели данного токена могут принимать участие в голосованиях по развитию протокола и выдвигать свою собственные предложения. Для этого они должны залочить свои токены в специальном смартконтракте. Активные пользователи за свою деятельность получают вознаграждения, однако в случае их злонамеренной деятельности или несоблюдения своих обязанностей (например, если валидатор pBridge не выполняет свои функции) пользователь может быть наказан путем слэшинга части его стека. Также PSTAKE используется для выплаты вознаграждений ключевым контрибьюторам в экосистему pSTAKE.
-
-Общий оборот PSTAKE составляет 500 миллионов токенов. Распределение токенов и период их разлока показаны на рисунке ниже
+The total turnover of PSTAKE is 500 million tokens. The distribution of tokens and their unlocking period are shown in the figure below
 
 ![](https://img2.teletype.in/files/90/fa/90fa2208-5d58-457f-9fff-134461f83369.png)
 
-Более подробно про токен PSTAKE и его роль в экосистеме можно почитать [тут](https://blog.pstake.finance/2021/09/09/introducing-pstake/)
+Read more about the PSTAKE token and its role in the ecosystem [here](https://blog.pstake.finance/2021/09/09/introducing-pstake/)
 
-### **Ссылки** <a href="#n1ws" id="n1ws"></a>
+### **Links** <a href="#n1ws" id="n1ws"></a>
 
-Официальный сайт [тут](https://pstake.finance)
+Official website [here](https://pstake.finance/)
 
-Официальный медиум [тут](https://pstake.medium.com)
+The official medium is [here](https://pstake.medium.com/).
 
-Официальный блог [тут](https://blog.pstake.finance)
+Official blog [here](https://blog.pstake.finance/)
 
-Статистические данные pSTAKE [тут](https://analytics.pstake.finance)
+Statistical data of pSTAKE [here](https://analytics.pstake.finance/)
 
-Сайт Persistence network [тут](https://persistence.one)
+Persistence network website [here](https://persistence.one/)
 
-Статья Citadel.One о стейкинге деривативов [тут](https://medium.com/citadel-one/what-are-staking-derivatives-8fd86ed315a2)
+Citadel.One's article on derivatives stacking [here](https://medium.com/citadel-one/what-are-staking-derivatives-8fd86ed315a2)
