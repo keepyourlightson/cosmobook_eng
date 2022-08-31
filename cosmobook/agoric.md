@@ -18,7 +18,7 @@ The Agoric network was developed to reduce risk in decentralized financial syste
 
 #### **Agoric components** <a href="#vrot" id="vrot"></a>
 
-![](https://img3.teletype.in/files/6a/3b/6a3ba116-ede2-45dd-9d9e-c09330c17347.png)
+![](https://telegra.ph/file/baca9a0852324c99c65e7.png)
 
 #### **Endpoints (key elements of Agoric architecture)**
 
