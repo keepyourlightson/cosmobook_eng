@@ -36,7 +36,7 @@ BEP-3 module - acts as a secure bridge between Kava and Binance Chain.
 
 Kava Mint's algorithm is shown in the image below
 
-![](https://telegra.ph/file/a59fd5a891ec31dfc07f0.png)
+![](https://telegra.ph/file/573f98765d03964fd1062.png)
 
 Read more about liquidations on Kava Mint and Kava Lend [here](https://medium.com/kava-labs/liquidation-on-kava-and-hard-f5122d9fac58).
 
